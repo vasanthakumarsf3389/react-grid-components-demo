@@ -2433,6 +2433,9 @@ img {
 					<a href="_grid_types_edit_interfaces_d_.inlineeditformref.html#getformelement" class="tsd-kind-icon">get<wbr>Form<wbr>Element</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_edit_interfaces_d_.inlineeditformref.html#rowref" class="tsd-kind-icon">row<wbr>Ref</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_edit_interfaces_d_.inlineeditformref.html#validateform" class="tsd-kind-icon">validate<wbr>Form</a>
 				</li>
 			</ul>
@@ -2508,6 +2511,7 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.inlineeditformref.html#getcurrentdata" class="tsd-kind-icon">get<wbr>Current<wbr>Data</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.inlineeditformref.html#geteditcells" class="tsd-kind-icon">get<wbr>Edit<wbr>Cells</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.inlineeditformref.html#getformelement" class="tsd-kind-icon">get<wbr>Form<wbr>Element</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.inlineeditformref.html#rowref" class="tsd-kind-icon">row<wbr>Ref</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.inlineeditformref.html#validateform" class="tsd-kind-icon">validate<wbr>Form</a></li>
 						</ul>
 					</section>
@@ -2522,7 +2526,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">edit<wbr>Cell<wbr>Refs<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:812</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:820</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2539,10 +2543,10 @@ img {
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="focusfirstfield" class="tsd-anchor"></a>
 				<h3>focus<wbr>First<wbr>Field</h3>
-				<div class="tsd-signature tsd-kind-icon">focus<wbr>First<wbr>Field<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<div class="tsd-signature tsd-kind-icon">focus<wbr>First<wbr>Field<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>last<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, edit<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:782</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:790</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2550,6 +2554,12 @@ img {
 						<p>Sets focus on the first editable field in the form.</p>
 					</div>
 					<dl class="tsd-comment-tags">
+						<dt>param</dt>
+						<dd><p>Optional parameter indicating whether to focus the last field.</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Optional parameter indicating whether to ignore the primary column.</p>
+						</dd>
 						<dt>returns</dt>
 						<dd></dd>
 					</dl>
@@ -2559,10 +2569,19 @@ img {
 					<ul class="tsd-parameters">
 						<li class="tsd-parameter-siganture">
 							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
-								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>last<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, edit<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 							</ul>
 							<ul class="tsd-descriptions">
 								<li class="tsd-description">
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> last: <span class="tsd-signature-type">boolean</span></h5>
+										</li>
+										<li>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> edit: <span class="tsd-signature-type">boolean</span></h5>
+										</li>
+									</ul>
 									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 								</li>
 							</ul>
@@ -2576,7 +2595,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">form<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IFormValidator</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:826</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:834</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2596,7 +2615,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">form<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">FormState</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:820</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:828</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2616,7 +2635,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Current<wbr>Data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">T</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:806</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:814</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2651,7 +2670,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Edit<wbr>Cells<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_edit_interfaces_d_.editcellref.html" class="tsd-signature-type">EditCellRef</a><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:794</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:802</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2686,7 +2705,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Form<wbr>Element<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">HTMLFormElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:800</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:808</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2716,12 +2735,32 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="rowref" class="tsd-anchor"></a>
+				<h3>row<wbr>Ref</h3>
+				<div class="tsd-signature tsd-kind-icon">row<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLTableRowElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">&gt;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:840</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Reference to the row DOM element.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>null</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="validateform" class="tsd-anchor"></a>
 				<h3>validate<wbr>Form</h3>
 				<div class="tsd-signature tsd-kind-icon">validate<wbr>Form<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:788</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:796</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
