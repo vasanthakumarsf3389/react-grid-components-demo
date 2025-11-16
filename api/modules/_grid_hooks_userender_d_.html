@@ -2399,7 +2399,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">use<wbr>Aggregates<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_grid_interfaces_d_.html#igridbase" class="tsd-signature-type">IGridBase</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, gridRef<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">AggregateRowProps</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/useRender.d.ts:29</li>
+						<li>Defined in src/grid/hooks/useRender.d.ts:30</li>
 					</ul>
 				</aside>
 				<div class="tsd-type-declaration">
@@ -2439,7 +2439,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">use<wbr>Columns<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_grid_interfaces_d_.html#igridbase" class="tsd-signature-type">IGridBase</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, gridRef<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, dataState<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_interfaces_d_.pendingstate.html" class="tsd-signature-type">PendingState</a><span class="tsd-signature-symbol">&gt;</span>, isInitialBeforePaint<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span>, currentViewData<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_grid_interfaces_d_.html#igridbase" class="tsd-signature-type">IGridBase</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-symbol">{ </span>columnOffsets<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">; </span>totalVirtualColumnWidth<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>uiColumns<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> }</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/useRender.d.ts:22</li>
+						<li>Defined in src/grid/hooks/useRender.d.ts:23</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2458,6 +2458,9 @@ img {
 						</dd>
 						<dt>param</dt>
 						<dd><p>UI column properties changes not trigger event purpose boolean</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Updated Current view data</p>
 						</dd>
 						<dt>returns</dt>
 						<dd><p>Updated grid properties with processed columns</p>
