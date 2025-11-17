@@ -100840,7 +100840,7 @@
 			]
 		},
 		{
-			"id": 3582,
+			"id": 3648,
 			"name": "\"grid/utils/index.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -100857,7 +100857,7 @@
 			]
 		},
 		{
-			"id": 3583,
+			"id": 3649,
 			"name": "\"grid/utils/utils.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -100867,7 +100867,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/utils/utils.d.ts",
 			"children": [
 				{
-					"id": 3592,
+					"id": 3658,
 					"name": "getObject",
 					"kind": 32,
 					"kindString": "Variable",
@@ -100904,7 +100904,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3593,
+							"id": 3659,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -100913,7 +100913,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3594,
+									"id": 3660,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -100922,7 +100922,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3595,
+											"id": 3661,
 											"name": "field",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -100935,7 +100935,7 @@
 											}
 										},
 										{
-											"id": 3596,
+											"id": 3662,
 											"name": "object",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -100987,7 +100987,7 @@
 					}
 				},
 				{
-					"id": 3603,
+					"id": 3669,
 					"name": "isDateOrNumber",
 					"kind": 32,
 					"kindString": "Variable",
@@ -101019,7 +101019,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3604,
+							"id": 3670,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -101028,7 +101028,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3605,
+									"id": 3671,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -101037,7 +101037,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3606,
+											"id": 3672,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -101077,7 +101077,7 @@
 					}
 				},
 				{
-					"id": 3597,
+					"id": 3663,
 					"name": "setStringFormatter",
 					"kind": 32,
 					"kindString": "Variable",
@@ -101095,7 +101095,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3598,
+							"id": 3664,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -101104,7 +101104,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3599,
+									"id": 3665,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -101113,7 +101113,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3600,
+											"id": 3666,
 											"name": "fmtr",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -101127,7 +101127,7 @@
 											}
 										},
 										{
-											"id": 3601,
+											"id": 3667,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -101140,7 +101140,7 @@
 											}
 										},
 										{
-											"id": 3602,
+											"id": 3668,
 											"name": "format",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -101179,7 +101179,7 @@
 					}
 				},
 				{
-					"id": 3656,
+					"id": 3722,
 					"name": "addLastRowBorder",
 					"kind": 64,
 					"kindString": "Function",
@@ -101189,7 +101189,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3657,
+							"id": 3723,
 							"name": "addLastRowBorder",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -101200,7 +101200,7 @@
 							"comment": {},
 							"parameters": [
 								{
-									"id": 3658,
+									"id": 3724,
 									"name": "contentTableRef",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101217,7 +101217,7 @@
 									}
 								},
 								{
-									"id": 3659,
+									"id": 3725,
 									"name": "editSettings",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101250,7 +101250,7 @@
 					]
 				},
 				{
-					"id": 3642,
+					"id": 3708,
 					"name": "compareSelectedProperties",
 					"kind": 64,
 					"kindString": "Function",
@@ -101260,7 +101260,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3643,
+							"id": 3709,
 							"name": "compareSelectedProperties",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -101274,7 +101274,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 3644,
+									"id": 3710,
 									"name": "T",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -101287,7 +101287,7 @@
 									}
 								},
 								{
-									"id": 3645,
+									"id": 3711,
 									"name": "U",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -101302,7 +101302,7 @@
 							],
 							"parameters": [
 								{
-									"id": 3646,
+									"id": 3712,
 									"name": "obj1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101322,7 +101322,7 @@
 									}
 								},
 								{
-									"id": 3647,
+									"id": 3713,
 									"name": "obj2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101342,7 +101342,7 @@
 									}
 								},
 								{
-									"id": 3648,
+									"id": 3714,
 									"name": "keys",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101397,7 +101397,7 @@
 					]
 				},
 				{
-					"id": 3649,
+					"id": 3715,
 					"name": "compareValues",
 					"kind": 64,
 					"kindString": "Function",
@@ -101407,7 +101407,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3650,
+							"id": 3716,
 							"name": "compareValues",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -101421,7 +101421,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3651,
+									"id": 3717,
 									"name": "val1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101458,7 +101458,7 @@
 									}
 								},
 								{
-									"id": 3652,
+									"id": 3718,
 									"name": "val2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101510,7 +101510,7 @@
 					]
 				},
 				{
-					"id": 3622,
+					"id": 3688,
 					"name": "getActualPropFromColl",
 					"kind": 64,
 					"kindString": "Function",
@@ -101520,7 +101520,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3623,
+							"id": 3689,
 							"name": "getActualPropFromColl",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -101533,7 +101533,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3624,
+									"id": 3690,
 									"name": "collection",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101570,7 +101570,7 @@
 					]
 				},
 				{
-					"id": 3635,
+					"id": 3701,
 					"name": "getCaseValue",
 					"kind": 64,
 					"kindString": "Function",
@@ -101580,7 +101580,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3636,
+							"id": 3702,
 							"name": "getCaseValue",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -101593,7 +101593,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3637,
+									"id": 3703,
 									"name": "filter",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101625,7 +101625,7 @@
 					]
 				},
 				{
-					"id": 3638,
+					"id": 3704,
 					"name": "getCustomDateFormat",
 					"kind": 64,
 					"kindString": "Function",
@@ -101635,7 +101635,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3639,
+							"id": 3705,
 							"name": "getCustomDateFormat",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -101648,7 +101648,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3640,
+									"id": 3706,
 									"name": "format",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101673,7 +101673,7 @@
 									}
 								},
 								{
-									"id": 3641,
+									"id": 3707,
 									"name": "colType",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101704,7 +101704,7 @@
 					]
 				},
 				{
-					"id": 3614,
+					"id": 3680,
 					"name": "getDatePredicate",
 					"kind": 64,
 					"kindString": "Function",
@@ -101714,7 +101714,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3615,
+							"id": 3681,
 							"name": "getDatePredicate",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -101727,7 +101727,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3616,
+									"id": 3682,
 									"name": "filterObject",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101744,7 +101744,7 @@
 									}
 								},
 								{
-									"id": 3617,
+									"id": 3683,
 									"name": "type",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101761,7 +101761,7 @@
 									}
 								},
 								{
-									"id": 3618,
+									"id": 3684,
 									"name": "isExecuteLocal",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101793,7 +101793,7 @@
 					]
 				},
 				{
-					"id": 3611,
+					"id": 3677,
 					"name": "getUid",
 					"kind": 64,
 					"kindString": "Function",
@@ -101803,7 +101803,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3612,
+							"id": 3678,
 							"name": "getUid",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -101816,7 +101816,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3613,
+									"id": 3679,
 									"name": "prefix",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101847,7 +101847,7 @@
 					]
 				},
 				{
-					"id": 3588,
+					"id": 3654,
 					"name": "headerValueAccessor",
 					"kind": 64,
 					"kindString": "Function",
@@ -101857,7 +101857,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3589,
+							"id": 3655,
 							"name": "headerValueAccessor",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -101871,7 +101871,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 3590,
+									"id": 3656,
 									"name": "T",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -101882,7 +101882,7 @@
 							],
 							"parameters": [
 								{
-									"id": 3591,
+									"id": 3657,
 									"name": "props",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101914,7 +101914,7 @@
 					]
 				},
 				{
-					"id": 3625,
+					"id": 3691,
 					"name": "iterateArrayOrObject",
 					"kind": 64,
 					"kindString": "Function",
@@ -101924,7 +101924,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3626,
+							"id": 3692,
 							"name": "iterateArrayOrObject",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -101937,7 +101937,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 3627,
+									"id": 3693,
 									"name": "T",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -101946,7 +101946,7 @@
 									}
 								},
 								{
-									"id": 3628,
+									"id": 3694,
 									"name": "U",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -101957,7 +101957,7 @@
 							],
 							"parameters": [
 								{
-									"id": 3629,
+									"id": 3695,
 									"name": "collection",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101976,7 +101976,7 @@
 									}
 								},
 								{
-									"id": 3630,
+									"id": 3696,
 									"name": "predicate",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -101989,7 +101989,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 3631,
+											"id": 3697,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -101998,7 +101998,7 @@
 											},
 											"signatures": [
 												{
-													"id": 3632,
+													"id": 3698,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -102007,7 +102007,7 @@
 													},
 													"parameters": [
 														{
-															"id": 3633,
+															"id": 3699,
 															"name": "item",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -102020,7 +102020,7 @@
 															}
 														},
 														{
-															"id": 3634,
+															"id": 3700,
 															"name": "index",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -102068,7 +102068,7 @@
 					]
 				},
 				{
-					"id": 3619,
+					"id": 3685,
 					"name": "padZero",
 					"kind": 64,
 					"kindString": "Function",
@@ -102078,7 +102078,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3620,
+							"id": 3686,
 							"name": "padZero",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -102091,7 +102091,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3621,
+									"id": 3687,
 									"name": "value",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -102122,7 +102122,7 @@
 					]
 				},
 				{
-					"id": 3653,
+					"id": 3719,
 					"name": "parseUnit",
 					"kind": 64,
 					"kindString": "Function",
@@ -102132,7 +102132,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3654,
+							"id": 3720,
 							"name": "parseUnit",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -102146,7 +102146,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3655,
+									"id": 3721,
 									"name": "value",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -102186,7 +102186,7 @@
 					]
 				},
 				{
-					"id": 3607,
+					"id": 3673,
 					"name": "setFormatter",
 					"kind": 64,
 					"kindString": "Function",
@@ -102196,7 +102196,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3608,
+							"id": 3674,
 							"name": "setFormatter",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -102207,7 +102207,7 @@
 							"comment": {},
 							"parameters": [
 								{
-									"id": 3609,
+									"id": 3675,
 									"name": "serviceLocator",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -102225,7 +102225,7 @@
 									}
 								},
 								{
-									"id": 3610,
+									"id": 3676,
 									"name": "column",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -102258,7 +102258,7 @@
 					]
 				},
 				{
-					"id": 3584,
+					"id": 3650,
 					"name": "valueAccessor",
 					"kind": 64,
 					"kindString": "Function",
@@ -102268,7 +102268,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3585,
+							"id": 3651,
 							"name": "valueAccessor",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -102282,7 +102282,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 3586,
+									"id": 3652,
 									"name": "T",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -102293,7 +102293,7 @@
 							],
 							"parameters": [
 								{
-									"id": 3587,
+									"id": 3653,
 									"name": "props",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -102336,29 +102336,29 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3592,
-						3603,
-						3597
+						3658,
+						3669,
+						3663
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						3656,
-						3642,
-						3649,
-						3622,
-						3635,
-						3638,
-						3614,
-						3611,
-						3588,
-						3625,
-						3619,
-						3653,
-						3607,
-						3584
+						3722,
+						3708,
+						3715,
+						3688,
+						3701,
+						3704,
+						3680,
+						3677,
+						3654,
+						3691,
+						3685,
+						3719,
+						3673,
+						3650
 					]
 				}
 			],
@@ -102371,7 +102371,7 @@
 			]
 		},
 		{
-			"id": 3660,
+			"id": 3582,
 			"name": "\"grid/views/Aggregate.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -102381,7 +102381,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/Aggregate.d.ts",
 			"children": [
 				{
-					"id": 3668,
+					"id": 3590,
 					"name": "AggregateColumn",
 					"kind": 32,
 					"kindString": "Variable",
@@ -102421,7 +102421,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3669,
+							"id": 3591,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -102430,7 +102430,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3670,
+									"id": 3592,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -102439,7 +102439,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 3671,
+											"id": 3593,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -102450,7 +102450,7 @@
 									],
 									"parameters": [
 										{
-											"id": 3672,
+											"id": 3594,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -102492,7 +102492,7 @@
 					}
 				},
 				{
-					"id": 3664,
+					"id": 3586,
 					"name": "AggregateRow",
 					"kind": 32,
 					"kindString": "Variable",
@@ -102532,7 +102532,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3665,
+							"id": 3587,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -102541,7 +102541,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3666,
+									"id": 3588,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -102550,7 +102550,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3667,
+											"id": 3589,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -102586,7 +102586,7 @@
 					}
 				},
 				{
-					"id": 3661,
+					"id": 3583,
 					"name": "Aggregates",
 					"kind": 32,
 					"kindString": "Variable",
@@ -102616,7 +102616,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 3662,
+									"id": 3584,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -102625,7 +102625,7 @@
 									},
 									"children": [
 										{
-											"id": 3663,
+											"id": 3585,
 											"name": "children",
 											"kind": 32,
 											"kindString": "Variable",
@@ -102651,7 +102651,7 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												3663
+												3585
 											]
 										}
 									],
@@ -102674,9 +102674,9 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3668,
-						3664,
-						3661
+						3590,
+						3586,
+						3583
 					]
 				}
 			],
@@ -102689,7 +102689,7 @@
 			]
 		},
 		{
-			"id": 3673,
+			"id": 3595,
 			"name": "\"grid/views/ContentPanel.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -102699,7 +102699,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/ContentPanel.d.ts",
 			"children": [
 				{
-					"id": 3674,
+					"id": 3596,
 					"name": "ContentPanelBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -102751,7 +102751,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3675,
+							"id": 3597,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -102760,7 +102760,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3676,
+									"id": 3598,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -102769,7 +102769,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 3677,
+											"id": 3599,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -102780,7 +102780,7 @@
 									],
 									"parameters": [
 										{
-											"id": 3678,
+											"id": 3600,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -102844,7 +102844,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3674
+						3596
 					]
 				}
 			],
@@ -102857,7 +102857,7 @@
 			]
 		},
 		{
-			"id": 3679,
+			"id": 3601,
 			"name": "\"grid/views/ContentRows.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -102867,7 +102867,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/ContentRows.d.ts",
 			"children": [
 				{
-					"id": 3680,
+					"id": 3602,
 					"name": "ContentRowsBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -102909,7 +102909,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3681,
+							"id": 3603,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -102918,7 +102918,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3682,
+									"id": 3604,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -102927,7 +102927,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 3683,
+											"id": 3605,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -102938,7 +102938,7 @@
 									],
 									"parameters": [
 										{
-											"id": 3684,
+											"id": 3606,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -103002,7 +103002,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3680
+						3602
 					]
 				}
 			],
@@ -103015,7 +103015,7 @@
 			]
 		},
 		{
-			"id": 3685,
+			"id": 3607,
 			"name": "\"grid/views/ContentTable.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -103025,7 +103025,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/ContentTable.d.ts",
 			"children": [
 				{
-					"id": 3686,
+					"id": 3608,
 					"name": "ContentTableBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -103087,7 +103087,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3687,
+							"id": 3609,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -103096,7 +103096,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3688,
+									"id": 3610,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -103105,7 +103105,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 3689,
+											"id": 3611,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -103116,7 +103116,7 @@
 									],
 									"parameters": [
 										{
-											"id": 3690,
+											"id": 3612,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -103180,7 +103180,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3686
+						3608
 					]
 				}
 			],
@@ -103193,7 +103193,7 @@
 			]
 		},
 		{
-			"id": 3691,
+			"id": 3613,
 			"name": "\"grid/views/FilterBar.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -103203,7 +103203,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/FilterBar.d.ts",
 			"children": [
 				{
-					"id": 3692,
+					"id": 3614,
 					"name": "FilterBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -103248,7 +103248,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 3693,
+									"id": 3615,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -103257,7 +103257,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3694,
+											"id": 3616,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -103266,7 +103266,7 @@
 											},
 											"parameters": [
 												{
-													"id": 3695,
+													"id": 3617,
 													"name": "props",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -103311,7 +103311,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3692
+						3614
 					]
 				}
 			],
@@ -103324,7 +103324,7 @@
 			]
 		},
 		{
-			"id": 3696,
+			"id": 3618,
 			"name": "\"grid/views/FooterPanel.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -103334,7 +103334,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/FooterPanel.d.ts",
 			"children": [
 				{
-					"id": 3697,
+					"id": 3619,
 					"name": "FooterPanelBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -103423,7 +103423,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3697
+						3619
 					]
 				}
 			],
@@ -103436,7 +103436,7 @@
 			]
 		},
 		{
-			"id": 3698,
+			"id": 3620,
 			"name": "\"grid/views/FooterRows.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -103446,7 +103446,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/FooterRows.d.ts",
 			"children": [
 				{
-					"id": 3699,
+					"id": 3621,
 					"name": "FooterRowsBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -103488,7 +103488,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3700,
+							"id": 3622,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -103497,7 +103497,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3701,
+									"id": 3623,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -103506,7 +103506,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3702,
+											"id": 3624,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -103564,7 +103564,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3699
+						3621
 					]
 				}
 			],
@@ -103577,7 +103577,7 @@
 			]
 		},
 		{
-			"id": 3703,
+			"id": 3625,
 			"name": "\"grid/views/FooterTable.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -103587,7 +103587,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/FooterTable.d.ts",
 			"children": [
 				{
-					"id": 3704,
+					"id": 3626,
 					"name": "FooterTableBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -103681,7 +103681,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3704
+						3626
 					]
 				}
 			],
@@ -103694,7 +103694,7 @@
 			]
 		},
 		{
-			"id": 3705,
+			"id": 3627,
 			"name": "\"grid/views/HeaderPanel.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -103704,7 +103704,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/HeaderPanel.d.ts",
 			"children": [
 				{
-					"id": 3706,
+					"id": 3628,
 					"name": "HeaderPanelBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -103793,7 +103793,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3706
+						3628
 					]
 				}
 			],
@@ -103806,7 +103806,7 @@
 			]
 		},
 		{
-			"id": 3707,
+			"id": 3629,
 			"name": "\"grid/views/HeaderRows.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -103816,7 +103816,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/HeaderRows.d.ts",
 			"children": [
 				{
-					"id": 3708,
+					"id": 3630,
 					"name": "HeaderRowsBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -103858,7 +103858,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3709,
+							"id": 3631,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -103867,7 +103867,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3710,
+									"id": 3632,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -103876,7 +103876,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3711,
+											"id": 3633,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -103934,7 +103934,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3708
+						3630
 					]
 				}
 			],
@@ -103947,7 +103947,7 @@
 			]
 		},
 		{
-			"id": 3712,
+			"id": 3634,
 			"name": "\"grid/views/HeaderTable.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -103957,7 +103957,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/HeaderTable.d.ts",
 			"children": [
 				{
-					"id": 3713,
+					"id": 3635,
 					"name": "HeaderTableBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -104051,7 +104051,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3713
+						3635
 					]
 				}
 			],
@@ -104064,7 +104064,7 @@
 			]
 		},
 		{
-			"id": 3715,
+			"id": 3637,
 			"name": "\"grid/views/PagerPanel.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -104074,7 +104074,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/PagerPanel.d.ts",
 			"children": [
 				{
-					"id": 3716,
+					"id": 3638,
 					"name": "PagerPanelBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -104140,7 +104140,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3716
+						3638
 					]
 				}
 			],
@@ -104153,7 +104153,7 @@
 			]
 		},
 		{
-			"id": 3717,
+			"id": 3639,
 			"name": "\"grid/views/Render.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -104163,7 +104163,7 @@
 			"originalName": "D:/native-react/grid-src/dev/current_source/26-09-2025/react-grid-components/src/grid/views/Render.d.ts",
 			"children": [
 				{
-					"id": 3723,
+					"id": 3645,
 					"name": "Columns",
 					"kind": 32,
 					"kindString": "Variable",
@@ -104193,7 +104193,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 3724,
+									"id": 3646,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -104202,7 +104202,7 @@
 									},
 									"children": [
 										{
-											"id": 3725,
+											"id": 3647,
 											"name": "children",
 											"kind": 32,
 											"kindString": "Variable",
@@ -104228,7 +104228,7 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												3725
+												3647
 											]
 										}
 									],
@@ -104246,7 +104246,7 @@
 					}
 				},
 				{
-					"id": 3718,
+					"id": 3640,
 					"name": "RenderBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -104273,7 +104273,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3719,
+							"id": 3641,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -104282,7 +104282,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3720,
+									"id": 3642,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -104291,7 +104291,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 3721,
+											"id": 3643,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -104302,7 +104302,7 @@
 									],
 									"parameters": [
 										{
-											"id": 3722,
+											"id": 3644,
 											"name": "_props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -104366,8 +104366,8 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3723,
-						3718
+						3645,
+						3640
 					]
 				}
 			],
@@ -104917,7 +104917,7 @@
 			]
 		},
 		{
-			"id": 3714,
+			"id": 3636,
 			"name": "\"grid/views/index.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -104999,27 +104999,27 @@
 				3462,
 				3504,
 				3564,
+				3648,
+				3649,
 				3582,
-				3583,
-				3660,
-				3673,
-				3679,
-				3685,
-				3691,
-				3696,
-				3698,
-				3703,
-				3705,
-				3707,
-				3712,
-				3715,
-				3717,
+				3595,
+				3601,
+				3607,
+				3613,
+				3618,
+				3620,
+				3625,
+				3627,
+				3629,
+				3634,
+				3637,
+				3639,
 				3726,
 				3728,
 				3734,
 				3740,
 				3742,
-				3714,
+				3636,
 				1
 			]
 		}
