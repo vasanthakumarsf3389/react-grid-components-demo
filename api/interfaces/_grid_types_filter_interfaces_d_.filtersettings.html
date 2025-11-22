@@ -2385,6 +2385,9 @@ img {
 					<a href="_grid_types_filter_interfaces_d_.filtersettings.html#columns" class="tsd-kind-icon">columns</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_filter_interfaces_d_.filtersettings.html#enablefilterbaroperators" class="tsd-kind-icon">enable<wbr>Filter<wbr>Bar<wbr>Operators</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_filter_interfaces_d_.filtersettings.html#enabled" class="tsd-kind-icon">enabled</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2443,6 +2446,7 @@ img {
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_filter_interfaces_d_.filtersettings.html#casesensitive" class="tsd-kind-icon">case<wbr>Sensitive</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_filter_interfaces_d_.filtersettings.html#columns" class="tsd-kind-icon">columns</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_filter_interfaces_d_.filtersettings.html#enablefilterbaroperators" class="tsd-kind-icon">enable<wbr>Filter<wbr>Bar<wbr>Operators</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_filter_interfaces_d_.filtersettings.html#enabled" class="tsd-kind-icon">enabled</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_filter_interfaces_d_.filtersettings.html#ignoreaccent" class="tsd-kind-icon">ignore<wbr>Accent</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_filter_interfaces_d_.filtersettings.html#immediatemodedelay" class="tsd-kind-icon">immediate<wbr>Mode<wbr>Delay</a></li>
@@ -2462,7 +2466,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">case<wbr>Sensitive<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:84</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:94</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2484,7 +2488,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <a href="_grid_types_filter_interfaces_d_.filterpredicates.html" class="tsd-signature-type">FilterPredicates</a><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:29</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:39</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2496,6 +2500,29 @@ img {
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>[]</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="enablefilterbaroperators" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> enable<wbr>Filter<wbr>Bar<wbr>Operators</h3>
+				<div class="tsd-signature tsd-kind-icon">enable<wbr>Filter<wbr>Bar<wbr>Operators<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:30</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Determines whether filter bar operators are enabled for the grid.
+							When set to true, allows users to select custom operators (e.g., equals, contains, greater than)
+							in the filter bar for more advanced filtering capabilities. When false, only basic filtering is available.
+						This setting works in conjunction with the <code>enabled</code> property to control filter behavior.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>false</p>
 						</dd>
 					</dl>
 				</div>
@@ -2528,7 +2555,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">ignore<wbr>Accent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:75</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:85</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2550,7 +2577,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">immediate<wbr>Mode<wbr>Delay<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:56</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:66</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2572,7 +2599,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">mode<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.filterbarmode.html" class="tsd-signature-type">FilterBarMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:47</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:57</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2594,7 +2621,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">operators<span class="tsd-signature-symbol">:</span> <a href="_grid_types_interfaces_d_.icustomoptr.html" class="tsd-signature-type">ICustomOptr</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:66</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:76</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2616,7 +2643,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <a href="../modules/_grid_types_enum_d_.html#filtertype" class="tsd-signature-type">FilterType</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:38</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:48</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
