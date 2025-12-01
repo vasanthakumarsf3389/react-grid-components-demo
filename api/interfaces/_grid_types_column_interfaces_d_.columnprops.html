@@ -2445,6 +2445,9 @@ img {
 					<a href="_grid_types_column_interfaces_d_.columnprops.html#getparser" class="tsd-kind-icon">get<wbr>Parser</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_column_interfaces_d_.columnprops.html#headercheckbox" class="tsd-kind-icon">header<wbr>Checkbox</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_column_interfaces_d_.columnprops.html#headertemplate" class="tsd-kind-icon">header<wbr>Template</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2605,6 +2608,7 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_grid_types_column_interfaces_d_.columnprops.html#getcommanditems" class="tsd-kind-icon">get<wbr>Command<wbr>Items</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_column_interfaces_d_.columnprops.html#getformatter" class="tsd-kind-icon">get<wbr>Formatter</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_column_interfaces_d_.columnprops.html#getparser" class="tsd-kind-icon">get<wbr>Parser</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#headercheckbox" class="tsd-kind-icon">header<wbr>Checkbox</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#headertemplate" class="tsd-kind-icon">header<wbr>Template</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#headertext" class="tsd-kind-icon">header<wbr>Text</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#headertextalign" class="tsd-kind-icon">header<wbr>Text<wbr>Align</a></li>
@@ -3189,6 +3193,28 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="headercheckbox" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> header<wbr>Checkbox</h3>
+				<div class="tsd-signature tsd-kind-icon">header<wbr>Checkbox<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:420</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Specifies whether the header checkbox is displayed in the checkbox column.
+							When enabled (<code>true</code>), the header checkbox allows selecting or deselecting all rows.
+						When disabled (<code>false</code>), only individual row checkboxes remain visible.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>true</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="headertemplate" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> header<wbr>Template</h3>
 				<div class="tsd-signature tsd-kind-icon">header<wbr>Template<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_column_interfaces_d_.columnheadertemplateprops.html" class="tsd-signature-type">ColumnHeaderTemplateProps</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
@@ -3353,7 +3379,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">indicator<wbr>Shimmer<wbr>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">SkeletonProps</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:418</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:426</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">

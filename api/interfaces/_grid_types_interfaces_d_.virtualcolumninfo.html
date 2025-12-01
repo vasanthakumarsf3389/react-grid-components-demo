@@ -2366,14 +2366,23 @@ img {
 		<li class="current tsd-kind-interface tsd-parent-kind-external-module tsd-is-private">
 			<a href="_grid_types_interfaces_d_.virtualcolumninfo.html" class="tsd-kind-icon">Virtual<wbr>Column<wbr>Info</a>
 			<ul>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_interfaces_d_.virtualcolumninfo.html#columns" class="tsd-kind-icon">columns</a>
+				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a href="_grid_types_interfaces_d_.virtualcolumninfo.html#endindex" class="tsd-kind-icon">end<wbr>Index</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a href="_grid_types_interfaces_d_.virtualcolumninfo.html#isfastjumpscroll" class="tsd-kind-icon">is<wbr>Fast<wbr>Jump<wbr>Scroll</a>
 				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a href="_grid_types_interfaces_d_.virtualcolumninfo.html#isfocusscrolloffsetchange" class="tsd-kind-icon">is<wbr>Focus<wbr>Scroll<wbr>Offset<wbr>Change</a>
+				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_interfaces_d_.virtualcolumninfo.html#offsetx" class="tsd-kind-icon">offsetX</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_interfaces_d_.virtualcolumninfo.html#scrollfocuscurrentdatacolindex" class="tsd-kind-icon">scroll<wbr>Focus<wbr>Current<wbr>Data<wbr>Col<wbr>Index</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a href="_grid_types_interfaces_d_.virtualcolumninfo.html#startindex" class="tsd-kind-icon">start<wbr>Index</a>
@@ -2413,9 +2422,12 @@ img {
 					<section class="tsd-index-section ">
 						<h3>Properties</h3>
 						<ul class="tsd-index-list">
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.virtualcolumninfo.html#columns" class="tsd-kind-icon">columns</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_grid_types_interfaces_d_.virtualcolumninfo.html#endindex" class="tsd-kind-icon">end<wbr>Index</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_grid_types_interfaces_d_.virtualcolumninfo.html#isfastjumpscroll" class="tsd-kind-icon">is<wbr>Fast<wbr>Jump<wbr>Scroll</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_grid_types_interfaces_d_.virtualcolumninfo.html#isfocusscrolloffsetchange" class="tsd-kind-icon">is<wbr>Focus<wbr>Scroll<wbr>Offset<wbr>Change</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.virtualcolumninfo.html#offsetx" class="tsd-kind-icon">offsetX</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.virtualcolumninfo.html#scrollfocuscurrentdatacolindex" class="tsd-kind-icon">scroll<wbr>Focus<wbr>Current<wbr>Data<wbr>Col<wbr>Index</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_grid_types_interfaces_d_.virtualcolumninfo.html#startindex" class="tsd-kind-icon">start<wbr>Index</a></li>
 						</ul>
 					</section>
@@ -2424,6 +2436,16 @@ img {
 		</section>
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Properties</h2>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="columns" class="tsd-anchor"></a>
+				<h3>columns</h3>
+				<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <a href="_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">[]</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/interfaces.d.ts:1131</li>
+					</ul>
+				</aside>
+			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 				<a name="endindex" class="tsd-anchor"></a>
 				<h3>end<wbr>Index</h3>
@@ -2431,7 +2453,7 @@ img {
 				<aside class="tsd-sources">
 					<p>Inherited from <a href="_grid_types_interfaces_d_.virtualinfo.html">VirtualInfo</a>.<a href="_grid_types_interfaces_d_.virtualinfo.html#endindex">endIndex</a></p>
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:1099</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:1109</li>
 					</ul>
 				</aside>
 			</section>
@@ -2442,7 +2464,18 @@ img {
 				<aside class="tsd-sources">
 					<p>Inherited from <a href="_grid_types_interfaces_d_.virtualinfo.html">VirtualInfo</a>.<a href="_grid_types_interfaces_d_.virtualinfo.html#isfastjumpscroll">isFastJumpScroll</a></p>
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:1100</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:1110</li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<a name="isfocusscrolloffsetchange" class="tsd-anchor"></a>
+				<h3>is<wbr>Focus<wbr>Scroll<wbr>Offset<wbr>Change</h3>
+				<div class="tsd-signature tsd-kind-icon">is<wbr>Focus<wbr>Scroll<wbr>Offset<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+				<aside class="tsd-sources">
+					<p>Inherited from <a href="_grid_types_interfaces_d_.virtualinfo.html">VirtualInfo</a>.<a href="_grid_types_interfaces_d_.virtualinfo.html#isfocusscrolloffsetchange">isFocusScrollOffsetChange</a></p>
+					<ul>
+						<li>Defined in src/grid/types/interfaces.d.ts:1111</li>
 					</ul>
 				</aside>
 			</section>
@@ -2452,7 +2485,17 @@ img {
 				<div class="tsd-signature tsd-kind-icon">offsetX<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:1117</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:1129</li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="scrollfocuscurrentdatacolindex" class="tsd-anchor"></a>
+				<h3>scroll<wbr>Focus<wbr>Current<wbr>Data<wbr>Col<wbr>Index</h3>
+				<div class="tsd-signature tsd-kind-icon">scroll<wbr>Focus<wbr>Current<wbr>Data<wbr>Col<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/interfaces.d.ts:1130</li>
 					</ul>
 				</aside>
 			</section>
@@ -2463,7 +2506,7 @@ img {
 				<aside class="tsd-sources">
 					<p>Inherited from <a href="_grid_types_interfaces_d_.virtualinfo.html">VirtualInfo</a>.<a href="_grid_types_interfaces_d_.virtualinfo.html#startindex">startIndex</a></p>
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:1098</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:1108</li>
 					</ul>
 				</aside>
 			</section>

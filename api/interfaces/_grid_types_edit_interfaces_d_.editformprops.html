@@ -2444,6 +2444,9 @@ img {
 			<a href="_grid_types_edit_interfaces_d_.inlineeditformref.html" class="tsd-kind-icon">Inline<wbr>Edit<wbr>Form<wbr>Ref</a>
 		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter">
+			<a href="_grid_types_edit_interfaces_d_.popuptemplateprops.html" class="tsd-kind-icon">Popup<wbr>Template<wbr>Props</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter">
 			<a href="_grid_types_edit_interfaces_d_.rowaddevent.html" class="tsd-kind-icon">Row<wbr>Add<wbr>Event</a>
 		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter">
@@ -2464,11 +2467,14 @@ img {
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
 			<a href="../modules/_grid_types_edit_interfaces_d_.html#editcellinputref" class="tsd-kind-icon">Edit<wbr>Cell<wbr>Input<wbr>Ref</a>
 		</li>
-		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 			<a href="../modules/_grid_types_edit_interfaces_d_.html#editmode" class="tsd-kind-icon">Edit<wbr>Mode</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
 			<a href="../modules/_grid_types_edit_interfaces_d_.html#editparams" class="tsd-kind-icon">Edit<wbr>Params</a>
+		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+			<a href="../modules/_grid_types_edit_interfaces_d_.html#popupsettings" class="tsd-kind-icon">Popup<wbr>Settings</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
 			<a href="../modules/_grid_types_edit_interfaces_d_.html#editmodule" class="tsd-kind-icon">edit<wbr>Module</a>
@@ -2535,7 +2541,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <a href="_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:716</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:775</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2555,7 +2561,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">disabled<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:775</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:834</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2575,7 +2581,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">edit<wbr>Data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:722</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:781</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2595,7 +2601,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">edit<wbr>Row<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:736</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:795</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2615,7 +2621,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Cancel<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:763</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:822</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2649,7 +2655,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Field<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>field<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:750</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:809</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2698,7 +2704,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Save<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>isForwardTab<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:757</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:816</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2741,7 +2747,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">row<wbr>Uid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:742</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:801</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2761,7 +2767,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">template<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_edit_interfaces_d_.editformtemplate.html" class="tsd-signature-type">EditFormTemplate</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:769</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:828</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2781,7 +2787,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">validation<wbr>Errors<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:728</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:787</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">

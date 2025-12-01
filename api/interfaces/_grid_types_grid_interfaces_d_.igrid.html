@@ -2651,6 +2651,9 @@ img {
 				<li class=" tsd-kind-method tsd-parent-kind-interface">
 					<a href="_grid_types_grid_interfaces_d_.igrid.html#getdata" class="tsd-kind-icon">get<wbr>Data</a>
 				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-interface">
+					<a href="_grid_types_grid_interfaces_d_.igrid.html#getdatamodule" class="tsd-kind-icon">get<wbr>Data<wbr>Module</a>
+				</li>
 				<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-private">
 					<a href="_grid_types_grid_interfaces_d_.igrid.html#getheadercontent" class="tsd-kind-icon">get<wbr>Header<wbr>Content</a>
 				</li>
@@ -2680,6 +2683,9 @@ img {
 				</li>
 				<li class=" tsd-kind-method tsd-parent-kind-interface">
 					<a href="_grid_types_grid_interfaces_d_.igrid.html#hidespinner" class="tsd-kind-icon">hide<wbr>Spinner</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-interface">
+					<a href="_grid_types_grid_interfaces_d_.igrid.html#isremote" class="tsd-kind-icon">is<wbr>Remote</a>
 				</li>
 				<li class=" tsd-kind-method tsd-parent-kind-interface">
 					<a href="_grid_types_grid_interfaces_d_.igrid.html#refresh" class="tsd-kind-icon">refresh</a>
@@ -2894,6 +2900,7 @@ img {
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#getcolumns" class="tsd-kind-icon">get<wbr>Columns</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_grid_interfaces_d_.igrid.html#getcontent" class="tsd-kind-icon">get<wbr>Content</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#getdata" class="tsd-kind-icon">get<wbr>Data</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#getdatamodule" class="tsd-kind-icon">get<wbr>Data<wbr>Module</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_grid_interfaces_d_.igrid.html#getheadercontent" class="tsd-kind-icon">get<wbr>Header<wbr>Content</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#gethiddencolumns" class="tsd-kind-icon">get<wbr>Hidden<wbr>Columns</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#getprimarykeyfieldnames" class="tsd-kind-icon">get<wbr>Primary<wbr>Key<wbr>Field<wbr>Names</a></li>
@@ -2904,6 +2911,7 @@ img {
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#getvisiblecolumns" class="tsd-kind-icon">get<wbr>Visible<wbr>Columns</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#gotopage" class="tsd-kind-icon">go<wbr>ToPage</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#hidespinner" class="tsd-kind-icon">hide<wbr>Spinner</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#isremote" class="tsd-kind-icon">is<wbr>Remote</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#refresh" class="tsd-kind-icon">refresh</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_grid_interfaces_d_.igrid.html#removefilteredcolsbyfield" class="tsd-kind-icon">remove<wbr>Filtered<wbr>Cols<wbr>ByField</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#removesortcolumn" class="tsd-kind-icon">remove<wbr>Sort<wbr>Column</a></li>
@@ -5977,7 +5985,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1830</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1849</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6009,13 +6017,13 @@ const GridExample: React.FC = () =&gt; {
 				<a name="canceldatachanges" class="tsd-anchor"></a>
 				<h3>cancel<wbr>Data<wbr>Changes</h3>
 				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
-					<li class="tsd-signature tsd-kind-icon">cancel<wbr>Data<wbr>Changes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					<li class="tsd-signature tsd-kind-icon">cancel<wbr>Data<wbr>Changes<span class="tsd-signature-symbol">(</span>rowElement<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">HTMLTableRowElement</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 				</ul>
 				<ul class="tsd-descriptions">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1821</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1840</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6029,6 +6037,15 @@ const GridExample: React.FC = () =&gt; {
 								</dd>
 							</dl>
 						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> rowElement: <span class="tsd-signature-type">HTMLTableRowElement</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<p>The row element to cancel record in command editing.</p>
+								</div>
+							</li>
+						</ul>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 					</li>
 				</ul>
@@ -6043,7 +6060,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1728</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1745</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6076,7 +6093,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1668</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1685</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6109,7 +6126,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1676</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1693</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6133,7 +6150,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1705</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1722</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6166,7 +6183,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1840</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1859</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6205,7 +6222,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1788</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1805</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6237,7 +6254,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1719</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1736</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6367,7 +6384,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1608</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1616</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6392,7 +6409,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1780</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1797</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6410,13 +6427,13 @@ const GridExample: React.FC = () =&gt; {
 				<a name="getdata" class="tsd-anchor"></a>
 				<h3>get<wbr>Data</h3>
 				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
-					<li class="tsd-signature tsd-kind-icon">get<wbr>Data<span class="tsd-signature-symbol">(</span>skipPage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, requiresCount<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Response</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataReturnType</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Data<span class="tsd-signature-symbol">(</span>skipPage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, requiresCount<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, dataSource<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataManager</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataResult</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Response</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataReturnType</span><span class="tsd-signature-symbol">&gt;</span></li>
 				</ul>
 				<ul class="tsd-descriptions">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1552</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1553</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6440,9 +6457,40 @@ const GridExample: React.FC = () =&gt; {
 									<p>Optional. If true, includes the total record count in the response.</p>
 								</div>
 							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> dataSource: <span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataManager</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataResult</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<p>Defines the source of data, which can be a local array or a remote data manager.</p>
+								</div>
+							</li>
 						</ul>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Response</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataReturnType</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						<p>An array of records or a promise for remote data.</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+				<a name="getdatamodule" class="tsd-anchor"></a>
+				<h3>get<wbr>Data<wbr>Module</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Data<wbr>Module<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DataResult</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1625</li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Returns the data module used by the grid.</p>
+							</div>
+							<p>Use this to access the current applied queries and data-related configuration settings for the grid.
+							This includes filtering, sorting, pagination, and other data operations.</p>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">DataResult</span></h4>
+						<p>The data module currently used by the grid.</p>
 					</li>
 				</ul>
 			</section>
@@ -6456,7 +6504,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1772</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1789</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6480,7 +6528,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1559</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1567</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6504,7 +6552,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1575</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1583</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6528,7 +6576,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1568</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1576</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6562,7 +6610,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1659</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1676</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6586,7 +6634,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1652</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1669</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6610,7 +6658,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1616</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1633</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6658,7 +6706,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1756</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1773</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6704,6 +6752,30 @@ const GridExample: React.FC = () =&gt; {
 				</ul>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+				<a name="isremote" class="tsd-anchor"></a>
+				<h3>is<wbr>Remote</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+					<li class="tsd-signature tsd-kind-icon">is<wbr>Remote<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1560</li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Determines whether the grid is using a remote data source.
+								Remote data sources typically involve server-side operations for pagination, filtering, sorting, and searching.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						<p>True if the grid is bound to a remote data source; otherwise, false.</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
 				<a name="refresh" class="tsd-anchor"></a>
 				<h3>refresh</h3>
 				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
@@ -6737,7 +6809,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1739</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1756</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6776,7 +6848,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1696</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1713</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6803,13 +6875,13 @@ const GridExample: React.FC = () =&gt; {
 				<a name="savedatachanges" class="tsd-anchor"></a>
 				<h3>save<wbr>Data<wbr>Changes</h3>
 				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
-					<li class="tsd-signature tsd-kind-icon">save<wbr>Data<wbr>Changes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<li class="tsd-signature tsd-kind-icon">save<wbr>Data<wbr>Changes<span class="tsd-signature-symbol">(</span>rowElement<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">HTMLTableRowElement</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></li>
 				</ul>
 				<ul class="tsd-descriptions">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1808</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1826</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6830,6 +6902,15 @@ const GridExample: React.FC = () =&gt; {
 								</dd>
 							</dl>
 						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> rowElement: <span class="tsd-signature-type">HTMLTableRowElement</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<p>The row element to save record in command editing.</p>
+								</div>
+							</li>
+						</ul>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						<p>Resolves to true if the operation succeeds. returns false if validation fails or the action is cancelled.</p>
 					</li>
@@ -6845,7 +6926,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1748</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1765</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6878,7 +6959,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1626</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1643</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6917,7 +6998,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1645</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1662</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6956,7 +7037,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1635</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1652</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -6989,7 +7070,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1600</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1608</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7040,7 +7121,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1764</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1781</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7072,7 +7153,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1587</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1595</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7140,7 +7221,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1687</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1704</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7185,7 +7266,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1850</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1869</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7224,7 +7305,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1858</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1877</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7249,7 +7330,7 @@ const GridExample: React.FC = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:1867</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:1886</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">

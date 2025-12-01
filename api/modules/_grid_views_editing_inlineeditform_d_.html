@@ -2366,6 +2366,15 @@ img {
 		<li class=" tsd-kind-variable tsd-parent-kind-external-module">
 			<a href="_grid_views_editing_inlineeditform_d_.html#inlineeditform" class="tsd-kind-icon">Inline<wbr>Edit<wbr>Form</a>
 		</li>
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
+			<a href="_grid_views_editing_inlineeditform_d_.html#handlefieldblurfn" class="tsd-kind-icon">handle<wbr>Field<wbr>Blur<wbr>Fn</a>
+		</li>
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
+			<a href="_grid_views_editing_inlineeditform_d_.html#handlefieldchangefn" class="tsd-kind-icon">handle<wbr>Field<wbr>Change<wbr>Fn</a>
+		</li>
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
+			<a href="_grid_views_editing_inlineeditform_d_.html#internaldatafn" class="tsd-kind-icon">internal<wbr>Data<wbr>Fn</a>
+		</li>
 	</ul>
 </nav>
 <div class="container container-main">
@@ -2378,6 +2387,9 @@ img {
 						<h3>Variables</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_grid_views_editing_inlineeditform_d_.html#inlineeditform" class="tsd-kind-icon">Inline<wbr>Edit<wbr>Form</a></li>
+							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_views_editing_inlineeditform_d_.html#handlefieldblurfn" class="tsd-kind-icon">handle<wbr>Field<wbr>Blur<wbr>Fn</a></li>
+							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_views_editing_inlineeditform_d_.html#handlefieldchangefn" class="tsd-kind-icon">handle<wbr>Field<wbr>Change<wbr>Fn</a></li>
+							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_views_editing_inlineeditform_d_.html#internaldatafn" class="tsd-kind-icon">internal<wbr>Data<wbr>Fn</a></li>
 						</ul>
 					</section>
 				</div>
@@ -2391,7 +2403,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Inline<wbr>Edit<wbr>Form<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_edit_interfaces_d_.inlineeditformprops.html" class="tsd-signature-type">InlineEditFormProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">RefAttributes</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_edit_interfaces_d_.inlineeditformref.html" class="tsd-signature-type">InlineEditFormRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">ReactElement</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/views/editing/InlineEditForm.d.ts:10</li>
+						<li>Defined in src/grid/views/editing/InlineEditForm.d.ts:13</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2432,6 +2444,310 @@ img {
 										</li>
 									</ul>
 									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReactElement</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
+				<a name="handlefieldblurfn" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagConst">Const</span> handle<wbr>Field<wbr>Blur<wbr>Fn</h3>
+				<div class="tsd-signature tsd-kind-icon">handle<wbr>Field<wbr>Blur<wbr>Fn<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>column<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, value<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span>, formatter<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.ivalueformatter.html" class="tsd-signature-type">IValueFormatter</a>, internalData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, setInternalData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">React.SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, isAddOperation<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, editModule<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_edit_interfaces_d_.useeditresult.html" class="tsd-signature-type">UseEditResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, formState<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FormState</span>, formRef<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IFormValidator</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/views/editing/InlineEditForm.d.ts:56</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Validates field on blur and updates internal data for consistency.
+						Triggers FormValidator validation to display immediate feedback for validation errors.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>param</dt>
+						<dd><p>The column definition for the field losing focus</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>The current value of the field</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Formatter service for type conversion</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Current internal form data state</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>State setter function for internal data</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Flag indicating if this is an add operation</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Edit module providing edit state and functions</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Current FormValidator state</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Reference to FormValidator component</p>
+						</dd>
+						<dt>returns</dt>
+						<dd></dd>
+					</dl>
+				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable tsd-has-type-parameter">
+								<li class="tsd-signature tsd-kind-icon">&lt;T&gt;<span class="tsd-signature-symbol">(</span>column<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, value<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span>, formatter<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.ivalueformatter.html" class="tsd-signature-type">IValueFormatter</a>, internalData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, setInternalData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">React.SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, isAddOperation<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, editModule<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_edit_interfaces_d_.useeditresult.html" class="tsd-signature-type">UseEditResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, formState<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FormState</span>, formRef<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IFormValidator</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-type-parameters-title">Type parameters</h4>
+									<ul class="tsd-type-parameters">
+										<li>
+											<h4>T</h4>
+										</li>
+									</ul>
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>column: <a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+										<li>
+											<h5>value: <a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+										<li>
+											<h5>formatter: <a href="../interfaces/_grid_types_interfaces_d_.ivalueformatter.html" class="tsd-signature-type">IValueFormatter</a></h5>
+										</li>
+										<li>
+											<h5>internalData: <span class="tsd-signature-type">T</span></h5>
+										</li>
+										<li>
+											<h5>setInternalData: <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">React.SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+											<ul class="tsd-parameters">
+												<li class="tsd-parameter-siganture">
+													<ul class="tsd-signatures tsd-kind-type-literal">
+														<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">React.SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+													</ul>
+													<ul class="tsd-descriptions">
+														<li class="tsd-description">
+															<h4 class="tsd-parameters-title">Parameters</h4>
+															<ul class="tsd-parameters">
+																<li>
+																	<h5>value: <span class="tsd-signature-type">React.SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+																</li>
+															</ul>
+															<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<h5>isAddOperation: <span class="tsd-signature-type">boolean</span></h5>
+										</li>
+										<li>
+											<h5>editModule: <a href="../interfaces/_grid_types_edit_interfaces_d_.useeditresult.html" class="tsd-signature-type">UseEditResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+										<li>
+											<h5>formState: <span class="tsd-signature-type">FormState</span></h5>
+										</li>
+										<li>
+											<h5>formRef: <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IFormValidator</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
+				<a name="handlefieldchangefn" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagConst">Const</span> handle<wbr>Field<wbr>Change<wbr>Fn</h3>
+				<div class="tsd-signature tsd-kind-icon">handle<wbr>Field<wbr>Change<wbr>Fn<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>column<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, value<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a>, formatter<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.ivalueformatter.html" class="tsd-signature-type">IValueFormatter</a>, internalData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, setInternalData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">React.SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, formState<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FormState</span>, stableOnFieldChange<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>field<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/views/editing/InlineEditForm.d.ts:39</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Updates internal form data and notifies parent of field changes on user input.
+						Formats values based on column type and updates both internal state and FormValidator state for real-time validation.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>param</dt>
+						<dd><p>The column definition for the field being changed</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>The new value entered by the user</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Formatter service for type conversion</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Current internal form data state</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>State setter function for internal data</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Current FormValidator state</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Stable callback to notify parent of field changes</p>
+						</dd>
+						<dt>returns</dt>
+						<dd></dd>
+					</dl>
+				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable tsd-has-type-parameter">
+								<li class="tsd-signature tsd-kind-icon">&lt;T&gt;<span class="tsd-signature-symbol">(</span>column<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, value<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a>, formatter<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.ivalueformatter.html" class="tsd-signature-type">IValueFormatter</a>, internalData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, setInternalData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">React.SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, formState<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FormState</span>, stableOnFieldChange<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>field<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-type-parameters-title">Type parameters</h4>
+									<ul class="tsd-type-parameters">
+										<li>
+											<h4>T</h4>
+										</li>
+									</ul>
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>column: <a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+										<li>
+											<h5>value: <a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a></h5>
+										</li>
+										<li>
+											<h5>formatter: <a href="../interfaces/_grid_types_interfaces_d_.ivalueformatter.html" class="tsd-signature-type">IValueFormatter</a></h5>
+										</li>
+										<li>
+											<h5>internalData: <span class="tsd-signature-type">T</span></h5>
+										</li>
+										<li>
+											<h5>setInternalData: <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">React.SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+											<ul class="tsd-parameters">
+												<li class="tsd-parameter-siganture">
+													<ul class="tsd-signatures tsd-kind-type-literal">
+														<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">React.SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+													</ul>
+													<ul class="tsd-descriptions">
+														<li class="tsd-description">
+															<h4 class="tsd-parameters-title">Parameters</h4>
+															<ul class="tsd-parameters">
+																<li>
+																	<h5>value: <span class="tsd-signature-type">React.SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+																</li>
+															</ul>
+															<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<h5>formState: <span class="tsd-signature-type">FormState</span></h5>
+										</li>
+										<li>
+											<h5>stableOnFieldChange: <span class="tsd-signature-symbol">(</span>field<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+											<ul class="tsd-parameters">
+												<li class="tsd-parameter-siganture">
+													<ul class="tsd-signatures tsd-kind-type-literal">
+														<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>field<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+													</ul>
+													<ul class="tsd-descriptions">
+														<li class="tsd-description">
+															<h4 class="tsd-parameters-title">Parameters</h4>
+															<ul class="tsd-parameters">
+																<li>
+																	<h5>field: <span class="tsd-signature-type">string</span></h5>
+																</li>
+																<li>
+																	<h5>value: <a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
+																</li>
+															</ul>
+															<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
+				<a name="internaldatafn" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagConst">Const</span> internal<wbr>Data<wbr>Fn</h3>
+				<div class="tsd-signature tsd-kind-icon">internal<wbr>Data<wbr>Fn<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>isAddOperation<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, editData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, columns<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">T</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/views/editing/InlineEditForm.d.ts:24</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Initializes internal data for edit/add operations with default values.
+						For add operations, creates empty object with only explicitly defined defaultValues; for edit operations, copies all existing data.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>param</dt>
+						<dd><p>Flag indicating if this is an add operation (true) or edit operation (false)</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>The data to initialize with; for edit operations, this is the existing row data</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Array of column definitions to extract default values from</p>
+						</dd>
+						<dt>returns</dt>
+						<dd><p>Initialized data object with appropriate values for the operation type</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable tsd-has-type-parameter">
+								<li class="tsd-signature tsd-kind-icon">&lt;T&gt;<span class="tsd-signature-symbol">(</span>isAddOperation<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, editData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, columns<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-type-parameters-title">Type parameters</h4>
+									<ul class="tsd-type-parameters">
+										<li>
+											<h4>T</h4>
+										</li>
+									</ul>
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>isAddOperation: <span class="tsd-signature-type">boolean</span></h5>
+										</li>
+										<li>
+											<h5>editData: <span class="tsd-signature-type">T</span></h5>
+										</li>
+										<li>
+											<h5>columns: <a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
 								</li>
 							</ul>
 						</li>
