@@ -2384,6 +2384,9 @@ img {
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_interfaces_d_.usescrollresult.html#setheaderscrollelement" class="tsd-kind-icon">set<wbr>Header<wbr>Scroll<wbr>Element</a>
 				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_interfaces_d_.usescrollresult.html#setvirtualcontentrowscrollelement" class="tsd-kind-icon">set<wbr>Virtual<wbr>Content<wbr>Row<wbr>Scroll<wbr>Element</a>
+				</li>
 			</ul>
 		</li>
 	</ul>
@@ -2431,6 +2434,7 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.usescrollresult.html#setcontentscrollelement" class="tsd-kind-icon">set<wbr>Content<wbr>Scroll<wbr>Element</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.usescrollresult.html#setfooterscrollelement" class="tsd-kind-icon">set<wbr>Footer<wbr>Scroll<wbr>Element</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.usescrollresult.html#setheaderscrollelement" class="tsd-kind-icon">set<wbr>Header<wbr>Scroll<wbr>Element</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.usescrollresult.html#setvirtualcontentrowscrollelement" class="tsd-kind-icon">set<wbr>Virtual<wbr>Content<wbr>Row<wbr>Scroll<wbr>Element</a></li>
 						</ul>
 					</section>
 				</div>
@@ -2441,10 +2445,10 @@ img {
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="privatescrollapi" class="tsd-anchor"></a>
 				<h3>private<wbr>ScrollAPI</h3>
-				<div class="tsd-signature tsd-kind-icon">private<wbr>ScrollAPI<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>getCssProperties<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.scrollcss.html" class="tsd-signature-type">ScrollCss</a><span class="tsd-signature-symbol">; </span>headerContentBorder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CSSProperties</span><span class="tsd-signature-symbol">; </span>headerPadding<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CSSProperties</span><span class="tsd-signature-symbol">; </span>onContentScroll<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">UIEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLDivElement</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>onFooterScroll<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">UIEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLDivElement</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>onHeaderScroll<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">UIEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLDivElement</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> }</span></div>
+				<div class="tsd-signature tsd-kind-icon">private<wbr>ScrollAPI<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>getCssProperties<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.scrollcss.html" class="tsd-signature-type">ScrollCss</a><span class="tsd-signature-symbol">; </span>headerContentBorder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CSSProperties</span><span class="tsd-signature-symbol">; </span>headerPadding<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CSSProperties</span><span class="tsd-signature-symbol">; </span>onContentScroll<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">UIEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLDivElement</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>onFooterScroll<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">UIEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLDivElement</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>onHeaderScroll<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">UIEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLDivElement</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>onVirtualRowContentScroll<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">UIEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLDivElement</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> }</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:1143</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:1150</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2557,6 +2561,32 @@ img {
 								</li>
 							</ul>
 						</li>
+						<li class="tsd-parameter">
+							<h5>on<wbr>Virtual<wbr>Row<wbr>Content<wbr>Scroll<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">UIEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLDivElement</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Event handler for virtual content row scroll events</p>
+								</div>
+							</div>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-siganture">
+									<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable">
+										<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">UIEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLDivElement</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+									</ul>
+									<ul class="tsd-descriptions">
+										<li class="tsd-description">
+											<h4 class="tsd-parameters-title">Parameters</h4>
+											<ul class="tsd-parameters">
+												<li>
+													<h5>event: <span class="tsd-signature-type">UIEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLDivElement</span><span class="tsd-signature-symbol">&gt;</span></h5>
+												</li>
+											</ul>
+											<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</section>
@@ -2566,7 +2596,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">protected<wbr>ScrollAPI<span class="tsd-signature-symbol">:</span> <a href="_grid_types_interfaces_d_.scroll.html" class="tsd-signature-type">Scroll</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:1158</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:1167</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2581,7 +2611,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">public<wbr>ScrollAPI<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_grid_interfaces_d_.igrid.html" class="tsd-signature-type">IGrid</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:1141</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:1148</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2596,7 +2626,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">set<wbr>Content<wbr>Scroll<wbr>Element<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>element<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:1162</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:1171</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2632,7 +2662,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">set<wbr>Footer<wbr>Scroll<wbr>Element<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>element<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:1164</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:1174</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2668,7 +2698,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">set<wbr>Header<wbr>Scroll<wbr>Element<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>element<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:1160</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:1169</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2676,6 +2706,37 @@ img {
 						<p>Method to set header scroll element reference</p>
 					</div>
 				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>element<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>element: <span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="setvirtualcontentrowscrollelement" class="tsd-anchor"></a>
+				<h3>set<wbr>Virtual<wbr>Content<wbr>Row<wbr>Scroll<wbr>Element</h3>
+				<div class="tsd-signature tsd-kind-icon">set<wbr>Virtual<wbr>Content<wbr>Row<wbr>Scroll<wbr>Element<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>element<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/interfaces.d.ts:1172</li>
+					</ul>
+				</aside>
 				<div class="tsd-type-declaration">
 					<h4>Type declaration</h4>
 					<ul class="tsd-parameters">
