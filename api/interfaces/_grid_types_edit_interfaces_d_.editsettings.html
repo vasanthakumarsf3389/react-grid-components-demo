@@ -2555,7 +2555,7 @@ img {
 					</div>
 					<p>When this property is set to true, new rows can be inserted either through programmatic methods
 						or by using toolbar &#39;Add&#39; action. To enable this functionality, at least one column must be defined
-					as a primary key using the isPrimaryKey property in the column configuration.</p>
+					as a primary key using the <code>isPrimaryKey</code> property in the column configuration.</p>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>false</p>
@@ -2600,7 +2600,7 @@ img {
 					</div>
 					<p>When this property is set to true, users can modify cell values in existing rows either through
 						programmatic updates or via toolbar &#39;Edit&#39; interaction. Editing requires that at least one column
-					is marked as a primary key using the isPrimaryKey property.</p>
+					is marked as a primary key using the <code>isPrimaryKey</code> property.</p>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>false</p>
@@ -2691,9 +2691,9 @@ img {
 					<p>The editing mode defines how users interact with editable cells.</p>
 					<p>Supported modes include:</p>
 					<ul>
-						<li>Normal :- Inline editing directly within grid cells.</li>
-						<li>Popup :- Modal dialog with auto-generated form fields.</li>
-						<li>PopupTemplate :- Modal dialog with custom template.</li>
+						<li><code>Normal</code> :- Inline editing directly within grid cells.</li>
+						<li><code>Popup</code> :- Modal dialog with auto-generated form fields.</li>
+						<li><code>PopupTemplate</code> :- Modal dialog with custom template.</li>
 					</ul>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2717,8 +2717,8 @@ img {
 					</div>
 					<p>Supported values include:</p>
 					<ul>
-						<li>Top: Inserts the new row at the beginning of the grid.</li>
-						<li>Bottom: Inserts the new row at the end of the grid.</li>
+						<li><code>Top</code>: Inserts the new row at the beginning of the grid.</li>
+						<li><code>Bottom</code>: Inserts the new row at the end of the grid.</li>
 					</ul>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2738,9 +2738,9 @@ img {
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Configuration settings for customizing the Dialog component in popup edit modes.</p>
+						<p>Configuration settings for customizing the Syncfusion <code>Dialog</code> component used in popup edit mode.</p>
 					</div>
-					<p>Accepts any valid Dialog component props for popup styling, positioning, and behavior customization.</p>
+					<p>Accepts any valid <code>Dialog</code> component props for popup styling, positioning, and behavior customization.</p>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>null</p>
@@ -2761,7 +2761,7 @@ img {
 					<div class="lead">
 						<p>Custom React component template for rendering the popup edit form.</p>
 					</div>
-					<p>Used with PopupTemplate mode to display custom form layouts in the modal dialog.</p>
+					<p>Used with <code>PopupTemplate</code> mode to display custom form layouts in the modal dialog.</p>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>null</p>
@@ -2805,7 +2805,7 @@ img {
 						<p>Specifies a custom React component to be used as the edit template for grid rows.</p>
 					</div>
 					<p>This component replaces the default editing interface and receives the current row data as props.
-					It can be used to implement advanced form layouts, validation logic, or third-party integrations.</p>
+					It can be used to implement advanced form layouts, validation logic, or custom component integrations.</p>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>null</p>
