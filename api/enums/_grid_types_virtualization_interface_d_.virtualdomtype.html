@@ -2380,7 +2380,7 @@ img {
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
 			<a href="../interfaces/_grid_types_virtualization_interface_d_.virtualbuffersettings.html" class="tsd-kind-icon">Virtual<wbr>Buffer<wbr>Settings</a>
 		</li>
-		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-private">
 			<a href="../interfaces/_grid_types_virtualization_interface_d_.virtualsettings.html" class="tsd-kind-icon">Virtual<wbr>Settings</a>
 		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
@@ -2392,9 +2392,13 @@ img {
 	<div class="content-wrap">
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
+				<div class="lead">
+					<p>Specifies the virtualization rendering strategy for grid content.
+					Determines whether rows, columns, or both are virtualized in the DOM.</p>
+				</div>
 				<dl class="tsd-comment-tags">
 					<dt>default</dt>
-					<dd><p>Both</p>
+					<dd><p>VirtualDomType.Both</p>
 					</dd>
 				</dl>
 			</div>
@@ -2422,9 +2426,19 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Both<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Both&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:8</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:26</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Virtualizes both rows and columns in the DOM.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>&#39;Both&#39;</p>
+						</dd>
+					</dl>
+				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
 				<a name="column" class="tsd-anchor"></a>
@@ -2432,9 +2446,19 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Column<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Column&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:7</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:20</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Virtualizes only columns in the DOM.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>&#39;Column&#39;</p>
+						</dd>
+					</dl>
+				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
 				<a name="row" class="tsd-anchor"></a>
@@ -2442,9 +2466,19 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Row<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Row&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:6</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:14</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Virtualizes only rows in the DOM.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>&#39;Row&#39;</p>
+						</dd>
+					</dl>
+				</div>
 			</section>
 		</section>
 		<footer class="with-border-bottom">
