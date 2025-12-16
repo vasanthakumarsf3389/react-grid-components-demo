@@ -2388,10 +2388,10 @@ img {
 			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 				<a name="usefilter" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagConst">Const</span> use<wbr>Filter</h3>
-				<div class="tsd-signature tsd-kind-icon">use<wbr>Filter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&gt;</span>, filterSetting<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_filter_interfaces_d_.filtersettings.html" class="tsd-signature-type">FilterSettings</a>, setGridAction<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, serviceLocator<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_interfaces_d_.servicelocator.html" class="tsd-signature-type">ServiceLocator</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_filter_interfaces_d_.html#filtermodule" class="tsd-signature-type">filterModule</a></div>
+				<div class="tsd-signature tsd-kind-icon">use<wbr>Filter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&gt;</span>, filterSetting<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_filter_interfaces_d_.filtersettings.html" class="tsd-signature-type">FilterSettings</a>, setGridAction<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, serviceLocator<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_interfaces_d_.servicelocator.html" class="tsd-signature-type">ServiceLocator</a>, setCurrentPage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Dispatch</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, virtualSettings<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_virtualization_interface_d_.virtualsettings.html" class="tsd-signature-type">VirtualSettings</a>, scrollMode<span class="tsd-signature-symbol">?: </span><a href="../enums/_grid_types_enum_d_.scrollmode.html" class="tsd-signature-type">ScrollMode</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_filter_interfaces_d_.html#filtermodule" class="tsd-signature-type">filterModule</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/useFilter.d.ts:15</li>
+						<li>Defined in src/grid/hooks/useFilter.d.ts:19</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2411,6 +2411,15 @@ img {
 						<dt>param</dt>
 						<dd><p>Defines the service locator</p>
 						</dd>
+						<dt>param</dt>
+						<dd><p>State Dispatch Function to update grid currentPage</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>virtualization settings</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>scroll mode setting</p>
+						</dd>
 						<dt>returns</dt>
 						<dd><p>An object containing various filter-related state and API</p>
 						</dd>
@@ -2421,7 +2430,7 @@ img {
 					<ul class="tsd-parameters">
 						<li class="tsd-parameter-siganture">
 							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable">
-								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&gt;</span>, filterSetting<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_filter_interfaces_d_.filtersettings.html" class="tsd-signature-type">FilterSettings</a>, setGridAction<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, serviceLocator<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_interfaces_d_.servicelocator.html" class="tsd-signature-type">ServiceLocator</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_grid_types_filter_interfaces_d_.html#filtermodule" class="tsd-signature-type">filterModule</a></li>
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&gt;</span>, filterSetting<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_filter_interfaces_d_.filtersettings.html" class="tsd-signature-type">FilterSettings</a>, setGridAction<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, serviceLocator<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_interfaces_d_.servicelocator.html" class="tsd-signature-type">ServiceLocator</a>, setCurrentPage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Dispatch</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, virtualSettings<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_virtualization_interface_d_.virtualsettings.html" class="tsd-signature-type">VirtualSettings</a>, scrollMode<span class="tsd-signature-symbol">?: </span><a href="../enums/_grid_types_enum_d_.scrollmode.html" class="tsd-signature-type">ScrollMode</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_grid_types_filter_interfaces_d_.html#filtermodule" class="tsd-signature-type">filterModule</a></li>
 							</ul>
 							<ul class="tsd-descriptions">
 								<li class="tsd-description">
@@ -2456,6 +2465,15 @@ img {
 										</li>
 										<li>
 											<h5><span class="tsd-flag ts-flagOptional">Optional</span> serviceLocator: <a href="../interfaces/_grid_types_interfaces_d_.servicelocator.html" class="tsd-signature-type">ServiceLocator</a></h5>
+										</li>
+										<li>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> setCurrentPage: <span class="tsd-signature-type">Dispatch</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+										<li>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> virtualSettings: <a href="../interfaces/_grid_types_virtualization_interface_d_.virtualsettings.html" class="tsd-signature-type">VirtualSettings</a></h5>
+										</li>
+										<li>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> scrollMode: <a href="../enums/_grid_types_enum_d_.scrollmode.html" class="tsd-signature-type">ScrollMode</a></h5>
 										</li>
 									</ul>
 									<h4 class="tsd-returns-title">Returns <a href="_grid_types_filter_interfaces_d_.html#filtermodule" class="tsd-signature-type">filterModule</a></h4>
