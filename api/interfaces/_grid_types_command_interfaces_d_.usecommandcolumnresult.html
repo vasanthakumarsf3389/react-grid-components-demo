@@ -2375,7 +2375,7 @@ img {
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-private">
 			<a href="_grid_types_command_interfaces_d_.icommandcolumnbase.html" class="tsd-kind-icon">ICommand<wbr>Column<wbr>Base</a>
 		</li>
-		<li class="current tsd-kind-interface tsd-parent-kind-external-module tsd-is-private">
+		<li class="current tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
 			<a href="_grid_types_command_interfaces_d_.usecommandcolumnresult.html" class="tsd-kind-icon">Use<wbr>Command<wbr>Column<wbr>Result</a>
 			<ul>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2393,6 +2393,9 @@ img {
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_command_interfaces_d_.usecommandcolumnresult.html#commandeditref" class="tsd-kind-icon">command<wbr>Edit<wbr>Ref</a>
 				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_command_interfaces_d_.usecommandcolumnresult.html#commandeditstateref" class="tsd-kind-icon">command<wbr>Edit<wbr>State<wbr>Ref</a>
+				</li>
 			</ul>
 		</li>
 	</ul>
@@ -2407,6 +2410,14 @@ img {
 					Used to manage the editing state of rows and form references for validation and submission.</p>
 				</div>
 			</div>
+		</section>
+		<section class="tsd-panel tsd-type-parameters">
+			<h3>Type parameters</h3>
+			<ul class="tsd-type-parameters">
+				<li>
+					<h4>T</h4>
+				</li>
+			</ul>
 		</section>
 		<section class="tsd-panel tsd-hierarchy">
 			<h3>Hierarchy</h3>
@@ -2428,6 +2439,7 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_command_interfaces_d_.usecommandcolumnresult.html#commandedit" class="tsd-kind-icon">command<wbr>Edit</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_command_interfaces_d_.usecommandcolumnresult.html#commandeditinlineformref" class="tsd-kind-icon">command<wbr>Edit<wbr>Inline<wbr>Form<wbr>Ref</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_command_interfaces_d_.usecommandcolumnresult.html#commandeditref" class="tsd-kind-icon">command<wbr>Edit<wbr>Ref</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_command_interfaces_d_.usecommandcolumnresult.html#commandeditstateref" class="tsd-kind-icon">command<wbr>Edit<wbr>State<wbr>Ref</a></li>
 						</ul>
 					</section>
 				</div>
@@ -2441,7 +2453,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">command<wbr>Add<wbr>Inline<wbr>Form<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/command.interfaces.d.ts:161</li>
+						<li>Defined in src/grid/types/command.interfaces.d.ts:168</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2464,7 +2476,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">command<wbr>Add<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_interfaces_d_.irow.html" class="tsd-signature-type">IRow</a><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/command.interfaces.d.ts:140</li>
+						<li>Defined in src/grid/types/command.interfaces.d.ts:147</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2508,7 +2520,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">command<wbr>Edit<wbr>Inline<wbr>Form<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/command.interfaces.d.ts:149</li>
+						<li>Defined in src/grid/types/command.interfaces.d.ts:156</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2544,6 +2556,22 @@ img {
 						<dd><p>{}</p>
 						</dd>
 					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="commandeditstateref" class="tsd-anchor"></a>
+				<h3>command<wbr>Edit<wbr>State<wbr>Ref</h3>
+				<div class="tsd-signature tsd-kind-icon">command<wbr>Edit<wbr>State<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">&gt;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/command.interfaces.d.ts:136</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Reference object mapping row UIDs to their individual edit state object
+						Allows tracking which specific rows with its updated data in edit mode</p>
+					</div>
 				</div>
 			</section>
 		</section>
