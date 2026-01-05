@@ -2375,7 +2375,7 @@ img {
 		<li class="current tsd-kind-interface tsd-parent-kind-external-module">
 			<a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html" class="tsd-kind-icon">Virtualization<wbr>Settings</a>
 			<ul>
-				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-private">
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#enablecache" class="tsd-kind-icon">enable<wbr>Cache</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2402,10 +2402,22 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Configures virtualization behavior for grid rendering.
-						Includes options for enabling virtualization, defining DOM type,
-					and customizing buffer and scroll settings.</p>
+					<p>Configures virtualization behavior for Grid rendering.
+						Provides options for enabling virtualization, defining DOM type,
+					customizing buffer size, and controlling scroll and cache settings.</p>
 				</div>
+				<dl class="tsd-comment-tags">
+					<dt>example</dt>
+					<dd><pre><code class="language-tsx">const virtualization: VirtualizationSettings = {
+  enabled: true,
+  type: VirtualDomType.Both,
+  viewPortBuffer: { rows: 5, columns: 5 },
+  scrollMode: ScrollMode.Virtual,
+  enableCache: true
+};
+&lt;Grid virtualizationSettings={virtualization} /&gt;</code></pre>
+					</dd>
+				</dl>
 			</div>
 		</section>
 		<section class="tsd-panel tsd-hierarchy">
@@ -2423,7 +2435,7 @@ img {
 					<section class="tsd-index-section ">
 						<h3>Properties</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#enablecache" class="tsd-kind-icon">enable<wbr>Cache</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#enablecache" class="tsd-kind-icon">enable<wbr>Cache</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#enabled" class="tsd-kind-icon">enabled</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#preventmaxrenderedrows" class="tsd-kind-icon">prevent<wbr>Max<wbr>Rendered<wbr>Rows</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#scrollmode" class="tsd-kind-icon">scroll<wbr>Mode</a></li>
@@ -2436,18 +2448,20 @@ img {
 		</section>
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Properties</h2>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-private">
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="enablecache" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagOptional">Optional</span> <span class="tsd-flag ts-flagPrivate">Private</span> enable<wbr>Cache</h3>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> enable<wbr>Cache</h3>
 				<div class="tsd-signature tsd-kind-icon">enable<wbr>Cache<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:89</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:106</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Enables caching of virtualized content for improved performance.</p>
+						<p>Enables caching of virtualized content for improved performance.
+							When true, previously visited views are not re-fetched from the server.
+						When false, every viewport change triggers a new request.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2462,12 +2476,13 @@ img {
 				<div class="tsd-signature tsd-kind-icon">enabled<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:58</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:71</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Enables or disables virtualization.</p>
+						<p>Enables or disables virtualization.
+						When true, only visible rows and columns are rendered for performance optimization.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2482,12 +2497,13 @@ img {
 				<div class="tsd-signature tsd-kind-icon">prevent<wbr>Max<wbr>Rendered<wbr>Rows<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:76</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:91</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Prevents rendering of maximum rows when row virtualization is disabled.</p>
+						<p>Prevents rendering of maximum rows when row virtualization is disabled.
+						Useful for limiting DOM size in non-virtualized scenarios.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2502,12 +2518,13 @@ img {
 				<div class="tsd-signature tsd-kind-icon">scroll<wbr>Mode<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.scrollmode.html" class="tsd-signature-type">ScrollMode</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:82</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:98</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Specifies the scroll mode for virtualization.</p>
+						<p>Specifies the scroll mode for virtualization.
+						Determines whether data is fetched from the server or rendered locally.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2522,7 +2539,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_virtualization_interface_d_.virtualdomtype.html" class="tsd-signature-type">VirtualDomType</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:64</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:77</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2542,12 +2559,13 @@ img {
 				<div class="tsd-signature tsd-kind-icon">view<wbr>Port<wbr>Buffer<span class="tsd-signature-symbol">:</span> <a href="_grid_types_virtualization_interface_d_.virtualbuffersettings.html" class="tsd-signature-type">VirtualBufferSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:70</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:84</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Defines buffer settings for rows and columns outside the viewport.</p>
+						<p>Defines buffer settings for rows and columns outside the viewport.
+						Helps reduce flickering during fast scrolling.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>

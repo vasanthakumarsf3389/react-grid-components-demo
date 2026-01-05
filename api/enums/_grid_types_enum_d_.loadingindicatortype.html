@@ -2462,10 +2462,17 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Defines Loading Indicator of the Grid.</p>
-					<pre><code class="language-props">* Spinner :- Defines Loading Indicator as Spinner.
-* Shimmer :- Defines Loading Indicator as Shimmer.</code></pre>
+					<p>Specifies the type of loading indicator displayed in the Grid.
+					Used to indicate data loading state during asynchronous operations.</p>
 				</div>
+				<dl class="tsd-comment-tags">
+					<dt>default</dt>
+					<dd><p>LoadingIndicatorType.Spinner</p>
+					</dd>
+					<dt>example</dt>
+					<dd><pre><code class="language-tsx">&lt;Grid loadingIndicatorType={LoadingIndicatorType.Shimmer} /&gt;</code></pre>
+					</dd>
+				</dl>
 			</div>
 		</section>
 		<section class="tsd-panel-group tsd-index-group">
@@ -2490,9 +2497,20 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Shimmer<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Shimmer&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:678</li>
+						<li>Defined in src/grid/types/enum.d.ts:742</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Displays a shimmer effect as the loading indicator.
+						Suitable for skeleton-style loading placeholders.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>&#39;Shimmer&#39;</p>
+						</dd>
+					</dl>
+				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
 				<a name="spinner" class="tsd-anchor"></a>
@@ -2500,9 +2518,20 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Spinner<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Spinner&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:677</li>
+						<li>Defined in src/grid/types/enum.d.ts:735</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Displays a spinner as the loading indicator.
+						Recommended for minimalistic loading feedback.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>&#39;Spinner&#39;</p>
+						</dd>
+					</dl>
+				</div>
 			</section>
 		</section>
 		<footer class="with-border-bottom">

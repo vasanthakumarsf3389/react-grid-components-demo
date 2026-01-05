@@ -2462,6 +2462,24 @@ img {
 </nav>
 <div class="container container-main">
 	<div class="content-wrap">
+		<section class="tsd-panel tsd-comment">
+			<div class="tsd-comment tsd-typography">
+				<div class="lead">
+					<p>Specifies the scrolling behavior for the Grid component.
+					Determines how rows are rendered and loaded during scrolling.</p>
+				</div>
+				<ul>
+					<li><code>Virtual</code> - Loads only the current viewport data from the server. Ideal for large remote datasets.</li>
+					<li><code>Infinite</code> - Continuously fetches additional data as the user scrolls down.</li>
+					<li><code>Auto</code> - Uses local data rendering without server requests.</li>
+				</ul>
+				<dl class="tsd-comment-tags">
+					<dt>example</dt>
+					<dd><pre><code class="language-tsx">&lt;Grid scrollMode={ScrollMode.Virtual} /&gt;</code></pre>
+					</dd>
+				</dl>
+			</div>
+		</section>
 		<section class="tsd-panel-group tsd-index-group">
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
@@ -2485,9 +2503,20 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Auto<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Auto&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:664</li>
+						<li>Defined in src/grid/types/enum.d.ts:698</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Automatically selects local rendering mode.
+						Suitable for scenarios where all data is available locally.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>&#39;Auto&#39;</p>
+						</dd>
+					</dl>
+				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
 				<a name="infinite" class="tsd-anchor"></a>
@@ -2495,9 +2524,20 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Infinite<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Infinite&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:663</li>
+						<li>Defined in src/grid/types/enum.d.ts:691</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Enables infinite scrolling.
+						Continuously loads additional rows from the server as the user scrolls.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>&#39;Infinite&#39;</p>
+						</dd>
+					</dl>
+				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
 				<a name="virtual" class="tsd-anchor"></a>
@@ -2505,9 +2545,23 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Virtual<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Virtual&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:662</li>
+						<li>Defined in src/grid/types/enum.d.ts:684</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Enables virtual scrolling.
+							Fetches data for the current viewport from the server.
+							Works with caching based on <code>VirtualizationSettings.enableCache</code>.
+							If <code>enableCache</code> is false, every revisit triggers a new request.
+						If true (default), previously visited views are cached.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>&#39;Virtual&#39;</p>
+						</dd>
+					</dl>
+				</div>
 			</section>
 		</section>
 		<footer class="with-border-bottom">

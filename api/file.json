@@ -5,17 +5,17 @@
 	"flags": {},
 	"children": [
 		{
-			"id": 55,
+			"id": 3,
 			"name": "\"grid/components/Column.d\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/components/Column.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/components/Column.d.ts",
 			"children": [
 				{
-					"id": 61,
+					"id": 9,
 					"name": "Column",
 					"kind": 32,
 					"kindString": "Variable",
@@ -55,7 +55,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 62,
+							"id": 10,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -64,7 +64,7 @@
 							},
 							"signatures": [
 								{
-									"id": 63,
+									"id": 11,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -73,7 +73,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 64,
+											"id": 12,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -84,7 +84,7 @@
 									],
 									"parameters": [
 										{
-											"id": 65,
+											"id": 13,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -127,7 +127,7 @@
 					}
 				},
 				{
-					"id": 56,
+					"id": 4,
 					"name": "ColumnBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -169,7 +169,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 57,
+							"id": 5,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -178,7 +178,7 @@
 							},
 							"signatures": [
 								{
-									"id": 58,
+									"id": 6,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -187,7 +187,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 59,
+											"id": 7,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -198,7 +198,7 @@
 									],
 									"parameters": [
 										{
-											"id": 60,
+											"id": 8,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -246,8 +246,8 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						61,
-						56
+						9,
+						4
 					]
 				}
 			],
@@ -260,17 +260,17 @@
 			]
 		},
 		{
-			"id": 66,
+			"id": 14,
 			"name": "\"grid/components/CommandColumn.d\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/components/CommandColumn.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/components/CommandColumn.d.ts",
 			"children": [
 				{
-					"id": 71,
+					"id": 19,
 					"name": "CommandColumnBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -321,7 +321,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 72,
+							"id": 20,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -330,7 +330,7 @@
 							},
 							"signatures": [
 								{
-									"id": 73,
+									"id": 21,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -339,7 +339,7 @@
 									},
 									"parameters": [
 										{
-											"id": 74,
+											"id": 22,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -376,7 +376,7 @@
 					}
 				},
 				{
-					"id": 67,
+					"id": 15,
 					"name": "CommandItem",
 					"kind": 32,
 					"kindString": "Variable",
@@ -427,7 +427,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 68,
+							"id": 16,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -436,7 +436,7 @@
 							},
 							"signatures": [
 								{
-									"id": 69,
+									"id": 17,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -445,7 +445,7 @@
 									},
 									"parameters": [
 										{
-											"id": 70,
+											"id": 18,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -487,8 +487,8 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						71,
-						67
+						19,
+						15
 					]
 				}
 			],
@@ -501,17 +501,17 @@
 			]
 		},
 		{
-			"id": 75,
+			"id": 23,
 			"name": "\"grid/components/Grid.d\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/components/Grid.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/components/Grid.d.ts",
 			"children": [
 				{
-					"id": 81,
+					"id": 29,
 					"name": "Grid",
 					"kind": 32,
 					"kindString": "Variable",
@@ -548,7 +548,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 82,
+							"id": 30,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -557,7 +557,7 @@
 							},
 							"signatures": [
 								{
-									"id": 83,
+									"id": 31,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -566,7 +566,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 84,
+											"id": 32,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -577,7 +577,7 @@
 									],
 									"parameters": [
 										{
-											"id": 85,
+											"id": 33,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -651,7 +651,7 @@
 					}
 				},
 				{
-					"id": 76,
+					"id": 24,
 					"name": "GridBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -673,7 +673,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 77,
+							"id": 25,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -682,7 +682,7 @@
 							},
 							"signatures": [
 								{
-									"id": 78,
+									"id": 26,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -691,7 +691,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 79,
+											"id": 27,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -702,7 +702,7 @@
 									],
 									"parameters": [
 										{
-											"id": 80,
+											"id": 28,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -772,8 +772,8 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						81,
-						76
+						29,
+						24
 					]
 				}
 			],
@@ -786,17 +786,17 @@
 			]
 		},
 		{
-			"id": 87,
+			"id": 35,
 			"name": "\"grid/components/Row.d\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/components/Row.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/components/Row.d.ts",
 			"children": [
 				{
-					"id": 88,
+					"id": 36,
 					"name": "RowBase",
 					"kind": 32,
 					"kindString": "Variable",
@@ -858,7 +858,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 89,
+							"id": 37,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -867,7 +867,7 @@
 							},
 							"signatures": [
 								{
-									"id": 90,
+									"id": 38,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -876,7 +876,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 91,
+											"id": 39,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -887,7 +887,7 @@
 									],
 									"parameters": [
 										{
-											"id": 92,
+											"id": 40,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -945,7 +945,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						88
+						36
 					]
 				}
 			],
@@ -958,14 +958,14 @@
 			]
 		},
 		{
-			"id": 86,
+			"id": 34,
 			"name": "\"grid/components/index.d\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/components/index.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/components/index.d.ts",
 			"sources": [
 				{
 					"fileName": "src/grid/components/index.d.ts",
@@ -975,17 +975,17 @@
 			]
 		},
 		{
-			"id": 3,
+			"id": 41,
 			"name": "\"grid/contexts/GridProviders.d\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/contexts/GridProviders.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/contexts/GridProviders.d.ts",
 			"children": [
 				{
-					"id": 4,
+					"id": 42,
 					"name": "GridComputedProvider",
 					"kind": 32,
 					"kindString": "Variable",
@@ -1027,7 +1027,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 5,
+							"id": 43,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -1036,7 +1036,7 @@
 							},
 							"signatures": [
 								{
-									"id": 6,
+									"id": 44,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1045,7 +1045,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 7,
+											"id": 45,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -1056,7 +1056,7 @@
 									],
 									"parameters": [
 										{
-											"id": 8,
+											"id": 46,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1066,7 +1066,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 9,
+													"id": 47,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -1075,7 +1075,7 @@
 													},
 													"children": [
 														{
-															"id": 11,
+															"id": 49,
 															"name": "children",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1104,7 +1104,7 @@
 															}
 														},
 														{
-															"id": 10,
+															"id": 48,
 															"name": "grid",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1164,8 +1164,8 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																11,
-																10
+																49,
+																48
 															]
 														}
 													],
@@ -1197,7 +1197,7 @@
 					}
 				},
 				{
-					"id": 16,
+					"id": 54,
 					"name": "GridMutableProvider",
 					"kind": 32,
 					"kindString": "Variable",
@@ -1239,7 +1239,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 17,
+							"id": 55,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -1248,7 +1248,7 @@
 							},
 							"signatures": [
 								{
-									"id": 18,
+									"id": 56,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1257,7 +1257,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 19,
+											"id": 57,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -1268,7 +1268,7 @@
 									],
 									"parameters": [
 										{
-											"id": 20,
+											"id": 58,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1278,7 +1278,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 21,
+													"id": 59,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -1287,7 +1287,7 @@
 													},
 													"children": [
 														{
-															"id": 23,
+															"id": 61,
 															"name": "children",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1316,7 +1316,7 @@
 															}
 														},
 														{
-															"id": 22,
+															"id": 60,
 															"name": "grid",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1354,8 +1354,8 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																23,
-																22
+																61,
+																60
 															]
 														}
 													],
@@ -1387,7 +1387,7 @@
 					}
 				},
 				{
-					"id": 12,
+					"id": 50,
 					"name": "useGridComputedProvider",
 					"kind": 32,
 					"kindString": "Variable",
@@ -1414,7 +1414,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 13,
+							"id": 51,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -1423,7 +1423,7 @@
 							},
 							"signatures": [
 								{
-									"id": 14,
+									"id": 52,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1432,7 +1432,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 15,
+											"id": 53,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -1493,7 +1493,7 @@
 					}
 				},
 				{
-					"id": 24,
+					"id": 62,
 					"name": "useGridMutableProvider",
 					"kind": 32,
 					"kindString": "Variable",
@@ -1520,7 +1520,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 25,
+							"id": 63,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -1529,7 +1529,7 @@
 							},
 							"signatures": [
 								{
-									"id": 26,
+									"id": 64,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1538,7 +1538,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 27,
+											"id": 65,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -1576,10 +1576,10 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						4,
-						16,
-						12,
-						24
+						42,
+						54,
+						50,
+						62
 					]
 				}
 			],
@@ -1592,17 +1592,17 @@
 			]
 		},
 		{
-			"id": 29,
+			"id": 67,
 			"name": "\"grid/contexts/ModuleContext.d\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/contexts/ModuleContext.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/contexts/ModuleContext.d.ts",
 			"children": [
 				{
-					"id": 30,
+					"id": 68,
 					"name": "ModuleContextType",
 					"kind": 256,
 					"kindString": "Interface",
@@ -1614,7 +1614,7 @@
 					},
 					"children": [
 						{
-							"id": 31,
+							"id": 69,
 							"name": "filter",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1631,7 +1631,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 32,
+									"id": 70,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -1640,7 +1640,7 @@
 									},
 									"children": [
 										{
-											"id": 33,
+											"id": 71,
 											"name": "useFilter",
 											"kind": 32,
 											"kindString": "Variable",
@@ -1657,7 +1657,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 34,
+													"id": 72,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -1666,7 +1666,7 @@
 													},
 													"signatures": [
 														{
-															"id": 35,
+															"id": 73,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -1675,7 +1675,7 @@
 															},
 															"parameters": [
 																{
-																	"id": 36,
+																	"id": 74,
 																	"name": "gridRef",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -1696,7 +1696,7 @@
 																	}
 																},
 																{
-																	"id": 37,
+																	"id": 75,
 																	"name": "filterSetting",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -1711,7 +1711,7 @@
 																	}
 																},
 																{
-																	"id": 38,
+																	"id": 76,
 																	"name": "setGridAction",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -1722,7 +1722,7 @@
 																	"type": {
 																		"type": "reflection",
 																		"declaration": {
-																			"id": 39,
+																			"id": 77,
 																			"name": "__type",
 																			"kind": 65536,
 																			"kindString": "Type literal",
@@ -1731,7 +1731,7 @@
 																			},
 																			"signatures": [
 																				{
-																					"id": 40,
+																					"id": 78,
 																					"name": "__call",
 																					"kind": 4096,
 																					"kindString": "Call signature",
@@ -1740,7 +1740,7 @@
 																					},
 																					"parameters": [
 																						{
-																							"id": 41,
+																							"id": 79,
 																							"name": "action",
 																							"kind": 32768,
 																							"kindString": "Parameter",
@@ -1770,7 +1770,7 @@
 																	}
 																},
 																{
-																	"id": 42,
+																	"id": 80,
 																	"name": "serviceLocator",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -1817,7 +1817,7 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												33
+												71
 											]
 										}
 									],
@@ -1837,7 +1837,7 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								31
+								69
 							]
 						}
 					],
@@ -1850,7 +1850,7 @@
 					]
 				},
 				{
-					"id": 47,
+					"id": 85,
 					"name": "ModuleContext",
 					"kind": 32,
 					"kindString": "Variable",
@@ -1873,7 +1873,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 30,
+								"id": 68,
 								"name": "ModuleContextType"
 							}
 						],
@@ -1881,7 +1881,7 @@
 					}
 				},
 				{
-					"id": 51,
+					"id": 89,
 					"name": "ModuleProvider",
 					"kind": 32,
 					"kindString": "Variable",
@@ -1916,7 +1916,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 52,
+									"id": 90,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -1925,7 +1925,7 @@
 									},
 									"children": [
 										{
-											"id": 54,
+											"id": 92,
 											"name": "allowFiltering",
 											"kind": 32,
 											"kindString": "Variable",
@@ -1945,7 +1945,7 @@
 											}
 										},
 										{
-											"id": 53,
+											"id": 91,
 											"name": "children",
 											"kind": 32,
 											"kindString": "Variable",
@@ -1979,8 +1979,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												54,
-												53
+												92,
+												91
 											]
 										}
 									],
@@ -1998,7 +1998,7 @@
 					}
 				},
 				{
-					"id": 48,
+					"id": 86,
 					"name": "useModuleContext",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2025,7 +2025,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 49,
+							"id": 87,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -2034,7 +2034,7 @@
 							},
 							"signatures": [
 								{
-									"id": 50,
+									"id": 88,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2043,7 +2043,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 30,
+										"id": 68,
 										"name": "ModuleContextType"
 									}
 								}
@@ -2059,7 +2059,7 @@
 					}
 				},
 				{
-					"id": 43,
+					"id": 81,
 					"name": "isFeatureEnabled",
 					"kind": 64,
 					"kindString": "Function",
@@ -2068,7 +2068,7 @@
 					},
 					"signatures": [
 						{
-							"id": 44,
+							"id": 82,
 							"name": "isFeatureEnabled",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2081,7 +2081,7 @@
 							},
 							"parameters": [
 								{
-									"id": 45,
+									"id": 83,
 									"name": "settings",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2116,7 +2116,7 @@
 									}
 								},
 								{
-									"id": 46,
+									"id": 84,
 									"name": "featureProps",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2155,23 +2155,23 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						30
+						68
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						47,
-						51,
-						48
+						85,
+						89,
+						86
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						43
+						81
 					]
 				}
 			],
@@ -2184,14 +2184,14 @@
 			]
 		},
 		{
-			"id": 28,
+			"id": 66,
 			"name": "\"grid/contexts/index.d\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/contexts/index.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/contexts/index.d.ts",
 			"sources": [
 				{
 					"fileName": "src/grid/contexts/index.d.ts",
@@ -2208,7 +2208,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/index.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/index.d.ts",
 			"sources": [
 				{
 					"fileName": "src/grid/hooks/index.d.ts",
@@ -2225,7 +2225,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useColumn.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useColumn.d.ts",
 			"children": [
 				{
 					"id": 95,
@@ -2802,7 +2802,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useCommandColumn.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useCommandColumn.d.ts",
 			"children": [
 				{
 					"id": 119,
@@ -2934,7 +2934,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useEdit.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useEdit.d.ts",
 			"children": [
 				{
 					"id": 125,
@@ -3370,7 +3370,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useEditDialog.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useEditDialog.d.ts",
 			"children": [
 				{
 					"id": 143,
@@ -3482,7 +3482,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useFilter.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useFilter.d.ts",
 			"children": [
 				{
 					"id": 148,
@@ -3775,7 +3775,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useFocusStrategy.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useFocusStrategy.d.ts",
 			"children": [
 				{
 					"id": 162,
@@ -3884,7 +3884,7 @@
 							},
 							{
 								"tag": "param",
-								"text": "row dom virtualization last row cell focus handling purpose.",
+								"text": "Row DOM virtualization last row cell focus handling purpose.",
 								"param": "virtualChangeDetectedPageSize"
 							},
 							{
@@ -4108,7 +4108,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useFormValidationRules.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useFormValidationRules.d.ts",
 			"children": [
 				{
 					"id": 178,
@@ -4322,7 +4322,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useGrid.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useGrid.d.ts",
 			"children": [
 				{
 					"id": 187,
@@ -4519,7 +4519,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useGroup.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useGroup.d.ts",
 			"children": [
 				{
 					"id": 195,
@@ -5338,7 +5338,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useRender.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useRender.d.ts",
 			"children": [
 				{
 					"id": 261,
@@ -6071,7 +6071,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useScroll.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useScroll.d.ts",
 			"children": [
 				{
 					"id": 268,
@@ -6205,7 +6205,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useSearch.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useSearch.d.ts",
 			"children": [
 				{
 					"id": 274,
@@ -6478,7 +6478,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useSelection.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useSelection.d.ts",
 			"children": [
 				{
 					"id": 287,
@@ -6745,7 +6745,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useSort.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useSort.d.ts",
 			"children": [
 				{
 					"id": 299,
@@ -6947,7 +6947,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/hooks/useToolbar.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/hooks/useToolbar.d.ts",
 			"children": [
 				{
 					"id": 309,
@@ -7199,7 +7199,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/index.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/index.d.ts",
 			"sources": [
 				{
 					"fileName": "src/grid/index.d.ts",
@@ -7216,7 +7216,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/models/index.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/models/index.d.ts",
 			"sources": [
 				{
 					"fileName": "src/grid/models/index.d.ts",
@@ -7233,7 +7233,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/models/useData.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/models/useData.d.ts",
 			"children": [
 				{
 					"id": 322,
@@ -7441,7 +7441,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/services/index.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/services/index.d.ts",
 			"sources": [
 				{
 					"fileName": "src/grid/services/index.d.ts",
@@ -7458,7 +7458,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/services/service-locator.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/services/service-locator.d.ts",
 			"children": [
 				{
 					"id": 331,
@@ -7548,7 +7548,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/services/value-formatter.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/services/value-formatter.d.ts",
 			"children": [
 				{
 					"id": 335,
@@ -7659,7 +7659,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/aggregate.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/aggregate.interfaces.d.ts",
 			"children": [
 				{
 					"id": 340,
@@ -7747,7 +7747,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/column.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/column.interfaces.d.ts",
 			"children": [
 				{
 					"id": 413,
@@ -7792,7 +7792,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 468,
+									"line": 474,
 									"character": 12
 								}
 							],
@@ -7831,7 +7831,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 445,
+									"line": 451,
 									"character": 10
 								}
 							],
@@ -7862,7 +7862,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 453,
+									"line": 459,
 									"character": 8
 								}
 							],
@@ -7891,7 +7891,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 461,
+									"line": 467,
 									"character": 12
 								}
 							],
@@ -7916,7 +7916,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 437,
+							"line": 443,
 							"character": 31
 						}
 					]
@@ -7954,7 +7954,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 762,
+									"line": 768,
 									"character": 17
 								}
 							],
@@ -7994,7 +7994,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 778,
+									"line": 784,
 									"character": 19
 								}
 							],
@@ -8027,7 +8027,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 770,
+									"line": 776,
 									"character": 12
 								}
 							],
@@ -8057,7 +8057,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 786,
+									"line": 792,
 									"character": 10
 								}
 							],
@@ -8111,7 +8111,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 754,
+									"line": 760,
 									"character": 8
 								}
 							],
@@ -8138,7 +8138,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 745,
+							"line": 751,
 							"character": 35
 						}
 					]
@@ -8175,7 +8175,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 510,
+									"line": 516,
 									"character": 10
 								}
 							],
@@ -8205,7 +8205,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 517,
+									"line": 523,
 									"character": 15
 								}
 							],
@@ -8228,7 +8228,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 503,
+							"line": 509,
 							"character": 42
 						}
 					]
@@ -9551,18 +9551,19 @@
 								"isOptional": true
 							},
 							"comment": {
-								"shortText": "Only applicable for Shimmer indicator type of Grid.",
+								"shortText": "Defines options for the shimmer loading indicator.\nApplicable only when `loadingIndicatorType` is set to `LoadingIndicatorType.Shimmer`.",
+								"text": "* `width` - Width of the shimmer element.\n* `height` - Height of the shimmer element.\n* `variant` - Skeleton variant type (e.g., text, rectangle).\n* `animation` - Animation style for shimmer effect.\n",
 								"tags": [
 									{
 										"tag": "default",
-										"text": "{width: '100%', height: '10px', variant: Variants.Text, animation: AnimationType.Wave}\n"
+										"text": "{ width: '100%', height: '10px', variant: Variants.Text, animation: AnimationType.Wave }\n"
 									}
 								]
 							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 430,
+									"line": 436,
 									"character": 27
 								}
 							],
@@ -10334,7 +10335,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 915,
+									"line": 921,
 									"character": 20
 								}
 							],
@@ -10371,7 +10372,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 909,
+							"line": 915,
 							"character": 26
 						}
 					]
@@ -10419,7 +10420,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 489,
+									"line": 495,
 									"character": 10
 								}
 							],
@@ -10449,7 +10450,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 482,
+									"line": 488,
 									"character": 8
 								}
 							],
@@ -10478,7 +10479,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 496,
+									"line": 502,
 									"character": 12
 								}
 							],
@@ -10502,7 +10503,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 475,
+							"line": 481,
 							"character": 36
 						}
 					]
@@ -10540,7 +10541,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 722,
+									"line": 728,
 									"character": 14
 								}
 							],
@@ -10579,7 +10580,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 674,
+									"line": 680,
 									"character": 19
 								}
 							],
@@ -10635,7 +10636,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/column.interfaces.d.ts",
-											"line": 674,
+											"line": 680,
 											"character": 21
 										}
 									]
@@ -10663,7 +10664,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 690,
+									"line": 696,
 									"character": 8
 								}
 							],
@@ -10693,7 +10694,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 714,
+									"line": 720,
 									"character": 10
 								}
 							],
@@ -10723,7 +10724,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 698,
+									"line": 704,
 									"character": 9
 								}
 							],
@@ -10753,7 +10754,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 738,
+									"line": 744,
 									"character": 11
 								}
 							],
@@ -10783,7 +10784,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 640,
+									"line": 646,
 									"character": 7
 								}
 							],
@@ -10813,7 +10814,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 624,
+									"line": 630,
 									"character": 13
 								}
 							],
@@ -10843,7 +10844,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 632,
+									"line": 638,
 									"character": 7
 								}
 							],
@@ -10873,7 +10874,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 616,
+									"line": 622,
 									"character": 13
 								}
 							],
@@ -10903,7 +10904,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 682,
+									"line": 688,
 									"character": 10
 								}
 							],
@@ -10933,7 +10934,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 648,
+									"line": 654,
 									"character": 9
 								}
 							],
@@ -10972,7 +10973,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 656,
+									"line": 662,
 									"character": 15
 								}
 							],
@@ -11011,7 +11012,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 664,
+									"line": 670,
 									"character": 9
 								}
 							],
@@ -11050,7 +11051,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 608,
+									"line": 614,
 									"character": 12
 								}
 							],
@@ -11080,7 +11081,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 730,
+									"line": 736,
 									"character": 7
 								}
 							],
@@ -11110,7 +11111,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 706,
+									"line": 712,
 									"character": 7
 								}
 							],
@@ -11148,7 +11149,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 600,
+							"line": 606,
 							"character": 39
 						}
 					]
@@ -11185,7 +11186,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 547,
+									"line": 553,
 									"character": 10
 								}
 							],
@@ -11215,7 +11216,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 539,
+									"line": 545,
 									"character": 14
 								}
 							],
@@ -11238,7 +11239,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 531,
+							"line": 537,
 							"character": 41
 						}
 					]
@@ -11288,7 +11289,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 829,
+									"line": 835,
 									"character": 14
 								}
 							],
@@ -11318,7 +11319,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 823,
+									"line": 829,
 									"character": 20
 								}
 							],
@@ -11488,7 +11489,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 805,
+									"line": 811,
 									"character": 8
 								}
 							],
@@ -12187,7 +12188,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 811,
+									"line": 817,
 									"character": 12
 								}
 							],
@@ -12321,7 +12322,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 835,
+									"line": 841,
 									"character": 18
 								}
 							],
@@ -12855,18 +12856,19 @@
 								"isOptional": true
 							},
 							"comment": {
-								"shortText": "Only applicable for Shimmer indicator type of Grid.",
+								"shortText": "Defines options for the shimmer loading indicator.\nApplicable only when `loadingIndicatorType` is set to `LoadingIndicatorType.Shimmer`.",
+								"text": "* `width` - Width of the shimmer element.\n* `height` - Height of the shimmer element.\n* `variant` - Skeleton variant type (e.g., text, rectangle).\n* `animation` - Animation style for shimmer effect.\n",
 								"tags": [
 									{
 										"tag": "default",
-										"text": "{width: '100%', height: '10px', variant: Variants.Text, animation: AnimationType.Wave}\n"
+										"text": "{ width: '100%', height: '10px', variant: Variants.Text, animation: AnimationType.Wave }\n"
 									}
 								]
 							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 430,
+									"line": 436,
 									"character": 27
 								}
 							],
@@ -12972,7 +12974,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 817,
+									"line": 823,
 									"character": 11
 								}
 							],
@@ -13007,7 +13009,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 799,
+									"line": 805,
 									"character": 7
 								}
 							],
@@ -13425,7 +13427,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 841,
+									"line": 847,
 									"character": 7
 								}
 							],
@@ -13714,7 +13716,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 793,
+							"line": 799,
 							"character": 28
 						}
 					],
@@ -13776,7 +13778,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 866,
+									"line": 872,
 									"character": 12
 								}
 							],
@@ -13805,7 +13807,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 872,
+									"line": 878,
 									"character": 12
 								}
 							],
@@ -13829,7 +13831,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 899,
+									"line": 905,
 									"character": 17
 								}
 							],
@@ -13876,7 +13878,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/column.interfaces.d.ts",
-											"line": 899,
+											"line": 905,
 											"character": 19
 										}
 									]
@@ -13903,7 +13905,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 854,
+									"line": 860,
 									"character": 11
 								}
 							],
@@ -13942,7 +13944,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 860,
+									"line": 866,
 									"character": 9
 								}
 							],
@@ -13972,7 +13974,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 897,
+									"line": 903,
 									"character": 20
 								}
 							],
@@ -14002,7 +14004,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 878,
+									"line": 884,
 									"character": 19
 								}
 							],
@@ -14023,7 +14025,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 902,
+									"line": 908,
 									"character": 24
 								}
 							],
@@ -14053,7 +14055,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 884,
+									"line": 890,
 									"character": 31
 								}
 							],
@@ -14074,7 +14076,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 898,
+									"line": 904,
 									"character": 27
 								}
 							],
@@ -14104,7 +14106,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 890,
+									"line": 896,
 									"character": 13
 								}
 							],
@@ -14135,7 +14137,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 891,
+									"line": 897,
 									"character": 18
 								}
 							],
@@ -14178,7 +14180,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 848,
+							"line": 854,
 							"character": 31
 						}
 					]
@@ -14218,7 +14220,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 593,
+									"line": 599,
 									"character": 13
 								}
 							],
@@ -14240,7 +14242,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 583,
+							"line": 589,
 							"character": 31
 						}
 					]
@@ -14288,7 +14290,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 575,
+									"line": 581,
 									"character": 10
 								}
 							],
@@ -14318,7 +14320,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 568,
+									"line": 574,
 									"character": 8
 								}
 							],
@@ -14347,7 +14349,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/column.interfaces.d.ts",
-									"line": 561,
+									"line": 567,
 									"character": 9
 								}
 							],
@@ -14371,7 +14373,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 554,
+							"line": 560,
 							"character": 35
 						}
 					]
@@ -14389,7 +14391,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/column.interfaces.d.ts",
-							"line": 522,
+							"line": 528,
 							"character": 28
 						}
 					],
@@ -14506,7 +14508,7 @@
 											"sources": [
 												{
 													"fileName": "src/grid/types/column.interfaces.d.ts",
-													"line": 523,
+													"line": 529,
 													"character": 9
 												}
 											],
@@ -14528,7 +14530,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/column.interfaces.d.ts",
-											"line": 522,
+											"line": 528,
 											"character": 114
 										}
 									]
@@ -14581,7 +14583,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/command.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/command.interfaces.d.ts",
 			"children": [
 				{
 					"id": 570,
@@ -15529,7 +15531,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/edit.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/edit.interfaces.d.ts",
 			"children": [
 				{
 					"id": 778,
@@ -16676,13 +16678,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"typeArguments": [
-									{
-										"type": "reference",
-										"name": "FormState"
-									}
-								],
-								"name": "Partial"
+								"name": "FormState"
 							}
 						},
 						{
@@ -17991,13 +17987,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"typeArguments": [
-									{
-										"type": "reference",
-										"name": "FormState"
-									}
-								],
-								"name": "Partial"
+								"name": "FormState"
 							}
 						},
 						{
@@ -20752,13 +20742,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"typeArguments": [
-									{
-										"type": "reference",
-										"name": "FormState"
-									}
-								],
-								"name": "Partial"
+								"name": "FormState"
 							}
 						},
 						{
@@ -22636,13 +22620,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"typeArguments": [
-													{
-														"type": "reference",
-														"name": "FormState"
-													}
-												],
-												"name": "Partial"
+												"name": "FormState"
 											}
 										}
 									],
@@ -23732,13 +23710,7 @@
 								"types": [
 									{
 										"type": "reference",
-										"typeArguments": [
-											{
-												"type": "reference",
-												"name": "FormState"
-											}
-										],
-										"name": "Partial"
+										"name": "FormState"
 									},
 									{
 										"type": "intrinsic",
@@ -24085,7 +24057,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/enum.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/enum.d.ts",
 			"children": [
 				{
 					"id": 990,
@@ -25181,7 +25153,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 756,
+									"line": 820,
 									"character": 10
 								}
 							],
@@ -25207,7 +25179,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 744,
+									"line": 808,
 									"character": 10
 								}
 							],
@@ -25233,7 +25205,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 738,
+									"line": 802,
 									"character": 8
 								}
 							],
@@ -25259,7 +25231,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 750,
+									"line": 814,
 									"character": 10
 								}
 							],
@@ -25281,7 +25253,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/enum.d.ts",
-							"line": 732,
+							"line": 796,
 							"character": 35
 						}
 					]
@@ -25847,7 +25819,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 700,
+									"line": 764,
 									"character": 9
 								}
 							],
@@ -25864,7 +25836,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 701,
+									"line": 765,
 									"character": 9
 								}
 							],
@@ -25881,7 +25853,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 707,
+									"line": 771,
 									"character": 12
 								}
 							],
@@ -25898,7 +25870,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 706,
+									"line": 770,
 									"character": 13
 								}
 							],
@@ -25915,7 +25887,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 705,
+									"line": 769,
 									"character": 10
 								}
 							],
@@ -25932,7 +25904,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 691,
+									"line": 755,
 									"character": 8
 								}
 							],
@@ -25949,7 +25921,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 696,
+									"line": 760,
 									"character": 7
 								}
 							],
@@ -25966,7 +25938,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 697,
+									"line": 761,
 									"character": 9
 								}
 							],
@@ -25983,7 +25955,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 699,
+									"line": 763,
 									"character": 10
 								}
 							],
@@ -26000,7 +25972,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 704,
+									"line": 768,
 									"character": 6
 								}
 							],
@@ -26017,7 +25989,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 695,
+									"line": 759,
 									"character": 8
 								}
 							],
@@ -26034,7 +26006,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 692,
+									"line": 756,
 									"character": 8
 								}
 							],
@@ -26051,7 +26023,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 703,
+									"line": 767,
 									"character": 13
 								}
 							],
@@ -26068,7 +26040,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 702,
+									"line": 766,
 									"character": 11
 								}
 							],
@@ -26085,7 +26057,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 693,
+									"line": 757,
 									"character": 9
 								}
 							],
@@ -26102,7 +26074,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 698,
+									"line": 762,
 									"character": 9
 								}
 							],
@@ -26119,7 +26091,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 694,
+									"line": 758,
 									"character": 7
 								}
 							],
@@ -26136,7 +26108,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 690,
+									"line": 754,
 									"character": 6
 								}
 							],
@@ -26172,7 +26144,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/enum.d.ts",
-							"line": 689,
+							"line": 753,
 							"character": 32
 						}
 					]
@@ -26186,7 +26158,17 @@
 						"isExported": true
 					},
 					"comment": {
-						"shortText": "Defines Loading Indicator of the Grid.\n```props\n* Spinner :- Defines Loading Indicator as Spinner.\n* Shimmer :- Defines Loading Indicator as Shimmer.\n```"
+						"shortText": "Specifies the type of loading indicator displayed in the Grid.\nUsed to indicate data loading state during asynchronous operations.",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "LoadingIndicatorType.Spinner"
+							},
+							{
+								"tag": "example",
+								"text": "\n```tsx\n<Grid loadingIndicatorType={LoadingIndicatorType.Shimmer} />\n```\n"
+							}
+						]
 					},
 					"children": [
 						{
@@ -26197,10 +26179,19 @@
 							"flags": {
 								"isExported": true
 							},
+							"comment": {
+								"shortText": "Displays a shimmer effect as the loading indicator.\nSuitable for skeleton-style loading placeholders.",
+								"tags": [
+									{
+										"tag": "default",
+										"text": "'Shimmer'\n"
+									}
+								]
+							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 678,
+									"line": 742,
 									"character": 11
 								}
 							],
@@ -26214,10 +26205,19 @@
 							"flags": {
 								"isExported": true
 							},
+							"comment": {
+								"shortText": "Displays a spinner as the loading indicator.\nRecommended for minimalistic loading feedback.",
+								"tags": [
+									{
+										"tag": "default",
+										"text": "'Spinner'\n"
+									}
+								]
+							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 677,
+									"line": 735,
 									"character": 11
 								}
 							],
@@ -26237,7 +26237,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/enum.d.ts",
-							"line": 676,
+							"line": 728,
 							"character": 40
 						}
 					]
@@ -26577,6 +26577,16 @@
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "Specifies the scrolling behavior for the Grid component.\nDetermines how rows are rendered and loaded during scrolling.",
+						"text": "* `Virtual` - Loads only the current viewport data from the server. Ideal for large remote datasets.\n* `Infinite` - Continuously fetches additional data as the user scrolls down.\n* `Auto` - Uses local data rendering without server requests.\n",
+						"tags": [
+							{
+								"tag": "example",
+								"text": "\n```tsx\n<Grid scrollMode={ScrollMode.Virtual} />\n```\n"
+							}
+						]
+					},
 					"children": [
 						{
 							"id": 1030,
@@ -26586,10 +26596,19 @@
 							"flags": {
 								"isExported": true
 							},
+							"comment": {
+								"shortText": "Automatically selects local rendering mode.\nSuitable for scenarios where all data is available locally.",
+								"tags": [
+									{
+										"tag": "default",
+										"text": "'Auto'\n"
+									}
+								]
+							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 664,
+									"line": 698,
 									"character": 8
 								}
 							],
@@ -26603,10 +26622,19 @@
 							"flags": {
 								"isExported": true
 							},
+							"comment": {
+								"shortText": "Enables infinite scrolling.\nContinuously loads additional rows from the server as the user scrolls.",
+								"tags": [
+									{
+										"tag": "default",
+										"text": "'Infinite'\n"
+									}
+								]
+							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 663,
+									"line": 691,
 									"character": 12
 								}
 							],
@@ -26620,10 +26648,19 @@
 							"flags": {
 								"isExported": true
 							},
+							"comment": {
+								"shortText": "Enables virtual scrolling.\nFetches data for the current viewport from the server.\nWorks with caching based on `VirtualizationSettings.enableCache`.\nIf `enableCache` is false, every revisit triggers a new request.\nIf true (default), previously visited views are cached.",
+								"tags": [
+									{
+										"tag": "default",
+										"text": "'Virtual'\n"
+									}
+								]
+							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 662,
+									"line": 684,
 									"character": 11
 								}
 							],
@@ -26644,7 +26681,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/enum.d.ts",
-							"line": 661,
+							"line": 674,
 							"character": 30
 						}
 					]
@@ -27083,6 +27120,15 @@
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "Defines the visual theme applied to the Grid component.\nControls the overall styling and appearance of UI elements.",
+						"tags": [
+							{
+								"tag": "example",
+								"text": "\n```tsx\n<Grid theme={Theme.Material} />\n```\n"
+							}
+						]
+					},
 					"children": [
 						{
 							"id": 1032,
@@ -27092,10 +27138,19 @@
 							"flags": {
 								"isExported": true
 							},
+							"comment": {
+								"shortText": "Applies the Material Design theme.\nProvides a modern and consistent UI experience.",
+								"tags": [
+									{
+										"tag": "default",
+										"text": "'Material'\n"
+									}
+								]
+							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/enum.d.ts",
-									"line": 667,
+									"line": 716,
 									"character": 12
 								}
 							],
@@ -27114,7 +27169,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/enum.d.ts",
-							"line": 666,
+							"line": 709,
 							"character": 25
 						}
 					]
@@ -27317,7 +27372,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/enum.d.ts",
-							"line": 683,
+							"line": 747,
 							"character": 25
 						}
 					],
@@ -27421,7 +27476,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/enum.d.ts",
-							"line": 759,
+							"line": 823,
 							"character": 34
 						}
 					],
@@ -27455,7 +27510,7 @@
 											"sources": [
 												{
 													"fileName": "src/grid/types/enum.d.ts",
-													"line": 760,
+													"line": 824,
 													"character": 13
 												}
 											],
@@ -27477,7 +27532,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/enum.d.ts",
-											"line": 759,
+											"line": 823,
 											"character": 49
 										}
 									]
@@ -27552,7 +27607,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/filter.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/filter.interfaces.d.ts",
 			"children": [
 				{
 					"id": 1166,
@@ -30462,7 +30517,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/focus.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/focus.interfaces.d.ts",
 			"children": [
 				{
 					"id": 1244,
@@ -35480,7 +35535,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/grid.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/grid.interfaces.d.ts",
 			"children": [
 				{
 					"id": 2337,
@@ -35511,7 +35566,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2067,
+									"line": 2068,
 									"character": 14
 								}
 							],
@@ -35536,7 +35591,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2081,
+									"line": 2082,
 									"character": 10
 								}
 							],
@@ -35560,7 +35615,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2061,
+									"line": 2062,
 									"character": 14
 								}
 							],
@@ -35588,7 +35643,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2059,
+									"line": 2060,
 									"character": 10
 								}
 							],
@@ -35612,7 +35667,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2053,
+									"line": 2054,
 									"character": 9
 								}
 							],
@@ -35637,7 +35692,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2075,
+									"line": 2076,
 									"character": 8
 								}
 							],
@@ -35660,7 +35715,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2069,
+									"line": 2070,
 									"character": 9
 								}
 							],
@@ -35685,7 +35740,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2087,
+									"line": 2088,
 									"character": 11
 								}
 							],
@@ -35708,7 +35763,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2051,
+									"line": 2052,
 									"character": 10
 								}
 							],
@@ -35741,7 +35796,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/grid.interfaces.d.ts",
-							"line": 2047,
+							"line": 2048,
 							"character": 35
 						}
 					]
@@ -35775,7 +35830,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2145,
+									"line": 2146,
 									"character": 10
 								}
 							],
@@ -35798,7 +35853,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2147,
+									"line": 2148,
 									"character": 8
 								}
 							],
@@ -35823,7 +35878,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2133,
+									"line": 2134,
 									"character": 15
 								}
 							],
@@ -35849,7 +35904,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2139,
+									"line": 2140,
 									"character": 8
 								}
 							],
@@ -35874,7 +35929,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/grid.interfaces.d.ts",
-							"line": 2127,
+							"line": 2128,
 							"character": 32
 						}
 					],
@@ -35939,7 +35994,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 961,
+									"line": 962,
 									"character": 25
 								}
 							],
@@ -35992,7 +36047,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 961,
+											"line": 962,
 											"character": 27
 										}
 									]
@@ -36015,7 +36070,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 985,
+									"line": 986,
 									"character": 24
 								}
 							],
@@ -36068,7 +36123,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 985,
+											"line": 986,
 											"character": 26
 										}
 									]
@@ -36096,7 +36151,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1280,
+									"line": 1281,
 									"character": 15
 								}
 							],
@@ -36150,7 +36205,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1280,
+											"line": 1281,
 											"character": 17
 										}
 									]
@@ -36178,7 +36233,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1256,
+									"line": 1257,
 									"character": 15
 								}
 							],
@@ -36232,7 +36287,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1256,
+											"line": 1257,
 											"character": 17
 										}
 									]
@@ -36255,7 +36310,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1288,
+									"line": 1289,
 									"character": 20
 								}
 							],
@@ -36309,7 +36364,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1288,
+											"line": 1289,
 											"character": 22
 										}
 									]
@@ -36332,7 +36387,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 969,
+									"line": 970,
 									"character": 16
 								}
 							],
@@ -36386,7 +36441,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 969,
+											"line": 970,
 											"character": 18
 										}
 									]
@@ -36414,7 +36469,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1521,
+									"line": 1522,
 									"character": 22
 								}
 							],
@@ -36468,7 +36523,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1521,
+											"line": 1522,
 											"character": 24
 										}
 									]
@@ -36496,7 +36551,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1498,
+									"line": 1499,
 									"character": 24
 								}
 							],
@@ -36566,7 +36621,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1498,
+											"line": 1499,
 											"character": 26
 										}
 									]
@@ -36594,7 +36649,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1082,
+									"line": 1083,
 									"character": 23
 								}
 							],
@@ -36648,7 +36703,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1082,
+											"line": 1083,
 											"character": 25
 										}
 									]
@@ -36676,7 +36731,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1475,
+									"line": 1476,
 									"character": 21
 								}
 							],
@@ -36746,7 +36801,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1475,
+											"line": 1476,
 											"character": 23
 										}
 									]
@@ -36774,7 +36829,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 920,
+									"line": 921,
 									"character": 14
 								}
 							],
@@ -36806,7 +36861,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 920,
+											"line": 921,
 											"character": 16
 										}
 									]
@@ -36829,7 +36884,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 895,
+									"line": 896,
 									"character": 19
 								}
 							],
@@ -36886,7 +36941,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 895,
+											"line": 896,
 											"character": 21
 										}
 									]
@@ -36914,7 +36969,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1058,
+									"line": 1059,
 									"character": 17
 								}
 							],
@@ -36962,7 +37017,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1058,
+											"line": 1059,
 											"character": 19
 										}
 									]
@@ -36990,7 +37045,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1007,
+									"line": 1008,
 									"character": 11
 								}
 							],
@@ -37037,7 +37092,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1007,
+											"line": 1008,
 											"character": 13
 										}
 									]
@@ -37065,7 +37120,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1120,
+									"line": 1121,
 									"character": 12
 								}
 							],
@@ -37113,7 +37168,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1120,
+											"line": 1121,
 											"character": 14
 										}
 									]
@@ -37136,7 +37191,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1097,
+									"line": 1098,
 									"character": 17
 								}
 							],
@@ -37184,7 +37239,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1097,
+											"line": 1098,
 											"character": 19
 										}
 									]
@@ -37212,7 +37267,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1452,
+									"line": 1453,
 									"character": 16
 								}
 							],
@@ -37266,7 +37321,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1452,
+											"line": 1453,
 											"character": 18
 										}
 									]
@@ -37289,7 +37344,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1089,
+									"line": 1090,
 									"character": 17
 								}
 							],
@@ -37321,7 +37376,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1089,
+											"line": 1090,
 											"character": 19
 										}
 									]
@@ -37344,7 +37399,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 887,
+									"line": 888,
 									"character": 14
 								}
 							],
@@ -37376,7 +37431,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 887,
+											"line": 888,
 											"character": 16
 										}
 									]
@@ -37404,7 +37459,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 945,
+									"line": 946,
 									"character": 24
 								}
 							],
@@ -37436,7 +37491,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 945,
+											"line": 946,
 											"character": 26
 										}
 									]
@@ -37464,7 +37519,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 879,
+									"line": 880,
 									"character": 21
 								}
 							],
@@ -37496,7 +37551,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 879,
+											"line": 880,
 											"character": 23
 										}
 									]
@@ -37519,7 +37574,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 953,
+									"line": 954,
 									"character": 22
 								}
 							],
@@ -37567,7 +37622,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 953,
+											"line": 954,
 											"character": 24
 										}
 									]
@@ -37595,7 +37650,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1382,
+									"line": 1383,
 									"character": 16
 								}
 							],
@@ -37643,7 +37698,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1382,
+											"line": 1383,
 											"character": 18
 										}
 									]
@@ -37666,7 +37721,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1359,
+									"line": 1360,
 									"character": 21
 								}
 							],
@@ -37714,7 +37769,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1359,
+											"line": 1360,
 											"character": 23
 										}
 									]
@@ -37742,7 +37797,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1034,
+									"line": 1035,
 									"character": 13
 								}
 							],
@@ -37774,7 +37829,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1034,
+											"line": 1035,
 											"character": 15
 										}
 									]
@@ -37802,7 +37857,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1429,
+									"line": 1430,
 									"character": 17
 								}
 							],
@@ -37856,7 +37911,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1429,
+											"line": 1430,
 											"character": 19
 										}
 									]
@@ -37884,7 +37939,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1352,
+									"line": 1353,
 									"character": 17
 								}
 							],
@@ -37938,7 +37993,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1352,
+											"line": 1353,
 											"character": 19
 										}
 									]
@@ -37961,7 +38016,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1328,
+									"line": 1329,
 									"character": 20
 								}
 							],
@@ -38015,7 +38070,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1328,
+											"line": 1329,
 											"character": 22
 										}
 									]
@@ -38043,7 +38098,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1209,
+									"line": 1210,
 									"character": 20
 								}
 							],
@@ -38097,7 +38152,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1209,
+											"line": 1210,
 											"character": 22
 										}
 									]
@@ -38125,7 +38180,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1406,
+									"line": 1407,
 									"character": 18
 								}
 							],
@@ -38179,7 +38234,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1406,
+											"line": 1407,
 											"character": 20
 										}
 									]
@@ -38202,7 +38257,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 977,
+									"line": 978,
 									"character": 15
 								}
 							],
@@ -38256,7 +38311,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 977,
+											"line": 978,
 											"character": 17
 										}
 									]
@@ -38284,7 +38339,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1320,
+									"line": 1321,
 									"character": 15
 								}
 							],
@@ -38338,7 +38393,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1320,
+											"line": 1321,
 											"character": 17
 										}
 									]
@@ -38361,7 +38416,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1296,
+									"line": 1297,
 									"character": 18
 								}
 							],
@@ -38415,7 +38470,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1296,
+											"line": 1297,
 											"character": 20
 										}
 									]
@@ -38443,7 +38498,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1185,
+									"line": 1186,
 									"character": 12
 								}
 							],
@@ -38491,7 +38546,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1185,
+											"line": 1186,
 											"character": 14
 										}
 									]
@@ -38514,7 +38569,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1159,
+									"line": 1160,
 									"character": 17
 								}
 							],
@@ -38562,7 +38617,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1159,
+											"line": 1160,
 											"character": 19
 										}
 									]
@@ -38590,7 +38645,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1151,
+									"line": 1152,
 									"character": 10
 								}
 							],
@@ -38638,7 +38693,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1151,
+											"line": 1152,
 											"character": 12
 										}
 									]
@@ -38661,7 +38716,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1128,
+									"line": 1129,
 									"character": 15
 								}
 							],
@@ -38709,7 +38764,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1128,
+											"line": 1129,
 											"character": 17
 										}
 									]
@@ -38737,7 +38792,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1234,
+									"line": 1235,
 									"character": 22
 								}
 							],
@@ -38785,7 +38840,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1234,
+											"line": 1235,
 											"character": 24
 										}
 									]
@@ -39588,18 +39643,18 @@
 								"isOptional": true
 							},
 							"comment": {
-								"shortText": "Configures the Loading Indicator of the Grid.",
+								"shortText": "Configures the loading indicator for the Grid component.\nDetermines the visual representation of the loading state.",
 								"tags": [
 									{
 										"tag": "default",
-										"text": "{indicatorType: IndicatorType.Spinner}\n"
+										"text": "LoadingIndicatorType.Spinner\n"
 									}
 								]
 							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 857,
+									"line": 858,
 									"character": 24
 								}
 							],
@@ -39682,7 +39737,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1013,
+									"line": 1014,
 									"character": 18
 								}
 							],
@@ -39729,7 +39784,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1013,
+											"line": 1014,
 											"character": 20
 										}
 									]
@@ -40524,7 +40579,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 961,
+									"line": 962,
 									"character": 25
 								}
 							],
@@ -40577,7 +40632,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 961,
+											"line": 962,
 											"character": 27
 										}
 									]
@@ -40605,7 +40660,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 985,
+									"line": 986,
 									"character": 24
 								}
 							],
@@ -40658,7 +40713,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 985,
+											"line": 986,
 											"character": 26
 										}
 									]
@@ -40691,7 +40746,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1280,
+									"line": 1281,
 									"character": 15
 								}
 							],
@@ -40745,7 +40800,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1280,
+											"line": 1281,
 											"character": 17
 										}
 									]
@@ -40778,7 +40833,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1256,
+									"line": 1257,
 									"character": 15
 								}
 							],
@@ -40832,7 +40887,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1256,
+											"line": 1257,
 											"character": 17
 										}
 									]
@@ -40860,7 +40915,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1288,
+									"line": 1289,
 									"character": 20
 								}
 							],
@@ -40914,7 +40969,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1288,
+											"line": 1289,
 											"character": 22
 										}
 									]
@@ -40942,7 +40997,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 969,
+									"line": 970,
 									"character": 16
 								}
 							],
@@ -40996,7 +41051,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 969,
+											"line": 970,
 											"character": 18
 										}
 									]
@@ -41029,7 +41084,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1521,
+									"line": 1522,
 									"character": 22
 								}
 							],
@@ -41083,7 +41138,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1521,
+											"line": 1522,
 											"character": 24
 										}
 									]
@@ -41116,7 +41171,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1498,
+									"line": 1499,
 									"character": 24
 								}
 							],
@@ -41186,7 +41241,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1498,
+											"line": 1499,
 											"character": 26
 										}
 									]
@@ -41219,7 +41274,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1082,
+									"line": 1083,
 									"character": 23
 								}
 							],
@@ -41273,7 +41328,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1082,
+											"line": 1083,
 											"character": 25
 										}
 									]
@@ -41306,7 +41361,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1475,
+									"line": 1476,
 									"character": 21
 								}
 							],
@@ -41376,7 +41431,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1475,
+											"line": 1476,
 											"character": 23
 										}
 									]
@@ -41409,7 +41464,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 920,
+									"line": 921,
 									"character": 14
 								}
 							],
@@ -41441,7 +41496,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 920,
+											"line": 921,
 											"character": 16
 										}
 									]
@@ -41469,7 +41524,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 895,
+									"line": 896,
 									"character": 19
 								}
 							],
@@ -41526,7 +41581,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 895,
+											"line": 896,
 											"character": 21
 										}
 									]
@@ -41559,7 +41614,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1058,
+									"line": 1059,
 									"character": 17
 								}
 							],
@@ -41607,7 +41662,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1058,
+											"line": 1059,
 											"character": 19
 										}
 									]
@@ -41640,7 +41695,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1007,
+									"line": 1008,
 									"character": 11
 								}
 							],
@@ -41687,7 +41742,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1007,
+											"line": 1008,
 											"character": 13
 										}
 									]
@@ -41720,7 +41775,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1120,
+									"line": 1121,
 									"character": 12
 								}
 							],
@@ -41768,7 +41823,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1120,
+											"line": 1121,
 											"character": 14
 										}
 									]
@@ -41796,7 +41851,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1097,
+									"line": 1098,
 									"character": 17
 								}
 							],
@@ -41844,7 +41899,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1097,
+											"line": 1098,
 											"character": 19
 										}
 									]
@@ -41877,7 +41932,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1452,
+									"line": 1453,
 									"character": 16
 								}
 							],
@@ -41931,7 +41986,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1452,
+											"line": 1453,
 											"character": 18
 										}
 									]
@@ -41959,7 +42014,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1089,
+									"line": 1090,
 									"character": 17
 								}
 							],
@@ -41991,7 +42046,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1089,
+											"line": 1090,
 											"character": 19
 										}
 									]
@@ -42019,7 +42074,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 887,
+									"line": 888,
 									"character": 14
 								}
 							],
@@ -42051,7 +42106,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 887,
+											"line": 888,
 											"character": 16
 										}
 									]
@@ -42084,7 +42139,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 945,
+									"line": 946,
 									"character": 24
 								}
 							],
@@ -42116,7 +42171,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 945,
+											"line": 946,
 											"character": 26
 										}
 									]
@@ -42149,7 +42204,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 879,
+									"line": 880,
 									"character": 21
 								}
 							],
@@ -42181,7 +42236,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 879,
+											"line": 880,
 											"character": 23
 										}
 									]
@@ -42209,7 +42264,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 953,
+									"line": 954,
 									"character": 22
 								}
 							],
@@ -42257,7 +42312,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 953,
+											"line": 954,
 											"character": 24
 										}
 									]
@@ -42290,7 +42345,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1382,
+									"line": 1383,
 									"character": 16
 								}
 							],
@@ -42338,7 +42393,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1382,
+											"line": 1383,
 											"character": 18
 										}
 									]
@@ -42366,7 +42421,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1359,
+									"line": 1360,
 									"character": 21
 								}
 							],
@@ -42414,7 +42469,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1359,
+											"line": 1360,
 											"character": 23
 										}
 									]
@@ -42447,7 +42502,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1034,
+									"line": 1035,
 									"character": 13
 								}
 							],
@@ -42479,7 +42534,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1034,
+											"line": 1035,
 											"character": 15
 										}
 									]
@@ -42512,7 +42567,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1429,
+									"line": 1430,
 									"character": 17
 								}
 							],
@@ -42566,7 +42621,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1429,
+											"line": 1430,
 											"character": 19
 										}
 									]
@@ -42599,7 +42654,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1352,
+									"line": 1353,
 									"character": 17
 								}
 							],
@@ -42653,7 +42708,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1352,
+											"line": 1353,
 											"character": 19
 										}
 									]
@@ -42681,7 +42736,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1328,
+									"line": 1329,
 									"character": 20
 								}
 							],
@@ -42735,7 +42790,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1328,
+											"line": 1329,
 											"character": 22
 										}
 									]
@@ -42768,7 +42823,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1209,
+									"line": 1210,
 									"character": 20
 								}
 							],
@@ -42822,7 +42877,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1209,
+											"line": 1210,
 											"character": 22
 										}
 									]
@@ -42855,7 +42910,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1406,
+									"line": 1407,
 									"character": 18
 								}
 							],
@@ -42909,7 +42964,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1406,
+											"line": 1407,
 											"character": 20
 										}
 									]
@@ -42937,7 +42992,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 977,
+									"line": 978,
 									"character": 15
 								}
 							],
@@ -42991,7 +43046,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 977,
+											"line": 978,
 											"character": 17
 										}
 									]
@@ -43024,7 +43079,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1320,
+									"line": 1321,
 									"character": 15
 								}
 							],
@@ -43078,7 +43133,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1320,
+											"line": 1321,
 											"character": 17
 										}
 									]
@@ -43106,7 +43161,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1296,
+									"line": 1297,
 									"character": 18
 								}
 							],
@@ -43160,7 +43215,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1296,
+											"line": 1297,
 											"character": 20
 										}
 									]
@@ -43193,7 +43248,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1185,
+									"line": 1186,
 									"character": 12
 								}
 							],
@@ -43241,7 +43296,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1185,
+											"line": 1186,
 											"character": 14
 										}
 									]
@@ -43269,7 +43324,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1159,
+									"line": 1160,
 									"character": 17
 								}
 							],
@@ -43317,7 +43372,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1159,
+											"line": 1160,
 											"character": 19
 										}
 									]
@@ -43350,7 +43405,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1151,
+									"line": 1152,
 									"character": 10
 								}
 							],
@@ -43398,7 +43453,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1151,
+											"line": 1152,
 											"character": 12
 										}
 									]
@@ -43426,7 +43481,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1128,
+									"line": 1129,
 									"character": 15
 								}
 							],
@@ -43474,7 +43529,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1128,
+											"line": 1129,
 											"character": 17
 										}
 									]
@@ -43507,7 +43562,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1234,
+									"line": 1235,
 									"character": 22
 								}
 							],
@@ -43555,7 +43610,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1234,
+											"line": 1235,
 											"character": 24
 										}
 									]
@@ -45312,18 +45367,18 @@
 								"isOptional": true
 							},
 							"comment": {
-								"shortText": "Configures the Loading Indicator of the Grid.",
+								"shortText": "Configures the loading indicator for the Grid component.\nDetermines the visual representation of the loading state.",
 								"tags": [
 									{
 										"tag": "default",
-										"text": "{indicatorType: IndicatorType.Spinner}\n"
+										"text": "LoadingIndicatorType.Spinner\n"
 									}
 								]
 							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 857,
+									"line": 858,
 									"character": 24
 								}
 							],
@@ -45473,7 +45528,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1013,
+									"line": 1014,
 									"character": 18
 								}
 							],
@@ -45520,7 +45575,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1013,
+											"line": 1014,
 											"character": 20
 										}
 									]
@@ -46958,7 +47013,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1915,
+									"line": 1916,
 									"character": 13
 								}
 							],
@@ -47029,7 +47084,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1906,
+									"line": 1907,
 									"character": 21
 								}
 							],
@@ -47096,7 +47151,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1811,
+									"line": 1812,
 									"character": 15
 								}
 							],
@@ -47162,7 +47217,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1751,
+									"line": 1752,
 									"character": 21
 								}
 							],
@@ -47207,7 +47262,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1759,
+									"line": 1760,
 									"character": 18
 								}
 							],
@@ -47274,7 +47329,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1788,
+									"line": 1789,
 									"character": 13
 								}
 							],
@@ -47355,7 +47410,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1925,
+									"line": 1926,
 									"character": 16
 								}
 							],
@@ -47419,7 +47474,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1871,
+									"line": 1872,
 									"character": 14
 								}
 							],
@@ -47579,7 +47634,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1802,
+									"line": 1803,
 									"character": 18
 								}
 							],
@@ -47643,7 +47698,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1592,
+									"line": 1593,
 									"character": 20
 								}
 							],
@@ -47709,7 +47764,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1608,
+									"line": 1609,
 									"character": 18
 								}
 							],
@@ -47758,7 +47813,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1682,
+									"line": 1683,
 									"character": 14
 								}
 							],
@@ -47805,7 +47860,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1863,
+									"line": 1864,
 									"character": 14
 								}
 							],
@@ -47946,7 +48001,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1619,
+									"line": 1620,
 									"character": 11
 								}
 							],
@@ -47992,7 +48047,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1691,
+									"line": 1692,
 									"character": 17
 								}
 							],
@@ -48039,7 +48094,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1855,
+									"line": 1856,
 									"character": 20
 								}
 							],
@@ -48088,7 +48143,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1633,
+									"line": 1634,
 									"character": 20
 								}
 							],
@@ -48136,7 +48191,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1649,
+									"line": 1650,
 									"character": 27
 								}
 							],
@@ -48206,7 +48261,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1642,
+									"line": 1643,
 									"character": 14
 								}
 							],
@@ -48263,7 +48318,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1742,
+									"line": 1743,
 									"character": 22
 								}
 							],
@@ -48311,7 +48366,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1735,
+									"line": 1736,
 									"character": 25
 								}
 							],
@@ -48361,7 +48416,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1699,
+									"line": 1700,
 									"character": 19
 								}
 							],
@@ -48416,7 +48471,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1599,
+									"line": 1600,
 									"character": 21
 								}
 							],
@@ -48479,7 +48534,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1839,
+									"line": 1840,
 									"character": 12
 								}
 							],
@@ -48524,7 +48579,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1577,
+									"line": 1578,
 									"character": 15
 								}
 							],
@@ -48569,7 +48624,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1626,
+									"line": 1627,
 									"character": 12
 								}
 							],
@@ -48613,7 +48668,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1583,
+									"line": 1584,
 									"character": 11
 								}
 							],
@@ -48696,7 +48751,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1822,
+									"line": 1823,
 									"character": 29
 								}
 							],
@@ -48759,7 +48814,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1779,
+									"line": 1780,
 									"character": 20
 								}
 							],
@@ -48836,7 +48891,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1892,
+									"line": 1893,
 									"character": 19
 								}
 							],
@@ -48900,7 +48955,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1831,
+									"line": 1832,
 									"character": 10
 								}
 							],
@@ -48980,7 +49035,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1709,
+									"line": 1710,
 									"character": 13
 								}
 							],
@@ -49060,7 +49115,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1728,
+									"line": 1729,
 									"character": 20
 								}
 							],
@@ -49126,7 +49181,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1718,
+									"line": 1719,
 									"character": 14
 								}
 							],
@@ -49258,7 +49313,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1674,
+									"line": 1675,
 									"character": 16
 								}
 							],
@@ -49322,7 +49377,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1847,
+									"line": 1848,
 									"character": 19
 								}
 							],
@@ -49428,7 +49483,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1661,
+									"line": 1662,
 									"character": 14
 								}
 							],
@@ -49473,7 +49528,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1570,
+									"line": 1571,
 									"character": 15
 								}
 							],
@@ -49579,7 +49634,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1770,
+									"line": 1771,
 									"character": 16
 								}
 							],
@@ -49658,7 +49713,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1935,
+									"line": 1936,
 									"character": 16
 								}
 							],
@@ -49703,7 +49758,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1943,
+									"line": 1944,
 									"character": 20
 								}
 							],
@@ -49766,7 +49821,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1952,
+									"line": 1953,
 									"character": 17
 								}
 							],
@@ -50046,7 +50101,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 961,
+									"line": 962,
 									"character": 25
 								}
 							],
@@ -50099,7 +50154,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 961,
+											"line": 962,
 											"character": 27
 										}
 									]
@@ -50127,7 +50182,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 985,
+									"line": 986,
 									"character": 24
 								}
 							],
@@ -50180,7 +50235,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 985,
+											"line": 986,
 											"character": 26
 										}
 									]
@@ -50213,7 +50268,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1280,
+									"line": 1281,
 									"character": 15
 								}
 							],
@@ -50267,7 +50322,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1280,
+											"line": 1281,
 											"character": 17
 										}
 									]
@@ -50300,7 +50355,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1256,
+									"line": 1257,
 									"character": 15
 								}
 							],
@@ -50354,7 +50409,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1256,
+											"line": 1257,
 											"character": 17
 										}
 									]
@@ -50382,7 +50437,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1288,
+									"line": 1289,
 									"character": 20
 								}
 							],
@@ -50436,7 +50491,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1288,
+											"line": 1289,
 											"character": 22
 										}
 									]
@@ -50464,7 +50519,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 969,
+									"line": 970,
 									"character": 16
 								}
 							],
@@ -50518,7 +50573,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 969,
+											"line": 970,
 											"character": 18
 										}
 									]
@@ -50551,7 +50606,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1521,
+									"line": 1522,
 									"character": 22
 								}
 							],
@@ -50605,7 +50660,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1521,
+											"line": 1522,
 											"character": 24
 										}
 									]
@@ -50638,7 +50693,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1498,
+									"line": 1499,
 									"character": 24
 								}
 							],
@@ -50708,7 +50763,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1498,
+											"line": 1499,
 											"character": 26
 										}
 									]
@@ -50741,7 +50796,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1082,
+									"line": 1083,
 									"character": 23
 								}
 							],
@@ -50795,7 +50850,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1082,
+											"line": 1083,
 											"character": 25
 										}
 									]
@@ -50828,7 +50883,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1475,
+									"line": 1476,
 									"character": 21
 								}
 							],
@@ -50898,7 +50953,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1475,
+											"line": 1476,
 											"character": 23
 										}
 									]
@@ -50931,7 +50986,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 920,
+									"line": 921,
 									"character": 14
 								}
 							],
@@ -50963,7 +51018,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 920,
+											"line": 921,
 											"character": 16
 										}
 									]
@@ -50991,7 +51046,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 895,
+									"line": 896,
 									"character": 19
 								}
 							],
@@ -51048,7 +51103,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 895,
+											"line": 896,
 											"character": 21
 										}
 									]
@@ -51081,7 +51136,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1058,
+									"line": 1059,
 									"character": 17
 								}
 							],
@@ -51129,7 +51184,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1058,
+											"line": 1059,
 											"character": 19
 										}
 									]
@@ -51162,7 +51217,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1007,
+									"line": 1008,
 									"character": 11
 								}
 							],
@@ -51209,7 +51264,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1007,
+											"line": 1008,
 											"character": 13
 										}
 									]
@@ -51242,7 +51297,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1120,
+									"line": 1121,
 									"character": 12
 								}
 							],
@@ -51290,7 +51345,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1120,
+											"line": 1121,
 											"character": 14
 										}
 									]
@@ -51318,7 +51373,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1097,
+									"line": 1098,
 									"character": 17
 								}
 							],
@@ -51366,7 +51421,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1097,
+											"line": 1098,
 											"character": 19
 										}
 									]
@@ -51399,7 +51454,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1452,
+									"line": 1453,
 									"character": 16
 								}
 							],
@@ -51453,7 +51508,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1452,
+											"line": 1453,
 											"character": 18
 										}
 									]
@@ -51481,7 +51536,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1089,
+									"line": 1090,
 									"character": 17
 								}
 							],
@@ -51513,7 +51568,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1089,
+											"line": 1090,
 											"character": 19
 										}
 									]
@@ -51541,7 +51596,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 887,
+									"line": 888,
 									"character": 14
 								}
 							],
@@ -51573,7 +51628,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 887,
+											"line": 888,
 											"character": 16
 										}
 									]
@@ -51606,7 +51661,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 945,
+									"line": 946,
 									"character": 24
 								}
 							],
@@ -51638,7 +51693,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 945,
+											"line": 946,
 											"character": 26
 										}
 									]
@@ -51671,7 +51726,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 879,
+									"line": 880,
 									"character": 21
 								}
 							],
@@ -51703,7 +51758,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 879,
+											"line": 880,
 											"character": 23
 										}
 									]
@@ -51731,7 +51786,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 953,
+									"line": 954,
 									"character": 22
 								}
 							],
@@ -51779,7 +51834,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 953,
+											"line": 954,
 											"character": 24
 										}
 									]
@@ -51812,7 +51867,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1382,
+									"line": 1383,
 									"character": 16
 								}
 							],
@@ -51860,7 +51915,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1382,
+											"line": 1383,
 											"character": 18
 										}
 									]
@@ -51888,7 +51943,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1359,
+									"line": 1360,
 									"character": 21
 								}
 							],
@@ -51936,7 +51991,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1359,
+											"line": 1360,
 											"character": 23
 										}
 									]
@@ -51969,7 +52024,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1034,
+									"line": 1035,
 									"character": 13
 								}
 							],
@@ -52001,7 +52056,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1034,
+											"line": 1035,
 											"character": 15
 										}
 									]
@@ -52034,7 +52089,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1429,
+									"line": 1430,
 									"character": 17
 								}
 							],
@@ -52088,7 +52143,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1429,
+											"line": 1430,
 											"character": 19
 										}
 									]
@@ -52121,7 +52176,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1352,
+									"line": 1353,
 									"character": 17
 								}
 							],
@@ -52175,7 +52230,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1352,
+											"line": 1353,
 											"character": 19
 										}
 									]
@@ -52203,7 +52258,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1328,
+									"line": 1329,
 									"character": 20
 								}
 							],
@@ -52257,7 +52312,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1328,
+											"line": 1329,
 											"character": 22
 										}
 									]
@@ -52290,7 +52345,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1209,
+									"line": 1210,
 									"character": 20
 								}
 							],
@@ -52344,7 +52399,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1209,
+											"line": 1210,
 											"character": 22
 										}
 									]
@@ -52377,7 +52432,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1406,
+									"line": 1407,
 									"character": 18
 								}
 							],
@@ -52431,7 +52486,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1406,
+											"line": 1407,
 											"character": 20
 										}
 									]
@@ -52459,7 +52514,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 977,
+									"line": 978,
 									"character": 15
 								}
 							],
@@ -52513,7 +52568,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 977,
+											"line": 978,
 											"character": 17
 										}
 									]
@@ -52546,7 +52601,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1320,
+									"line": 1321,
 									"character": 15
 								}
 							],
@@ -52600,7 +52655,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1320,
+											"line": 1321,
 											"character": 17
 										}
 									]
@@ -52628,7 +52683,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1296,
+									"line": 1297,
 									"character": 18
 								}
 							],
@@ -52682,7 +52737,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1296,
+											"line": 1297,
 											"character": 20
 										}
 									]
@@ -52715,7 +52770,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1185,
+									"line": 1186,
 									"character": 12
 								}
 							],
@@ -52763,7 +52818,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1185,
+											"line": 1186,
 											"character": 14
 										}
 									]
@@ -52791,7 +52846,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1159,
+									"line": 1160,
 									"character": 17
 								}
 							],
@@ -52839,7 +52894,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1159,
+											"line": 1160,
 											"character": 19
 										}
 									]
@@ -52872,7 +52927,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1151,
+									"line": 1152,
 									"character": 10
 								}
 							],
@@ -52920,7 +52975,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1151,
+											"line": 1152,
 											"character": 12
 										}
 									]
@@ -52948,7 +53003,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1128,
+									"line": 1129,
 									"character": 15
 								}
 							],
@@ -52996,7 +53051,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1128,
+											"line": 1129,
 											"character": 17
 										}
 									]
@@ -53029,7 +53084,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1234,
+									"line": 1235,
 									"character": 22
 								}
 							],
@@ -53077,7 +53132,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1234,
+											"line": 1235,
 											"character": 24
 										}
 									]
@@ -53447,7 +53502,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1563,
+									"line": 1564,
 									"character": 11
 								}
 							],
@@ -54015,18 +54070,18 @@
 								"isOptional": true
 							},
 							"comment": {
-								"shortText": "Configures the Loading Indicator of the Grid.",
+								"shortText": "Configures the loading indicator for the Grid component.\nDetermines the visual representation of the loading state.",
 								"tags": [
 									{
 										"tag": "default",
-										"text": "{indicatorType: IndicatorType.Spinner}\n"
+										"text": "LoadingIndicatorType.Spinner\n"
 									}
 								]
 							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 857,
+									"line": 858,
 									"character": 24
 								}
 							],
@@ -54124,7 +54179,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1013,
+									"line": 1014,
 									"character": 18
 								}
 							],
@@ -54171,7 +54226,7 @@
 									"sources": [
 										{
 											"fileName": "src/grid/types/grid.interfaces.d.ts",
-											"line": 1013,
+											"line": 1014,
 											"character": 20
 										}
 									]
@@ -54946,7 +55001,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1915,
+									"line": 1916,
 									"character": 13
 								}
 							]
@@ -55007,7 +55062,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1906,
+									"line": 1907,
 									"character": 21
 								}
 							]
@@ -55064,7 +55119,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1811,
+									"line": 1812,
 									"character": 15
 								}
 							]
@@ -55120,7 +55175,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1751,
+									"line": 1752,
 									"character": 21
 								}
 							]
@@ -55155,7 +55210,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1759,
+									"line": 1760,
 									"character": 18
 								}
 							]
@@ -55212,7 +55267,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1788,
+									"line": 1789,
 									"character": 13
 								}
 							]
@@ -55283,7 +55338,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1925,
+									"line": 1926,
 									"character": 16
 								}
 							]
@@ -55337,7 +55392,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1871,
+									"line": 1872,
 									"character": 14
 								}
 							]
@@ -55487,7 +55542,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1802,
+									"line": 1803,
 									"character": 18
 								}
 							]
@@ -55541,7 +55596,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1592,
+									"line": 1593,
 									"character": 20
 								}
 							]
@@ -55597,7 +55652,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1608,
+									"line": 1609,
 									"character": 18
 								}
 							]
@@ -55636,7 +55691,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1682,
+									"line": 1683,
 									"character": 14
 								}
 							]
@@ -55673,7 +55728,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1863,
+									"line": 1864,
 									"character": 14
 								}
 							]
@@ -55804,7 +55859,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1619,
+									"line": 1620,
 									"character": 11
 								}
 							]
@@ -55840,7 +55895,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1691,
+									"line": 1692,
 									"character": 17
 								}
 							]
@@ -55877,7 +55932,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1855,
+									"line": 1856,
 									"character": 20
 								}
 							]
@@ -55916,7 +55971,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1633,
+									"line": 1634,
 									"character": 20
 								}
 							]
@@ -55954,7 +56009,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1649,
+									"line": 1650,
 									"character": 27
 								}
 							]
@@ -56014,7 +56069,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1642,
+									"line": 1643,
 									"character": 14
 								}
 							]
@@ -56061,7 +56116,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1742,
+									"line": 1743,
 									"character": 22
 								}
 							]
@@ -56099,7 +56154,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1735,
+									"line": 1736,
 									"character": 25
 								}
 							]
@@ -56139,7 +56194,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1699,
+									"line": 1700,
 									"character": 19
 								}
 							]
@@ -56184,7 +56239,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1599,
+									"line": 1600,
 									"character": 21
 								}
 							]
@@ -56237,7 +56292,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1839,
+									"line": 1840,
 									"character": 12
 								}
 							]
@@ -56272,7 +56327,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1577,
+									"line": 1578,
 									"character": 15
 								}
 							]
@@ -56307,7 +56362,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1626,
+									"line": 1627,
 									"character": 12
 								}
 							]
@@ -56341,7 +56396,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1583,
+									"line": 1584,
 									"character": 11
 								}
 							]
@@ -56414,7 +56469,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1822,
+									"line": 1823,
 									"character": 29
 								}
 							]
@@ -56467,7 +56522,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1779,
+									"line": 1780,
 									"character": 20
 								}
 							]
@@ -56534,7 +56589,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1892,
+									"line": 1893,
 									"character": 19
 								}
 							]
@@ -56588,7 +56643,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1831,
+									"line": 1832,
 									"character": 10
 								}
 							]
@@ -56658,7 +56713,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1709,
+									"line": 1710,
 									"character": 13
 								}
 							]
@@ -56728,7 +56783,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1728,
+									"line": 1729,
 									"character": 20
 								}
 							]
@@ -56784,7 +56839,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1718,
+									"line": 1719,
 									"character": 14
 								}
 							]
@@ -56906,7 +56961,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1674,
+									"line": 1675,
 									"character": 16
 								}
 							]
@@ -56960,7 +57015,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1847,
+									"line": 1848,
 									"character": 19
 								}
 							]
@@ -57056,7 +57111,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1661,
+									"line": 1662,
 									"character": 14
 								}
 							]
@@ -57091,7 +57146,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1570,
+									"line": 1571,
 									"character": 15
 								}
 							]
@@ -57187,7 +57242,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1770,
+									"line": 1771,
 									"character": 16
 								}
 							]
@@ -57256,7 +57311,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1935,
+									"line": 1936,
 									"character": 16
 								}
 							]
@@ -57291,7 +57346,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1943,
+									"line": 1944,
 									"character": 20
 								}
 							]
@@ -57344,7 +57399,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1952,
+									"line": 1953,
 									"character": 17
 								}
 							]
@@ -57491,7 +57546,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/grid.interfaces.d.ts",
-							"line": 1556,
+							"line": 1557,
 							"character": 22
 						}
 					],
@@ -57562,7 +57617,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1984,
+									"line": 1985,
 									"character": 8
 								}
 							],
@@ -57593,7 +57648,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2002,
+									"line": 2003,
 									"character": 10
 								}
 							],
@@ -57625,7 +57680,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1993,
+									"line": 1994,
 									"character": 15
 								}
 							],
@@ -57656,7 +57711,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2030,
+									"line": 2031,
 									"character": 8
 								}
 							],
@@ -57687,7 +57742,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1975,
+									"line": 1976,
 									"character": 9
 								}
 							],
@@ -57725,7 +57780,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2012,
+									"line": 2013,
 									"character": 8
 								}
 							],
@@ -57756,7 +57811,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2021,
+									"line": 2022,
 									"character": 7
 								}
 							],
@@ -57787,7 +57842,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2039,
+									"line": 2040,
 									"character": 12
 								}
 							],
@@ -57816,7 +57871,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/grid.interfaces.d.ts",
-							"line": 1966,
+							"line": 1967,
 							"character": 39
 						}
 					]
@@ -57865,7 +57920,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1548,
+									"line": 1549,
 									"character": 8
 								}
 							],
@@ -57894,7 +57949,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1541,
+									"line": 1542,
 									"character": 12
 								}
 							],
@@ -57923,7 +57978,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 1534,
+									"line": 1535,
 									"character": 11
 								}
 							],
@@ -57957,7 +58012,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/grid.interfaces.d.ts",
-							"line": 1527,
+							"line": 1528,
 							"character": 30
 						}
 					]
@@ -58299,7 +58354,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2119,
+									"line": 2120,
 									"character": 11
 								}
 							],
@@ -58329,7 +58384,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/grid.interfaces.d.ts",
-									"line": 2101,
+									"line": 2102,
 									"character": 12
 								}
 							],
@@ -58362,7 +58417,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/grid.interfaces.d.ts",
-							"line": 2092,
+							"line": 2093,
 							"character": 33
 						}
 					]
@@ -58393,7 +58448,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/grid.interfaces.d.ts",
-							"line": 1959,
+							"line": 1960,
 							"character": 21
 						}
 					],
@@ -58466,7 +58521,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/index.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/index.d.ts",
 			"sources": [
 				{
 					"fileName": "src/grid/types/index.d.ts",
@@ -58483,7 +58538,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/interfaces.d.ts",
 			"children": [
 				{
 					"id": 3353,
@@ -99372,7 +99427,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/page.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/page.interfaces.d.ts",
 			"children": [
 				{
 					"id": 3590,
@@ -100286,7 +100341,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/search.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/search.interfaces.d.ts",
 			"children": [
 				{
 					"id": 3622,
@@ -100960,7 +101015,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/selection.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/selection.interfaces.d.ts",
 			"children": [
 				{
 					"id": 3706,
@@ -103546,7 +103601,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/sort.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/sort.interfaces.d.ts",
 			"children": [
 				{
 					"id": 3750,
@@ -104717,7 +104772,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/toolbar.interfaces.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/toolbar.interfaces.d.ts",
 			"children": [
 				{
 					"id": 3778,
@@ -106386,7 +106441,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/types/virtualization.interface.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/types/virtualization.interface.d.ts",
 			"children": [
 				{
 					"id": 3834,
@@ -106629,7 +106684,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 123,
+									"line": 140,
 									"character": 16
 								}
 							],
@@ -106659,7 +106714,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 135,
+									"line": 152,
 									"character": 15
 								}
 							],
@@ -106689,7 +106744,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 109,
+									"line": 126,
 									"character": 16
 								}
 							],
@@ -106719,7 +106774,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 103,
+									"line": 120,
 									"character": 13
 								}
 							],
@@ -106749,7 +106804,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 129,
+									"line": 146,
 									"character": 26
 								}
 							],
@@ -106779,7 +106834,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 116,
+									"line": 133,
 									"character": 13
 								}
 							],
@@ -106806,7 +106861,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/virtualization.interface.d.ts",
-							"line": 97,
+							"line": 114,
 							"character": 32
 						}
 					]
@@ -106820,7 +106875,13 @@
 						"isExported": true
 					},
 					"comment": {
-						"shortText": "Configures virtualization behavior for grid rendering.\nIncludes options for enabling virtualization, defining DOM type,\nand customizing buffer and scroll settings."
+						"shortText": "Configures virtualization behavior for Grid rendering.\nProvides options for enabling virtualization, defining DOM type,\ncustomizing buffer size, and controlling scroll and cache settings.",
+						"tags": [
+							{
+								"tag": "example",
+								"text": "\n```tsx\nconst virtualization: VirtualizationSettings = {\n  enabled: true,\n  type: VirtualDomType.Both,\n  viewPortBuffer: { rows: 5, columns: 5 },\n  scrollMode: ScrollMode.Virtual,\n  enableCache: true\n};\n<Grid virtualizationSettings={virtualization} />\n```\n"
+							}
+						]
 					},
 					"children": [
 						{
@@ -106829,23 +106890,22 @@
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
-								"isPrivate": true,
 								"isExported": true,
 								"isOptional": true
 							},
 							"comment": {
-								"shortText": "Enables caching of virtualized content for improved performance.",
+								"shortText": "Enables caching of virtualized content for improved performance.\nWhen true, previously visited views are not re-fetched from the server.\nWhen false, every viewport change triggers a new request.",
 								"tags": [
 									{
 										"tag": "default",
-										"text": "true"
+										"text": "true\n"
 									}
 								]
 							},
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 89,
+									"line": 106,
 									"character": 15
 								}
 							],
@@ -106864,7 +106924,7 @@
 								"isOptional": true
 							},
 							"comment": {
-								"shortText": "Enables or disables virtualization.",
+								"shortText": "Enables or disables virtualization.\nWhen true, only visible rows and columns are rendered for performance optimization.",
 								"tags": [
 									{
 										"tag": "default",
@@ -106875,7 +106935,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 58,
+									"line": 71,
 									"character": 11
 								}
 							],
@@ -106894,7 +106954,7 @@
 								"isOptional": true
 							},
 							"comment": {
-								"shortText": "Prevents rendering of maximum rows when row virtualization is disabled.",
+								"shortText": "Prevents rendering of maximum rows when row virtualization is disabled.\nUseful for limiting DOM size in non-virtualized scenarios.",
 								"tags": [
 									{
 										"tag": "default",
@@ -106905,7 +106965,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 76,
+									"line": 91,
 									"character": 26
 								}
 							],
@@ -106924,7 +106984,7 @@
 								"isOptional": true
 							},
 							"comment": {
-								"shortText": "Specifies the scroll mode for virtualization.",
+								"shortText": "Specifies the scroll mode for virtualization.\nDetermines whether data is fetched from the server or rendered locally.",
 								"tags": [
 									{
 										"tag": "default",
@@ -106935,7 +106995,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 82,
+									"line": 98,
 									"character": 14
 								}
 							],
@@ -106966,7 +107026,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 64,
+									"line": 77,
 									"character": 8
 								}
 							],
@@ -106986,7 +107046,7 @@
 								"isOptional": true
 							},
 							"comment": {
-								"shortText": "Defines buffer settings for rows and columns outside the viewport.",
+								"shortText": "Defines buffer settings for rows and columns outside the viewport.\nHelps reduce flickering during fast scrolling.",
 								"tags": [
 									{
 										"tag": "default",
@@ -106997,7 +107057,7 @@
 							"sources": [
 								{
 									"fileName": "src/grid/types/virtualization.interface.d.ts",
-									"line": 70,
+									"line": 84,
 									"character": 18
 								}
 							],
@@ -107025,7 +107085,7 @@
 					"sources": [
 						{
 							"fileName": "src/grid/types/virtualization.interface.d.ts",
-							"line": 52,
+							"line": 64,
 							"character": 39
 						}
 					]
@@ -107065,7 +107125,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/utils/index.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/utils/index.d.ts",
 			"sources": [
 				{
 					"fileName": "src/grid/utils/index.d.ts",
@@ -107082,7 +107142,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/utils/utils.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/utils/utils.d.ts",
 			"children": [
 				{
 					"id": 3865,
@@ -108718,7 +108778,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/Aggregate.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/Aggregate.d.ts",
 			"children": [
 				{
 					"id": 3948,
@@ -109036,7 +109096,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/ContentPanel.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/ContentPanel.d.ts",
 			"children": [
 				{
 					"id": 3954,
@@ -109204,7 +109264,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/ContentRows.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/ContentRows.d.ts",
 			"children": [
 				{
 					"id": 3960,
@@ -109362,7 +109422,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/ContentTable.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/ContentTable.d.ts",
 			"children": [
 				{
 					"id": 3966,
@@ -109540,7 +109600,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/FilterBar.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/FilterBar.d.ts",
 			"children": [
 				{
 					"id": 3972,
@@ -109671,7 +109731,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/FooterPanel.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/FooterPanel.d.ts",
 			"children": [
 				{
 					"id": 3977,
@@ -109783,7 +109843,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/FooterRows.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/FooterRows.d.ts",
 			"children": [
 				{
 					"id": 3979,
@@ -109924,7 +109984,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/FooterTable.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/FooterTable.d.ts",
 			"children": [
 				{
 					"id": 3984,
@@ -110041,7 +110101,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/HeaderPanel.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/HeaderPanel.d.ts",
 			"children": [
 				{
 					"id": 3986,
@@ -110153,7 +110213,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/HeaderRows.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/HeaderRows.d.ts",
 			"children": [
 				{
 					"id": 3988,
@@ -110294,7 +110354,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/HeaderTable.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/HeaderTable.d.ts",
 			"children": [
 				{
 					"id": 3993,
@@ -110411,7 +110471,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/PagerPanel.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/PagerPanel.d.ts",
 			"children": [
 				{
 					"id": 3996,
@@ -110500,7 +110560,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/Render.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/Render.d.ts",
 			"children": [
 				{
 					"id": 4003,
@@ -110727,7 +110787,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/editing/ConfirmDialog.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/editing/ConfirmDialog.d.ts",
 			"children": [
 				{
 					"id": 4007,
@@ -110818,7 +110878,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/editing/EditCell.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/editing/EditCell.d.ts",
 			"children": [
 				{
 					"id": 4009,
@@ -110965,7 +111025,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/editing/InlineEditForm.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/editing/InlineEditForm.d.ts",
 			"children": [
 				{
 					"id": 4015,
@@ -111915,7 +111975,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/editing/PopupEditForm.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/editing/PopupEditForm.d.ts",
 			"children": [
 				{
 					"id": 4062,
@@ -112052,7 +112112,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/editing/ToolBar.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/editing/ToolBar.d.ts",
 			"children": [
 				{
 					"id": 4068,
@@ -112142,7 +112202,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/editing/ValidationTooltips.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/editing/ValidationTooltips.d.ts",
 			"children": [
 				{
 					"id": 4070,
@@ -112198,7 +112258,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/grid/views/index.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/grid/views/index.d.ts",
 			"sources": [
 				{
 					"fileName": "src/grid/views/index.d.ts",
@@ -112215,7 +112275,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/native-react/grid-src/dev/current_source/25-07-2025/react-grid-components/src/index.d.ts",
+			"originalName": "D:/native-react/grid-src/dev/current_source/18-09-2025/react-grid-components/src/index.d.ts",
 			"sources": [
 				{
 					"fileName": "src/index.d.ts",
@@ -112230,14 +112290,14 @@
 			"title": "External modules",
 			"kind": 1,
 			"children": [
-				55,
-				66,
-				75,
-				87,
-				86,
 				3,
-				29,
-				28,
+				14,
+				23,
+				35,
+				34,
+				41,
+				67,
+				66,
 				93,
 				94,
 				118,

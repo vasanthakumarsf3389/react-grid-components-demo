@@ -3380,16 +3380,23 @@ img {
 				<div class="tsd-signature tsd-kind-icon">indicator<wbr>Shimmer<wbr>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">SkeletonProps</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:430</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:436</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Only applicable for Shimmer indicator type of Grid.</p>
+						<p>Defines options for the shimmer loading indicator.
+						Applicable only when <code>loadingIndicatorType</code> is set to <code>LoadingIndicatorType.Shimmer</code>.</p>
 					</div>
+					<ul>
+						<li><code>width</code> - Width of the shimmer element.</li>
+						<li><code>height</code> - Height of the shimmer element.</li>
+						<li><code>variant</code> - Skeleton variant type (e.g., text, rectangle).</li>
+						<li><code>animation</code> - Animation style for shimmer effect.</li>
+					</ul>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
-						<dd><p>{width: &#39;100%&#39;, height: &#39;10px&#39;, variant: Variants.Text, animation: AnimationType.Wave}</p>
+						<dd><p>{ width: &#39;100%&#39;, height: &#39;10px&#39;, variant: Variants.Text, animation: AnimationType.Wave }</p>
 						</dd>
 					</dl>
 				</div>
