@@ -2388,6 +2388,9 @@ img {
 					<a href="_grid_types_column_interfaces_d_.columnprops.html#allowsort" class="tsd-kind-icon">allow<wbr>Sort</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_column_interfaces_d_.columnprops.html#autoheight" class="tsd-kind-icon">auto<wbr>Height</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_column_interfaces_d_.columnprops.html#cellclass" class="tsd-kind-icon">cell<wbr>Class</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-private">
@@ -2464,9 +2467,6 @@ img {
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-private">
 					<a href="_grid_types_column_interfaces_d_.columnprops.html#index" class="tsd-kind-icon">index</a>
-				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="_grid_types_column_interfaces_d_.columnprops.html#indicatorshimmeroptions" class="tsd-kind-icon">indicator<wbr>Shimmer<wbr>Options</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-private">
 					<a href="_grid_types_column_interfaces_d_.columnprops.html#isidentity" class="tsd-kind-icon">is<wbr>Identity</a>
@@ -2589,6 +2589,7 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#allowfilter" class="tsd-kind-icon">allow<wbr>Filter</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#allowsearch" class="tsd-kind-icon">allow<wbr>Search</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#allowsort" class="tsd-kind-icon">allow<wbr>Sort</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#autoheight" class="tsd-kind-icon">auto<wbr>Height</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#cellclass" class="tsd-kind-icon">cell<wbr>Class</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_column_interfaces_d_.columnprops.html#children" class="tsd-kind-icon">children</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#clipmode" class="tsd-kind-icon">clip<wbr>Mode</a></li>
@@ -2615,7 +2616,6 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#headervalueaccessor" class="tsd-kind-icon">header<wbr>Value<wbr>Accessor</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_column_interfaces_d_.columnprops.html#hideatmedia" class="tsd-kind-icon">hide<wbr>AtMedia</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_column_interfaces_d_.columnprops.html#index" class="tsd-kind-icon">index</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#indicatorshimmeroptions" class="tsd-kind-icon">indicator<wbr>Shimmer<wbr>Options</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_column_interfaces_d_.columnprops.html#isidentity" class="tsd-kind-icon">is<wbr>Identity</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.columnprops.html#isprimarykey" class="tsd-kind-icon">is<wbr>Primary<wbr>Key</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_column_interfaces_d_.columnprops.html#parsefn" class="tsd-kind-icon">parse<wbr>Fn</a></li>
@@ -2721,12 +2721,32 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="autoheight" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> auto<wbr>Height</h3>
+				<div class="tsd-signature tsd-kind-icon">auto<wbr>Height<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:337</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Set to true to have the grid calculate the height of a row based on contents of this column.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>false</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="cellclass" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> cell<wbr>Class</h3>
 				<div class="tsd-signature tsd-kind-icon">cell<wbr>Class<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">?: </span><a href="_grid_types_column_interfaces_d_.cellclassprops.html" class="tsd-signature-type">CellClassProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:415</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:421</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2780,7 +2800,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">children<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReactNode</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:371</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:377</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2966,7 +2986,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">field<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:26</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:25</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3050,7 +3070,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">format<wbr>Fn<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:351</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:357</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3065,7 +3085,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">format<wbr>Value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:365</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:371</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3158,7 +3178,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Formatter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:338</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:344</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3178,7 +3198,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Parser<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:345</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:351</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3198,7 +3218,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">header<wbr>Checkbox<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:424</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:430</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3242,7 +3262,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">header<wbr>Text<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:49</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:48</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3360,7 +3380,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:42</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:41</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3370,33 +3390,6 @@ img {
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>-</p>
-						</dd>
-					</dl>
-				</div>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="indicatorshimmeroptions" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagOptional">Optional</span> indicator<wbr>Shimmer<wbr>Options</h3>
-				<div class="tsd-signature tsd-kind-icon">indicator<wbr>Shimmer<wbr>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">SkeletonProps</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:436</li>
-					</ul>
-				</aside>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>Defines options for the shimmer loading indicator.
-						Applicable only when <code>loadingIndicatorType</code> is set to <code>LoadingIndicatorType.Shimmer</code>.</p>
-					</div>
-					<ul>
-						<li><code>width</code> - Width of the shimmer element.</li>
-						<li><code>height</code> - Height of the shimmer element.</li>
-						<li><code>variant</code> - Skeleton variant type (e.g., text, rectangle).</li>
-						<li><code>animation</code> - Animation style for shimmer effect.</li>
-					</ul>
-					<dl class="tsd-comment-tags">
-						<dt>default</dt>
-						<dd><p>{ width: &#39;100%&#39;, height: &#39;10px&#39;, variant: Variants.Text, animation: AnimationType.Wave }</p>
 						</dd>
 					</dl>
 				</div>
@@ -3449,7 +3442,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">parse<wbr>Fn<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:357</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:363</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3551,7 +3544,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">sort<wbr>Direction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:378</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:384</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3658,7 +3651,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">uid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:35</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:34</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3783,11 +3776,12 @@ img {
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
 						<p>Defines the column width in pixels (e.g., 100 or &#39;100&#39;).
-						Controls the column&#39;s size in the grid layout.</p>
+							Controls the column&#39;s size in the grid layout.
+						When <code>width</code> is <code>undefined</code> and column DOM virtualization is enabled, the default width is <code>&#39;100px&#39;</code>.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
-						<dd><p>&#39;100px&#39;</p>
+						<dd><p>&#39;&#39; | &#39;100px&#39;</p>
 						</dd>
 					</dl>
 				</div>
