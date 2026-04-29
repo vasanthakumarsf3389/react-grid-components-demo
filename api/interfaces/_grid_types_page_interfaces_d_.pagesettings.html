@@ -2376,10 +2376,16 @@ img {
 					<a href="_grid_types_page_interfaces_d_.pagesettings.html#enabled" class="tsd-kind-icon">enabled</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_page_interfaces_d_.pagesettings.html#estimatedtotalrecordscount" class="tsd-kind-icon">estimated<wbr>Total<wbr>Records<wbr>Count</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_page_interfaces_d_.pagesettings.html#pagecount" class="tsd-kind-icon">page<wbr>Count</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_page_interfaces_d_.pagesettings.html#pagesize" class="tsd-kind-icon">page<wbr>Size</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_page_interfaces_d_.pagesettings.html#pagesizecontrolledby" class="tsd-kind-icon">page<wbr>Size<wbr>Controlled<wbr>By</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_page_interfaces_d_.pagesettings.html#template" class="tsd-kind-icon">template</a>
@@ -2422,8 +2428,10 @@ img {
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_page_interfaces_d_.pagesettings.html#currentpage" class="tsd-kind-icon">current<wbr>Page</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_page_interfaces_d_.pagesettings.html#enabled" class="tsd-kind-icon">enabled</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_page_interfaces_d_.pagesettings.html#estimatedtotalrecordscount" class="tsd-kind-icon">estimated<wbr>Total<wbr>Records<wbr>Count</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_page_interfaces_d_.pagesettings.html#pagecount" class="tsd-kind-icon">page<wbr>Count</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_page_interfaces_d_.pagesettings.html#pagesize" class="tsd-kind-icon">page<wbr>Size</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_page_interfaces_d_.pagesettings.html#pagesizecontrolledby" class="tsd-kind-icon">page<wbr>Size<wbr>Controlled<wbr>By</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_page_interfaces_d_.pagesettings.html#template" class="tsd-kind-icon">template</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_page_interfaces_d_.pagesettings.html#totalrecordscount" class="tsd-kind-icon">total<wbr>Records<wbr>Count</a></li>
 						</ul>
@@ -2439,7 +2447,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">current<wbr>Page<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/page.interfaces.d.ts:39</li>
+						<li>Defined in src/grid/types/page.interfaces.d.ts:56</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2478,12 +2486,34 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="estimatedtotalrecordscount" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> estimated<wbr>Total<wbr>Records<wbr>Count</h3>
+				<div class="tsd-signature tsd-kind-icon">estimated<wbr>Total<wbr>Records<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/page.interfaces.d.ts:73</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Provides an estimate of the total number of records in the data source when the exact count is unavailable.
+							Used in scenarios like infinite scrolling where the server may not provide a total count.
+						Upto estimatedTotalRecordsCount, the grid will send both <code>skip</code> and <code>take</code> parameters for paging requests based on server provided <code>pageSize</code>. Once the loaded records reach this count, the grid will switch to sending only <code>skip</code> in <code>pageSizeControlledBy: &#39;server&#39;</code> default mode for subsequent requests, treating it as an infinite scroll scenario.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>0</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="pagecount" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> page<wbr>Count</h3>
 				<div class="tsd-signature tsd-kind-icon">page<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/page.interfaces.d.ts:31</li>
+						<li>Defined in src/grid/types/page.interfaces.d.ts:48</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2522,12 +2552,45 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="pagesizecontrolledby" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> page<wbr>Size<wbr>Controlled<wbr>By</h3>
+				<div class="tsd-signature tsd-kind-icon">page<wbr>Size<wbr>Controlled<wbr>By<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"server"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"client"</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/page.interfaces.d.ts:41</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Specifies who controls the page size used for server-side paging requests.</p>
+					</div>
+					<ul>
+						<li><p>When set to <code>&#39;server&#39;</code>, the grid sends only the <code>skip</code> parameter.
+								The page size is inferred from the initial server response, and subsequent
+								<code>skip</code> values are calculated based on the number of rows returned by the server.
+								This mode is suitable for infinite scrolling and scenarios where the server
+							determines page boundaries or uses continuation-based paging.</p>
+						</li>
+						<li><p>When set to <code>&#39;client&#39;</code>, the grid sends both <code>skip</code> and <code>take</code> parameters
+								based on the configured <code>pageSize</code> and current page index.
+								This allows the server to return a specific slice of data for each request
+							and is ideal for virtual scrolling with a known total row count.</p>
+						</li>
+					</ul>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>&#39;client&#39;</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="template" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> template</h3>
 				<div class="tsd-signature tsd-kind-icon">template<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/page.interfaces.d.ts:56</li>
+						<li>Defined in src/grid/types/page.interfaces.d.ts:81</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2549,7 +2612,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">total<wbr>Records<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/page.interfaces.d.ts:48</li>
+						<li>Defined in src/grid/types/page.interfaces.d.ts:65</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">

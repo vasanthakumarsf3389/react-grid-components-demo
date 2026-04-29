@@ -2370,6 +2370,9 @@ img {
 			<a href="_grid_types_enum_d_.aggregatetype.html" class="tsd-kind-icon">Aggregate<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
+			<a href="_grid_types_enum_d_.autoselectmode.html" class="tsd-kind-icon">Auto<wbr>Select<wbr>Mode</a>
+		</li>
+		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
 			<a href="_grid_types_enum_d_.celltype.html" class="tsd-kind-icon">Cell<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module tsd-is-private">
@@ -2443,11 +2446,17 @@ img {
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
 			<a href="../modules/_grid_types_enum_d_.html#action" class="tsd-kind-icon">Action</a>
 		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+			<a href="../modules/_grid_types_enum_d_.html#contextmenuitem" class="tsd-kind-icon">Context<wbr>Menu<wbr>Item</a>
+		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
 			<a href="../modules/_grid_types_enum_d_.html#editendaction" class="tsd-kind-icon">Edit<wbr>End<wbr>Action</a>
 		</li>
-		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 			<a href="../modules/_grid_types_enum_d_.html#filtertype" class="tsd-kind-icon">Filter<wbr>Type</a>
+		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+			<a href="../modules/_grid_types_enum_d_.html#indicatortype" class="tsd-kind-icon">Indicator<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 			<a href="../modules/_grid_types_enum_d_.html#toolbaritems" class="tsd-kind-icon">Toolbar<wbr>Items</a>
@@ -2462,15 +2471,16 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Specifies the type of loading indicator displayed in the Grid.
-					Used to indicate data loading state during asynchronous operations.</p>
+					<p>Specifies the type of visual loading indicator displayed during grid data operations.
+						Used to provide user feedback when the grid is fetching, processing, or rendering data.
+					Configured through LoadingIndicatorSettings.indicatorType.</p>
 				</div>
 				<dl class="tsd-comment-tags">
 					<dt>default</dt>
 					<dd><p>LoadingIndicatorType.Spinner</p>
 					</dd>
 					<dt>example</dt>
-					<dd><pre><code class="language-tsx">&lt;Grid loadingIndicatorSettings={{indicatorType: LoadingIndicatorType.Shimmer}} /&gt;</code></pre>
+					<dd><pre><code class="language-tsx">&lt;Grid loadingIndicatorSettings={{ indicatorType: LoadingIndicatorType.Shimmer }} /&gt;</code></pre>
 					</dd>
 				</dl>
 			</div>
@@ -2497,13 +2507,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Shimmer<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Shimmer&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:742</li>
+						<li>Defined in src/grid/types/enum.d.ts:829</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Displays a shimmer effect as the loading indicator.
-						Suitable for skeleton-style loading placeholders.</p>
+						<p>Displays a shimmer (skeleton) effect as a loading placeholder.
+							Simulates the structure and shape of content being loaded, providing a more modern and engaging user experience.
+						Suitable for scenarios where previewing the expected content layout improves perceived performance.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2518,13 +2529,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Spinner<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Spinner&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:735</li>
+						<li>Defined in src/grid/types/enum.d.ts:821</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Displays a spinner as the loading indicator.
-						Recommended for minimalistic loading feedback.</p>
+						<p>Displays a circular or linear spinner animation.
+							Provides a traditional loading indicator suitable for data fetching, filtering, and paging operations.
+						Recommended for minimalistic loading feedback without placeholder content.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>

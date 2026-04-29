@@ -2394,11 +2394,15 @@ img {
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
 					<p>Specifies the virtualization rendering strategy for grid content.
-					Determines whether rows, columns, or both are virtualized in the DOM.</p>
+						Determines whether rows, columns, or both are virtualized in the DOM for optimal rendering performance.
+					Virtualization reduces the number of rendered DOM elements, improving performance with large datasets.</p>
 				</div>
 				<dl class="tsd-comment-tags">
 					<dt>default</dt>
 					<dd><p>VirtualDomType.Both</p>
+					</dd>
+					<dt>example</dt>
+					<dd><pre><code class="language-tsx">&lt;Grid virtualizationSettings={{ type: VirtualDomType.Row }} /&gt;</code></pre>
 					</dd>
 				</dl>
 			</div>
@@ -2426,12 +2430,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Both<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Both&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:26</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:37</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Virtualizes both rows and columns in the DOM.</p>
+						<p>Virtualizes both rows and columns in the DOM.
+							Provides optimal performance for large datasets by rendering only visible cells.
+						Recommended for grids with large datasets containing many rows and columns.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2446,12 +2452,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Column<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Column&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:20</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:29</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Virtualizes only columns in the DOM.</p>
+						<p>Virtualizes only columns in the DOM.
+							Renders only the visible columns within the viewport while keeping all rows in the DOM.
+						Useful for grids with many columns and a manageable number of rows.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2466,12 +2474,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Row<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Row&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:14</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:21</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Virtualizes only rows in the DOM.</p>
+						<p>Virtualizes only rows in the DOM.
+							Renders only the visible rows within the viewport while keeping all columns in the DOM.
+						Suitable when column virtualization is not needed due to a manageable number of columns.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>

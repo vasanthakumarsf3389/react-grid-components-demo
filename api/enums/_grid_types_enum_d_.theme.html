@@ -2370,6 +2370,9 @@ img {
 			<a href="_grid_types_enum_d_.aggregatetype.html" class="tsd-kind-icon">Aggregate<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
+			<a href="_grid_types_enum_d_.autoselectmode.html" class="tsd-kind-icon">Auto<wbr>Select<wbr>Mode</a>
+		</li>
+		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
 			<a href="_grid_types_enum_d_.celltype.html" class="tsd-kind-icon">Cell<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module tsd-is-private">
@@ -2440,11 +2443,17 @@ img {
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
 			<a href="../modules/_grid_types_enum_d_.html#action" class="tsd-kind-icon">Action</a>
 		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+			<a href="../modules/_grid_types_enum_d_.html#contextmenuitem" class="tsd-kind-icon">Context<wbr>Menu<wbr>Item</a>
+		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
 			<a href="../modules/_grid_types_enum_d_.html#editendaction" class="tsd-kind-icon">Edit<wbr>End<wbr>Action</a>
 		</li>
-		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 			<a href="../modules/_grid_types_enum_d_.html#filtertype" class="tsd-kind-icon">Filter<wbr>Type</a>
+		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+			<a href="../modules/_grid_types_enum_d_.html#indicatortype" class="tsd-kind-icon">Indicator<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 			<a href="../modules/_grid_types_enum_d_.html#toolbaritems" class="tsd-kind-icon">Toolbar<wbr>Items</a>
@@ -2459,12 +2468,23 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Defines the visual theme applied to the Grid component.
-					Controls the overall styling and appearance of UI elements.</p>
+					<p>Specifies the theme configuration for the Data Grid component.
+					Used internally to determine default values for theme-dependent properties (e.g., row height in virtualization).</p>
 				</div>
+				<p>The theme property defines static default values and calculations used during grid initialization and rendering,
+				such as the default rowHeight value when row DOM virtualization is enabled.</p>
+				<p>Grid styling and visual appearance are controlled by importing the corresponding theme CSS files for the Data Grid,
+				not by the theme property alone. The theme property must be coordinated with the appropriate CSS import.</p>
 				<dl class="tsd-comment-tags">
+					<dt>default</dt>
+					<dd><p>Theme.Material</p>
+					</dd>
 					<dt>example</dt>
-					<dd><pre><code class="language-tsx">&lt;Grid theme={Theme.Material} /&gt;</code></pre>
+					<dd><pre><code class="language-tsx">// Import Material theme CSS for styling
+import &#39;@syncfusion/react-grids/styles/material.css&#39;;
+
+// Specify theme for internal default calculations
+&lt;Grid theme={Theme.Material} /&gt;</code></pre>
 					</dd>
 				</dl>
 			</div>
@@ -2490,13 +2510,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Material<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Material&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:716</li>
+						<li>Defined in src/grid/types/enum.d.ts:800</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Applies the Material Design theme.
-						Provides a modern and consistent UI experience.</p>
+						<p>Material Design theme configuration for the Data Grid component.
+							Used internally for Material Design default calculations such as row height (50px) in the Data Grid.
+						Requires importing Material theme CSS for the Data Grid: &#39;@syncfusion/react-grids/styles/material.css&#39;.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>

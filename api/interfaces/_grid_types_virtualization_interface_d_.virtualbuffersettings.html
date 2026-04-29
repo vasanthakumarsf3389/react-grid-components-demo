@@ -2390,10 +2390,19 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Defines buffer settings for virtualization.
-						Specifies the number of extra rows and columns rendered outside the viewport
-					to improve scrolling performance.</p>
+					<p>Defines buffer settings for virtualization in the Data Grid component.
+						Specifies the number of extra rows and columns rendered outside the viewport beyond the visible area.
+					This buffer improves perception of scrolling smoothness by pre-rendering content that will soon become visible.</p>
 				</div>
+				<dl class="tsd-comment-tags">
+					<dt>example</dt>
+					<dd><pre><code class="language-tsx">const bufferSettings: VirtualBufferSettings = {
+  rows: 10,
+  columns: 5
+};
+&lt;Grid virtualizationSettings={{ viewPortBuffer: bufferSettings }} /&gt;</code></pre>
+					</dd>
+				</dl>
 			</div>
 		</section>
 		<section class="tsd-panel tsd-hierarchy">
@@ -2426,12 +2435,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:45</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:69</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Number of extra columns rendered to the left and right of the viewport.</p>
+						<p>Number of extra columns rendered to the left and right of the currently visible viewport.
+							Larger values improve horizontal scrolling smoothness at the cost of increased DOM size.
+						Helps reduce flickering and blank spaces during fast horizontal scrolling by pre-rendering upcoming columns.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2446,12 +2457,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">rows<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/virtualization.interface.d.ts:39</li>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:61</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Number of extra rows rendered above and below the viewport.</p>
+						<p>Number of extra rows rendered above and below the currently visible viewport.
+							Larger values improve scrolling smoothness at the cost of increased DOM size.
+						Helps reduce flickering and blank spaces during fast scrolling by pre-rendering upcoming rows.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>

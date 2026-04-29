@@ -2393,6 +2393,15 @@ img {
 				<li><p><strong><a href="https://react.syncfusion.com/react-ui/data-grid/paging">Paging</a>:</strong>
 					Manages large volumes of data using built-in pagination. Supports both client-side and server-side paging strategies to ensure scalable performance and efficient data navigation in distributed environments.</p>
 				</li>
+				<li><p><strong><a href="https://react.syncfusion.com/react-ui/data-grid/scrolling/virtual-scroll/">DOM Virtualization &amp; Virtual Scrolling</a>:</strong>
+					Enables efficient rendering of large datasets with improved performance and responsiveness through intelligent DOM virtualization and virtual scrolling techniques.</p>
+				</li>
+				<li><p><strong><a href="https://react.syncfusion.com/react-ui/data-grid/filtering/checkbox-filtering/">Excel Mode &amp; CheckBox Filtering</a>:</strong>
+					Provides advanced filtering options with intuitive, checkbox-based selection for precise data segmentation. Includes Excel-mode filtering for enhanced user experience.</p>
+				</li>
+				<li><p><strong><a href="https://react.syncfusion.com/react-ui/data-grid/selection/checkbox-selection/">Checkbox Selection</a>:</strong>
+					Supports multi-row selection, allowing users to select multiple rows efficiently using checkboxes integrated within the grid interface.</p>
+				</li>
 				<li><p><strong><a href="https://react.syncfusion.com/react-ui/data-grid/columns/cell-customization">Customization</a>:</strong>
 					Allows custom cell rendering, conditional styling, and layout adjustments. Enables integration with design systems and branding guidelines, supporting tailored visual experiences and functional enhancements.</p>
 				</li>
@@ -2482,9 +2491,9 @@ export default function App() {
 							<li class="tsd-kind-external-module"><a href="modules/_grid_components_row_d_.html" class="tsd-kind-icon">&quot;grid/components/<wbr>Row.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_components_index_d_.html" class="tsd-kind-icon">&quot;grid/components/index.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_contexts_gridproviders_d_.html" class="tsd-kind-icon">&quot;grid/contexts/<wbr>Grid<wbr>Providers.d&quot;</a></li>
-							<li class="tsd-kind-external-module"><a href="modules/_grid_contexts_modulecontext_d_.html" class="tsd-kind-icon">&quot;grid/contexts/<wbr>Module<wbr>Context.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_contexts_index_d_.html" class="tsd-kind-icon">&quot;grid/contexts/index.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_hooks_index_d_.html" class="tsd-kind-icon">&quot;grid/hooks/index.d&quot;</a></li>
+							<li class="tsd-kind-external-module"><a href="modules/_grid_hooks_useaggregateselection_d_.html" class="tsd-kind-icon">&quot;grid/hooks/use<wbr>Aggregate<wbr>Selection.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_hooks_usecolumn_d_.html" class="tsd-kind-icon">&quot;grid/hooks/use<wbr>Column.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_hooks_usecommandcolumn_d_.html" class="tsd-kind-icon">&quot;grid/hooks/use<wbr>Command<wbr>Column.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_hooks_useedit_d_.html" class="tsd-kind-icon">&quot;grid/hooks/use<wbr>Edit.d&quot;</a></li>
@@ -2508,12 +2517,14 @@ export default function App() {
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_aggregate_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/aggregate.interfaces.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_column_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/column.interfaces.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_command_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/command.interfaces.d&quot;</a></li>
+							<li class="tsd-kind-external-module"><a href="modules/_grid_types_context_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/context.interfaces.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_edit_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/edit.interfaces.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_enum_d_.html" class="tsd-kind-icon">&quot;grid/types/enum.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_filter_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/filter.interfaces.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_focus_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/focus.interfaces.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_grid_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/grid.interfaces.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_index_d_.html" class="tsd-kind-icon">&quot;grid/types/index.d&quot;</a></li>
+							<li class="tsd-kind-external-module"><a href="modules/_grid_types_infinite_scroll_interface_d_.html" class="tsd-kind-icon">&quot;grid/types/infinite-<wbr>scroll.interface.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/interfaces.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_page_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/page.interfaces.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_types_search_interfaces_d_.html" class="tsd-kind-icon">&quot;grid/types/search.interfaces.d&quot;</a></li>
@@ -2524,9 +2535,12 @@ export default function App() {
 							<li class="tsd-kind-external-module"><a href="modules/_grid_utils_index_d_.html" class="tsd-kind-icon">&quot;grid/utils/index.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_utils_utils_d_.html" class="tsd-kind-icon">&quot;grid/utils/utils.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_aggregate_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Aggregate.d&quot;</a></li>
+							<li class="tsd-kind-external-module"><a href="modules/_grid_views_columnchooserdialog_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Column<wbr>Chooser<wbr>Dialog.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_contentpanel_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Content<wbr>Panel.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_contentrows_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Content<wbr>Rows.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_contenttable_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Content<wbr>Table.d&quot;</a></li>
+							<li class="tsd-kind-external-module"><a href="modules/_grid_views_contextmenupanel_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Context<wbr>Menu<wbr>Panel.d&quot;</a></li>
+							<li class="tsd-kind-external-module"><a href="modules/_grid_views_deletedialog_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Delete<wbr>Dialog.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_filterbar_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Filter<wbr>Bar.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_footerpanel_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Footer<wbr>Panel.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_footerrows_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Footer<wbr>Rows.d&quot;</a></li>
@@ -2536,6 +2550,7 @@ export default function App() {
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_headertable_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Header<wbr>Table.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_pagerpanel_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Pager<wbr>Panel.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_render_d_.html" class="tsd-kind-icon">&quot;grid/views/<wbr>Render.d&quot;</a></li>
+							<li class="tsd-kind-external-module"><a href="modules/_grid_views_common_excel_checkbox_filter_d_.html" class="tsd-kind-icon">&quot;grid/views/common/<wbr>Excel-<wbr><wbr>Check<wbr>Box-<wbr>filter.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_editing_confirmdialog_d_.html" class="tsd-kind-icon">&quot;grid/views/editing/<wbr>Confirm<wbr>Dialog.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_editing_editcell_d_.html" class="tsd-kind-icon">&quot;grid/views/editing/<wbr>Edit<wbr>Cell.d&quot;</a></li>
 							<li class="tsd-kind-external-module"><a href="modules/_grid_views_editing_inlineeditform_d_.html" class="tsd-kind-icon">&quot;grid/views/editing/<wbr>Inline<wbr>Edit<wbr>Form.d&quot;</a></li>

@@ -2363,6 +2363,21 @@ img {
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+			<a href="_grid_types_grid_interfaces_d_.columnchooserapplyevent.html" class="tsd-kind-icon">Column<wbr>Chooser<wbr>Apply<wbr>Event</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+			<a href="_grid_types_grid_interfaces_d_.columnchooserbeforeopenevent.html" class="tsd-kind-icon">Column<wbr>Chooser<wbr>Before<wbr>Open<wbr>Event</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+			<a href="_grid_types_grid_interfaces_d_.columnchooserfooterprops.html" class="tsd-kind-icon">Column<wbr>Chooser<wbr>Footer<wbr>Props</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+			<a href="_grid_types_grid_interfaces_d_.columnchoosersettings.html" class="tsd-kind-icon">Column<wbr>Chooser<wbr>Settings</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter">
+			<a href="_grid_types_grid_interfaces_d_.columnchoosertemplateprops.html" class="tsd-kind-icon">Column<wbr>Chooser<wbr>Template<wbr>Props</a>
+		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-private">
 			<a href="_grid_types_grid_interfaces_d_.dataloadstartevent.html" class="tsd-kind-icon">Data<wbr>Load<wbr>Start<wbr>Event</a>
 		</li>
@@ -2411,13 +2426,14 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Defines settings for the loading indicator displayed during data operations.
-					Combines indicator type and customization options for Spinner or Skeleton.</p>
+					<p>Defines settings for the loading indicator displayed during grid data operations.
+						Combines indicator type configuration with component-specific customization options.
+					Used to provide visual feedback to users when the grid is fetching, processing, or rendering data.</p>
 				</div>
+				<p>Supports two indicator types:</p>
 				<ul>
-					<li><code>indicatorType</code> - Specifies the indicator type (Spinner or Skeleton).</li>
-					<li>Spinner options - Thickness, size, color, animation duration.</li>
-					<li>Skeleton options - Width, height, variant, animation style.</li>
+					<li><code>Spinner</code> - Displays a traditional spinner animation (circular or linear). Configured with SpinnerProps for customization.</li>
+					<li><code>Shimmer</code> - Displays a skeleton placeholder that previews the content layout. Configured with SkeletonProps for customization.</li>
 				</ul>
 				<dl class="tsd-comment-tags">
 					<dt>default</dt>
@@ -2432,6 +2448,21 @@ img {
 							color: Color.Primary
 							}
 						}</p>
+					</dd>
+					<dt>example</dt>
+					<dd><pre><code class="language-tsx">// Using default Spinner
+&lt;Grid loadingIndicatorSettings={{ indicatorType: LoadingIndicatorType.Spinner }} /&gt;
+
+// Using Shimmer with custom parameters
+&lt;Grid loadingIndicatorSettings={{
+  indicatorType: LoadingIndicatorType.Shimmer,
+  params: {
+    width: &#39;100%&#39;,
+    height: &#39;10px&#39;,
+    variant: &#39;text&#39;,
+    animation: &#39;wave&#39;
+  }
+}} /&gt;</code></pre>
 					</dd>
 				</dl>
 			</div>
@@ -2466,15 +2497,15 @@ img {
 				<div class="tsd-signature tsd-kind-icon">indicator<wbr>Type<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.loadingindicatortype.html" class="tsd-signature-type">LoadingIndicatorType</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:49</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:67</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Specifies the type of loading indicator.</p>
+						<p>Specifies the type of loading indicator to display.</p>
 						<ul>
-							<li><code>Spinner</code> - Displays a circular or linear spinner.</li>
-							<li><code>Skeleton</code> - Displays a shimmer placeholder.</li>
+							<li><code>Spinner</code> - Displays a circular or linear spinner animation for traditional loading feedback.</li>
+							<li><code>Shimmer</code> - Displays a skeleton placeholder that simulates the content being loaded.</li>
 						</ul>
 					</div>
 					<dl class="tsd-comment-tags">
@@ -2490,18 +2521,19 @@ img {
 				<div class="tsd-signature tsd-kind-icon">params<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">SpinnerProps</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">SkeletonProps</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:58</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:77</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
 						<p>Provides customization options for the selected loading indicator type.
-						Accepts properties from <code>SpinnerProps</code> or <code>SkeletonProps</code> based on <code>indicatorType</code>.</p>
+							Accepts properties from <code>SpinnerProps</code> (for Spinner type) or <code>SkeletonProps</code> (for Shimmer type).
+						Allows fine-tuning of appearance, animation, colors, and behavior specific to the selected indicator.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
-						<dd><p>Spinner: {<code>{ visible: true, thickness: &#39;3px&#39;, animationDuration: &#39;1s&#39;, overlay: true, type: SpinnerType.Circular, size: &#39;36px&#39;, color: Color.Primary }</code>}
-							Skeleton: {<code>{ width: &#39;100%&#39;, height: &#39;10px&#39;, variant: Variants.Text, animation: AnimationType.Wave }</code>}</p>
+						<dd><p>Spinner: <code>{ visible: true, thickness: &#39;3px&#39;, animationDuration: &#39;1s&#39;, overlay: true, type: SpinnerType.Circular, size: &#39;36px&#39;, color: Color.Primary }</code>
+							Shimmer: <code>{ width: &#39;100%&#39;, height: &#39;10px&#39;, variant: Variants.Text, animation: AnimationType.Wave }</code></p>
 						</dd>
 					</dl>
 				</div>

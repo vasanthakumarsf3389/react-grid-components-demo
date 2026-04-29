@@ -2376,6 +2376,9 @@ img {
 			<a href="_grid_types_selection_interfaces_d_.selectionsettings.html" class="tsd-kind-icon">Selection<wbr>Settings</a>
 			<ul>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_selection_interfaces_d_.selectionsettings.html#autoselectmode" class="tsd-kind-icon">auto<wbr>Select<wbr>Mode</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_selection_interfaces_d_.selectionsettings.html#checkboxonly" class="tsd-kind-icon">checkbox<wbr>Only</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2426,6 +2429,7 @@ img {
 					<section class="tsd-index-section ">
 						<h3>Properties</h3>
 						<ul class="tsd-index-list">
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#autoselectmode" class="tsd-kind-icon">auto<wbr>Select<wbr>Mode</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#checkboxonly" class="tsd-kind-icon">checkbox<wbr>Only</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#enabletoggle" class="tsd-kind-icon">enable<wbr>Toggle</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#enabled" class="tsd-kind-icon">enabled</a></li>
@@ -2439,6 +2443,32 @@ img {
 		</section>
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Properties</h2>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="autoselectmode" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> auto<wbr>Select<wbr>Mode</h3>
+				<div class="tsd-signature tsd-kind-icon">auto<wbr>Select<wbr>Mode<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.autoselectmode.html" class="tsd-signature-type">AutoSelectMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/selection.interfaces.d.ts:69</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Controls the header checkbox click behavior for remote data sources.
+						Defines how the header checkbox behaves when selecting data in the grid, either across all data or only the currently loaded data.</p>
+					</div>
+					<p>Options:</p>
+					<ul>
+						<li><code>Default</code>: Header checkbox toggles between checked and unchecked (two‑state). In this mode, all data in the grid is selected or deselected. This is the default mode.</li>
+						<li><code>Intermediate</code>: Header checkbox cycles through checked, unchecked, and intermediate (tri‑state). In this mode, selection applies only to currently loaded or visited pages. Full grid selection becomes available only after all pages have been loaded.</li>
+					</ul>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>AutoSelectMode.Default</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="checkboxonly" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> checkbox<wbr>Only</h3>

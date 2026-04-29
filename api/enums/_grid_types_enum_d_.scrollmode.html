@@ -2370,6 +2370,9 @@ img {
 			<a href="_grid_types_enum_d_.aggregatetype.html" class="tsd-kind-icon">Aggregate<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
+			<a href="_grid_types_enum_d_.autoselectmode.html" class="tsd-kind-icon">Auto<wbr>Select<wbr>Mode</a>
+		</li>
+		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
 			<a href="_grid_types_enum_d_.celltype.html" class="tsd-kind-icon">Cell<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module tsd-is-private">
@@ -2417,7 +2420,7 @@ img {
 				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
 					<a href="_grid_types_enum_d_.scrollmode.html#auto" class="tsd-kind-icon">Auto</a>
 				</li>
-				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum tsd-is-private">
 					<a href="_grid_types_enum_d_.scrollmode.html#infinite" class="tsd-kind-icon">Infinite</a>
 				</li>
 				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
@@ -2446,11 +2449,17 @@ img {
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
 			<a href="../modules/_grid_types_enum_d_.html#action" class="tsd-kind-icon">Action</a>
 		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+			<a href="../modules/_grid_types_enum_d_.html#contextmenuitem" class="tsd-kind-icon">Context<wbr>Menu<wbr>Item</a>
+		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
 			<a href="../modules/_grid_types_enum_d_.html#editendaction" class="tsd-kind-icon">Edit<wbr>End<wbr>Action</a>
 		</li>
-		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 			<a href="../modules/_grid_types_enum_d_.html#filtertype" class="tsd-kind-icon">Filter<wbr>Type</a>
+		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+			<a href="../modules/_grid_types_enum_d_.html#indicatortype" class="tsd-kind-icon">Indicator<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 			<a href="../modules/_grid_types_enum_d_.html#toolbaritems" class="tsd-kind-icon">Toolbar<wbr>Items</a>
@@ -2465,17 +2474,17 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Specifies the scrolling behavior for the Grid component.
-					Determines how rows are rendered and loaded during scrolling.</p>
+					<p>Defines the scrolling and data-loading strategy for the Data Grid component during virtualized row rendering.
+					Determines how rows are fetched and rendered based on the current scroll position and viewport.</p>
 				</div>
-				<ul>
-					<li><code>Virtual</code> - Loads only the current viewport data from the server. Ideal for large remote datasets.</li>
-					<li><code>Infinite</code> - Continuously fetches additional data as the user scrolls down.</li>
-					<li><code>Auto</code> - Uses local data rendering without server requests.</li>
-				</ul>
+				<p>This enum is used with VirtualizationSettings to control whether data is loaded dynamically from a server
+				or rendered from locally available data.</p>
 				<dl class="tsd-comment-tags">
+					<dt>default</dt>
+					<dd><p>ScrollMode.Auto</p>
+					</dd>
 					<dt>example</dt>
-					<dd><pre><code class="language-tsx">&lt;Grid scrollMode={ScrollMode.Virtual} /&gt;</code></pre>
+					<dd><pre><code class="language-tsx">&lt;Grid virtualizationSettings={{ scrollMode: ScrollMode.Virtual }} /&gt;</code></pre>
 					</dd>
 				</dl>
 			</div>
@@ -2488,7 +2497,7 @@ img {
 						<h3>Enumeration members</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_grid_types_enum_d_.scrollmode.html#auto" class="tsd-kind-icon">Auto</a></li>
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_grid_types_enum_d_.scrollmode.html#infinite" class="tsd-kind-icon">Infinite</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum tsd-is-private"><a href="_grid_types_enum_d_.scrollmode.html#infinite" class="tsd-kind-icon">Infinite</a></li>
 							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_grid_types_enum_d_.scrollmode.html#virtual" class="tsd-kind-icon">Virtual</a></li>
 						</ul>
 					</section>
@@ -2503,13 +2512,15 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Auto<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Auto&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:698</li>
+						<li>Defined in src/grid/types/enum.d.ts:769</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Automatically selects local rendering mode.
-						Suitable for scenarios where all data is available locally.</p>
+						<p>Automatic scrolling mode with local data rendering.
+							Renders all available rows from the in-memory data source without making additional server requests.
+							No dynamic data loading occurs during scrolling.
+						Suitable for scenarios where the complete dataset is available locally or where data size is manageable without virtualization.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2518,19 +2529,21 @@ img {
 					</dl>
 				</div>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum tsd-is-private">
 				<a name="infinite" class="tsd-anchor"></a>
-				<h3>Infinite</h3>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> Infinite</h3>
 				<div class="tsd-signature tsd-kind-icon">Infinite<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Infinite&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:691</li>
+						<li>Defined in src/grid/types/enum.d.ts:760</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Enables infinite scrolling.
-						Continuously loads additional rows from the server as the user scrolls.</p>
+						<p>Infinite scrolling mode for progressive data loading.
+							Loads additional rows progressively as the user scrolls toward the end of the currently loaded dataset.
+							New data is appended to the existing grid content without clearing previous rows.
+						Suitable for continuous data feeds, real-time data streams, and incremental loading of large remote datasets.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2545,17 +2558,20 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Virtual<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Virtual&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:684</li>
+						<li>Defined in src/grid/types/enum.d.ts:750</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Enables virtual scrolling.
-							Fetches data for the current viewport from the server.
-							Works with caching based on <code>VirtualizationSettings.enableCache</code>.
-							If <code>enableCache</code> is false, every revisit triggers a new request.
-						If true (default), previously visited views are cached.</p>
+						<p>Virtual scrolling mode with server-side data management.
+							Renders only the visible row range and requests the required data segment from the server based on the current viewport.
+						Works in conjunction with server-side paging and filtering.</p>
 					</div>
+					<p>Caching behavior is controlled by VirtualizationSettings.enableCache:</p>
+					<ul>
+						<li>When true (default), previously loaded data segments are cached to avoid re-requesting the same range.</li>
+						<li>When false, each revisit to a previously viewed range triggers a new server request.</li>
+					</ul>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>&#39;Virtual&#39;</p>
