@@ -2379,6 +2379,9 @@ img {
 					<a href="_grid_types_selection_interfaces_d_.selectionsettings.html#autoselectmode" class="tsd-kind-icon">auto<wbr>Select<wbr>Mode</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_selection_interfaces_d_.selectionsettings.html#cellselectiontype" class="tsd-kind-icon">cell<wbr>Selection<wbr>Type</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_selection_interfaces_d_.selectionsettings.html#checkboxonly" class="tsd-kind-icon">checkbox<wbr>Only</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2393,7 +2396,7 @@ img {
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_selection_interfaces_d_.selectionsettings.html#persistselection" class="tsd-kind-icon">persist<wbr>Selection</a>
 				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-private">
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_selection_interfaces_d_.selectionsettings.html#type" class="tsd-kind-icon">type</a>
 				</li>
 			</ul>
@@ -2430,12 +2433,13 @@ img {
 						<h3>Properties</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#autoselectmode" class="tsd-kind-icon">auto<wbr>Select<wbr>Mode</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#cellselectiontype" class="tsd-kind-icon">cell<wbr>Selection<wbr>Type</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#checkboxonly" class="tsd-kind-icon">checkbox<wbr>Only</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#enabletoggle" class="tsd-kind-icon">enable<wbr>Toggle</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#enabled" class="tsd-kind-icon">enabled</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#mode" class="tsd-kind-icon">mode</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#persistselection" class="tsd-kind-icon">persist<wbr>Selection</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#type" class="tsd-kind-icon">type</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_selection_interfaces_d_.selectionsettings.html#type" class="tsd-kind-icon">type</a></li>
 						</ul>
 					</section>
 				</div>
@@ -2449,7 +2453,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">auto<wbr>Select<wbr>Mode<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.autoselectmode.html" class="tsd-signature-type">AutoSelectMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/selection.interfaces.d.ts:69</li>
+						<li>Defined in src/grid/types/selection.interfaces.d.ts:85</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2470,12 +2474,40 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="cellselectiontype" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> cell<wbr>Selection<wbr>Type</h3>
+				<div class="tsd-signature tsd-kind-icon">cell<wbr>Selection<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../enums/_grid_types_enum_d_.cellselectiontype.html" class="tsd-signature-type">CellSelectionType</a></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/selection.interfaces.d.ts:59</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Specifies the cell selection type for range selection behavior.
+							Only applies when type is &#39;Cell&#39;.
+						Determines how cells are selected when creating rectangular ranges.</p>
+					</div>
+					<p>Options:</p>
+					<ul>
+						<li><code>Flow</code> - Selects all cells between start/end including all rows (Excel-like)</li>
+						<li><code>Box</code> - Selects only cells within column range boundaries</li>
+						<li><code>BoxWithBorder</code> - Box mode with visible selection border</li>
+					</ul>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>&#39;Flow&#39;</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="checkboxonly" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> checkbox<wbr>Only</h3>
 				<div class="tsd-signature tsd-kind-icon">checkbox<wbr>Only<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/selection.interfaces.d.ts:50</li>
+						<li>Defined in src/grid/types/selection.interfaces.d.ts:66</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2561,7 +2593,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">persist<wbr>Selection<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/selection.interfaces.d.ts:58</li>
+						<li>Defined in src/grid/types/selection.interfaces.d.ts:74</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2577,23 +2609,28 @@ img {
 					</dl>
 				</div>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-private">
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="type" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagOptional">Optional</span> <span class="tsd-flag ts-flagPrivate">Private</span> type</h3>
-				<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> type</h3>
+				<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../enums/_grid_types_enum_d_.selectiontype.html" class="tsd-signature-type">SelectionType</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/selection.interfaces.d.ts:43</li>
+						<li>Defined in src/grid/types/selection.interfaces.d.ts:46</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Defines the type of selection, such as <code>Row</code>, to specify the selection target.
-						Used internally to determine whether selection applies to rows or other elements like cells.</p>
+						<p>Defines the type of selection target in the grid.
+						Determines whether selection applies to rows or cells.</p>
 					</div>
+					<p>Options:</p>
+					<ul>
+						<li><code>Row</code> - Only row selection is enabled (default, backward compatible)</li>
+						<li><code>Cell</code> - Only cell selection is enabled (individual cells can be selected)</li>
+					</ul>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
-						<dd><p>&#39;Row&#39;</p>
+						<dd><p>&#39;Row&#39; | SelectionType.Row</p>
 						</dd>
 					</dl>
 				</div>
