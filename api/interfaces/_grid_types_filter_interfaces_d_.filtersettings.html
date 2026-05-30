@@ -2476,7 +2476,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">case<wbr>Sensitive<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:103</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:106</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2565,7 +2565,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">ignore<wbr>Accent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:94</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:97</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2587,13 +2587,15 @@ img {
 				<div class="tsd-signature tsd-kind-icon">immediate<wbr>Mode<wbr>Delay<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:75</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:78</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Sets the time delay (in milliseconds) for filtering in <code>Immediate</code> mode.
+						<p>Sets the time delay (in milliseconds) for filtering in <code>Immediate</code> mode across all filter types.
 							Controls the wait time before the grid processes filter input, balancing responsiveness and performance.
+							In filter bar: Delays filtering while user is typing in the filter input.
+							In Excel/Checkbox filter: Delays filtering when user is searching or selecting items.
 						Only applicable when the filter mode is set to <code>Immediate</code>.</p>
 					</div>
 					<dl class="tsd-comment-tags">
@@ -2630,16 +2632,17 @@ img {
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="mode" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> mode</h3>
-				<div class="tsd-signature tsd-kind-icon">mode<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.filterbarmode.html" class="tsd-signature-type">FilterBarMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+				<div class="tsd-signature tsd-kind-icon">mode<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.filtermode.html" class="tsd-signature-type">FilterMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:66</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:67</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Specifies the operational mode of the filter bar, controlling when filtering is triggered.
-							Supports <code>OnEnter</code> (filtering starts when the Enter key is pressed) or <code>Immediate</code> (filtering starts after a time delay).
+						<p>Specifies the operational mode for filtering, controlling when filtering is triggered across filter bar, Excel filter, and checkbox filter.
+							In filter bar: <code>OnEnter</code> requires Enter key press after typing; <code>Immediate</code> filters as user types.
+							In Excel/Checkbox filter: <code>OnEnter</code> requires OK button click to apply; <code>Immediate</code> applies filtering without OK confirmation.
 						Influences the responsiveness and user experience of filtering interactions.</p>
 					</div>
 					<dl class="tsd-comment-tags">
@@ -2655,7 +2658,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">operators<span class="tsd-signature-symbol">:</span> <a href="_grid_types_interfaces_d_.icustomoptr.html" class="tsd-signature-type">ICustomOptr</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/filter.interfaces.d.ts:85</li>
+						<li>Defined in src/grid/types/filter.interfaces.d.ts:88</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">

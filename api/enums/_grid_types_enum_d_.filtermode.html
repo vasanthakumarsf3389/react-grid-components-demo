@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>FilterBarMode | Syncfusion React</title>
+	<title>FilterMode | Syncfusion React</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -2393,19 +2393,19 @@ img {
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
 			<a href="_grid_types_enum_d_.edittype.html" class="tsd-kind-icon">Edit<wbr>Type</a>
 		</li>
-		<li class="current tsd-kind-enum tsd-parent-kind-external-module">
-			<a href="_grid_types_enum_d_.filterbarmode.html" class="tsd-kind-icon">Filter<wbr>Bar<wbr>Mode</a>
-			<ul>
-				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-					<a href="_grid_types_enum_d_.filterbarmode.html#immediate" class="tsd-kind-icon">Immediate</a>
-				</li>
-				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-					<a href="_grid_types_enum_d_.filterbarmode.html#onenter" class="tsd-kind-icon">On<wbr>Enter</a>
-				</li>
-			</ul>
-		</li>
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
 			<a href="_grid_types_enum_d_.filterbartype.html" class="tsd-kind-icon">Filter<wbr>Bar<wbr>Type</a>
+		</li>
+		<li class="current tsd-kind-enum tsd-parent-kind-external-module">
+			<a href="_grid_types_enum_d_.filtermode.html" class="tsd-kind-icon">Filter<wbr>Mode</a>
+			<ul>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="_grid_types_enum_d_.filtermode.html#immediate" class="tsd-kind-icon">Immediate</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="_grid_types_enum_d_.filtermode.html#onenter" class="tsd-kind-icon">On<wbr>Enter</a>
+				</li>
+			</ul>
 		</li>
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
 			<a href="_grid_types_enum_d_.gridline.html" class="tsd-kind-icon">Grid<wbr>Line</a>
@@ -2465,6 +2465,9 @@ img {
 			<a href="../modules/_grid_types_enum_d_.html#indicatortype" class="tsd-kind-icon">Indicator<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+			<a href="../modules/_grid_types_enum_d_.html#printrange" class="tsd-kind-icon">Print<wbr>Range</a>
+		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 			<a href="../modules/_grid_types_enum_d_.html#toolbaritems" class="tsd-kind-icon">Toolbar<wbr>Items</a>
 		</li>
 		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
@@ -2477,15 +2480,15 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Defines the filter bar mode options for grid filtering behavior.
-					Determines how and when the filter operation is triggered in the grid.</p>
+					<p>Defines the filter mode options for grid filtering behavior across all filter types.
+					Determines how and when the filter operation is triggered in the filter bar, Excel filter, and checkbox filter.</p>
 				</div>
 				<dl class="tsd-comment-tags">
 					<dt>default</dt>
-					<dd><p>FilterBarMode.OnEnter</p>
+					<dd><p>FilterMode.OnEnter</p>
 					</dd>
 					<dt>example</dt>
-					<dd><pre><code class="language-tsx">&lt;Grid filterSettings={{ mode: FilterBarMode.Immediate }} /&gt;</code></pre>
+					<dd><pre><code class="language-tsx">&lt;Grid filterSettings={{ mode: FilterMode.Immediate }} /&gt;</code></pre>
 					</dd>
 				</dl>
 			</div>
@@ -2497,8 +2500,8 @@ img {
 					<section class="tsd-index-section ">
 						<h3>Enumeration members</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_grid_types_enum_d_.filterbarmode.html#immediate" class="tsd-kind-icon">Immediate</a></li>
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_grid_types_enum_d_.filterbarmode.html#onenter" class="tsd-kind-icon">On<wbr>Enter</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_grid_types_enum_d_.filtermode.html#immediate" class="tsd-kind-icon">Immediate</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_grid_types_enum_d_.filtermode.html#onenter" class="tsd-kind-icon">On<wbr>Enter</a></li>
 						</ul>
 					</section>
 				</div>
@@ -2512,13 +2515,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Immediate<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Immediate&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:276</li>
+						<li>Defined in src/grid/types/enum.d.ts:284</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Initiates the filter operation automatically after a short delay (default: 500 ms).
-						Ideal for responsive filtering as the user types.</p>
+						<p>In filter bar: Filtering triggers immediately as the user types, with a configurable delay.
+							In Excel/Checkbox filter: Filtering triggers immediately when user checks/unchecks items or performs search, without requiring OK confirmation.
+						Ideal for responsive filtering with immediate results.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2533,12 +2537,13 @@ img {
 				<div class="tsd-signature tsd-kind-icon">On<wbr>Enter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;OnEnter&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/enum.d.ts:269</li>
+						<li>Defined in src/grid/types/enum.d.ts:276</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Initiates the filter operation only after the Enter key is pressed.
+						<p>In filter bar: Filtering triggers only after pressing Enter key following data entry.
+							In Excel/Checkbox filter: Filtering triggers only after user changes selection and clicks OK button. Clicking Clear clears the filter.
 						Suitable for precise filtering and reducing unnecessary operations.</p>
 					</div>
 					<dl class="tsd-comment-tags">

@@ -2373,9 +2373,6 @@ img {
 					<a href="_grid_views_groupdroparea_d_.groupdropareaprops.html#groupcolumns" class="tsd-kind-icon">group<wbr>Columns</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="_grid_views_groupdroparea_d_.groupdropareaprops.html#onsort" class="tsd-kind-icon">on<wbr>Sort</a>
-				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_views_groupdroparea_d_.groupdropareaprops.html#onungroupcolumn" class="tsd-kind-icon">on<wbr>Ungroup<wbr>Column</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2414,7 +2411,6 @@ img {
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_views_groupdroparea_d_.groupdropareaprops.html#drophinttext" class="tsd-kind-icon">drop<wbr>Hint<wbr>Text</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_views_groupdroparea_d_.groupdropareaprops.html#groupcolumns" class="tsd-kind-icon">group<wbr>Columns</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_views_groupdroparea_d_.groupdropareaprops.html#onsort" class="tsd-kind-icon">on<wbr>Sort</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_views_groupdroparea_d_.groupdropareaprops.html#onungroupcolumn" class="tsd-kind-icon">on<wbr>Ungroup<wbr>Column</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_views_groupdroparea_d_.groupdropareaprops.html#sortdirections" class="tsd-kind-icon">sort<wbr>Directions</a></li>
 						</ul>
@@ -2457,53 +2453,6 @@ img {
 					<div class="lead">
 						<p>Array of field names currently in the grouping hierarchy (ordered).</p>
 					</div>
-				</div>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="onsort" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Sort</h3>
-				<div class="tsd-signature tsd-kind-icon">on<wbr>Sort<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>field<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, direction<span class="tsd-signature-symbol">: </span><a href="../enums/_grid_types_enum_d_.sortdirection.html" class="tsd-signature-type">SortDirection</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in src/grid/views/GroupDropArea.d.ts:32</li>
-					</ul>
-				</aside>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>Callback fired when user toggles sort direction on a group chip.</p>
-					</div>
-					<dl class="tsd-comment-tags">
-						<dt>param</dt>
-						<dd><p>Field name to change sort direction for</p>
-						</dd>
-						<dt>param</dt>
-						<dd><p>New sort direction</p>
-						</dd>
-					</dl>
-				</div>
-				<div class="tsd-type-declaration">
-					<h4>Type declaration</h4>
-					<ul class="tsd-parameters">
-						<li class="tsd-parameter-siganture">
-							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
-								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>field<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, direction<span class="tsd-signature-symbol">: </span><a href="../enums/_grid_types_enum_d_.sortdirection.html" class="tsd-signature-type">SortDirection</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-							</ul>
-							<ul class="tsd-descriptions">
-								<li class="tsd-description">
-									<h4 class="tsd-parameters-title">Parameters</h4>
-									<ul class="tsd-parameters">
-										<li>
-											<h5>field: <span class="tsd-signature-type">string</span></h5>
-										</li>
-										<li>
-											<h5>direction: <a href="../enums/_grid_types_enum_d_.sortdirection.html" class="tsd-signature-type">SortDirection</a></h5>
-										</li>
-									</ul>
-									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-								</li>
-							</ul>
-						</li>
-					</ul>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
@@ -2553,7 +2502,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">sort<wbr>Directions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="../enums/_grid_types_enum_d_.sortdirection.html" class="tsd-signature-type">SortDirection</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/views/GroupDropArea.d.ts:38</li>
+						<li>Defined in src/grid/views/GroupDropArea.d.ts:31</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">

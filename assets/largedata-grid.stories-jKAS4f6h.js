@@ -1,4 +1,4 @@
-import{j as e}from"./index-DlC1yEB1.js";import{r as u}from"./index-D5jfS-9e.js";import{C as c,a as p,m as Xe,b as Ye,S as d,D as pe,c as P,P as me,Q,d as Ze,G as en,e as nn,W as tn,f as an,g as on,O as rn,h as ln,i as he,T as ge,U as sn,j as dn,k as un}from"./data-tab-yeap.js";import"./index-lf5wH9A6.js";const cn=[40,80,120,200],K=l=>{var X,Y,Z,ee,ne,te;const{enableRtl:j,enableRipple:Ne,localDataCount:S,isTextWrapData:_,isDialogInsideGrid:$,isStrictMode:He,isMultipleChildren:Le,parentContainerHeight:Ke="93vh",isCustomBinding:U,serverPageSize:D,defaultOpenGroupExpandKeys:W,...t}=l;((Z=(Y=t.columns)==null?void 0:Y[((X=t.columns)==null?void 0:X.length)-1])==null?void 0:Z.headerText)==="Command Actions"&&(t.columns[((ee=t.columns)==null?void 0:ee.length)-1].getCommandItems=()=>[e.jsx(c,{type:p.Edit},"Edit"),e.jsx(c,{type:p.Delete},"Delete"),e.jsx(c,{type:p.Update},"Update"),e.jsx(c,{type:p.Cancel},"Cancel")]);const m=u.useRef(null),B=u.useRef(null),[N,Qe]=u.useState(!0),[g,_e]=u.useState(!1),H=u.useMemo(()=>_?Xe(S):Ye(S,t.columns),[S,(ne=t.columns)==null?void 0:ne.length]),[$e,Je]=u.useState({result:[],count:0,hasMore:((te=l.virtualizationSettings)==null?void 0:te.scrollMode)===d.Infinite}),J=n=>{var y,v,w,C,b,x,ae,oe,re,le,ie,T,se,R,de,A,ue,ce;const s=new P(H),i=new Q;if((y=n.where)!=null&&y.length){let a;const o=n.where[0].predicates;for(let r=0;r<o.length;r++)a?a=a.and(new me(o[r].field,o[r].operator,o[r].value,o[r].ignoreCase,o[r].ignoreAccent,o[r].matchCase)):a=new me(o[r].field,o[r].operator,o[r].value,o[r].ignoreCase,o[r].ignoreAccent,o[r].matchCase);i.where(a)}if((v=n.search)!=null&&v.length){const{fields:a,value:o}=n.search[0];i.search(o,a)}if((w=n.sort)!=null&&w.length&&n.sort.forEach(a=>{i.sortBy(a.field,a.direction)}),(C=n.aggregates)!=null&&C.length||(x=(b=m.current)==null?void 0:b.aggregates)!=null&&x.length){const a=(ae=n.aggregates)!=null&&ae.length?n.aggregates:(oe=m.current)==null?void 0:oe.aggregates;for(let o=0;o<(a==null?void 0:a.length);o++)if((re=a[o])!=null&&re.columns)for(let r=0;r<((le=a[o])==null?void 0:le.columns.length);r++){const f=a[o].columns[r];if(Array.isArray(f.type))for(let L=0;L<f.type.length;L++)i.aggregate((se=(T=(ie=f.type)==null?void 0:ie[L])==null?void 0:T.toLowerCase)==null?void 0:se.call(T),f.field);else i.aggregate((de=(R=f.type)==null?void 0:R.toLowerCase)==null?void 0:de.call(R),f.field)}else{const r=a[o];i.aggregate((ue=(A=r.type)==null?void 0:A.toLowerCase)==null?void 0:ue.call(A),r.field)}}if(n.take&&n.skip){const a=n.skip/n.take+1,o=n.take;i.page(a,o)}else if(n.skip===0&&n.take)i.page(1,n.take);else if(n.skip&&((ce=l.virtualizationSettings)==null?void 0:ce.scrollMode)===d.Infinite){const a=n.skip/D+1;i.page(a,D)}n.requiresCounts&&i.requiresCount(),console.log("CustomBinding Callback Params: ",n),console.log("CustomBinding Query: ",i),s.executeQuery(i).then(a=>{Je({...a,hasMore:H.length>(n.skip??0)+a.result.length})})};u.useEffect(()=>{var n,s,i,y,v,w,C,b,x;U&&g&&J({skip:((n=t==null?void 0:t.pageSettings)==null?void 0:n.currentPage)*((s=t==null?void 0:t.pageSettings)==null?void 0:s.pageSize)||0,...((i=t.virtualizationSettings)==null?void 0:i.scrollMode)!==d.Infinite||(y=t.pageSettings)!=null&&y.estimatedTotalRecordsCount||((v=t.pageSettings)==null?void 0:v.pageSizeControlledBy)==="client"?{take:D??((w=t==null?void 0:t.pageSettings)==null?void 0:w.pageSize)??(((C=t.virtualizationSettings)==null?void 0:C.scrollMode)===d.Auto||!((b=t.virtualizationSettings)!=null&&b.scrollMode)?12:50)}:{take:D},where:[],search:[],sort:[],aggregates:[],...((x=t.virtualizationSettings)==null?void 0:x.scrollMode)!==d.Infinite?{requiresCounts:!0}:{}})},[g]);const E=()=>e.jsxs(e.Fragment,{children:[e.jsxs("button",{onClick:()=>{var n,s;g&&window.localStorage.removeItem((s=(n=m==null?void 0:m.current)==null?void 0:n.getDataModule())==null?void 0:s.dataManager.guidId),_e(!g)},children:[g?"Destroy":"Render"," Data Grid"]}),S&&!_&&e.jsxs("button",{onClick:()=>Qe(!N),children:[N?"Uniform":"Non Uniform"," Row Height Applied"]}),g&&e.jsx(Ze,{dir:j?"rtl":"ltr",ripple:Ne,locale:t.locale,children:e.jsx(en,{ref:m,dataSource:U?$e:S?H:[],onDataRequest:U?J:void 0,shouldExpandGroup:n=>{var s;return(s=W.includes)==null?void 0:s.call(W,n==null?void 0:n.groupKey)},...t,columns:t.children?void 0:t.columns,aggregates:t.children?void 0:t.aggregates,getRowHeight:N?null:n=>cn[n.rowIndex%4],children:Le?t.children.props.children:t.children})}),e.jsx("button",{onClick:()=>{console.log(m)},children:"dummy navigation checking button with get GridRef"})]});return e.jsx("div",{ref:B,style:{height:Ke,isolation:"isolate"},children:He?e.jsx(u.StrictMode,{children:$?e.jsx(pe,{open:!0,fullScreen:!0,target:B.current,children:E()}):E()}):$?e.jsx(pe,{open:!0,fullScreen:!0,target:B.current,children:E()}):E()})};try{K.displayName="LargeDataGridTest",K.__docgenInfo={description:"",displayName:"LargeDataGridTest",props:{parentContainerHeight:{defaultValue:null,description:"",name:"parentContainerHeight",required:!1,type:{name:"Height<string | number>"}},enableRtl:{defaultValue:null,description:`Enables right-to-left (RTL) direction for the grid.
+import{j as e}from"./index-CTAXdLKx.js";import{r as c}from"./index-D5jfS-9e.js";import{C as p,a as m,m as Ze,b as en,S as d,D as me,c as U,P as ge,Q,d as nn,G as tn,e as an,W as on,f as _,A as He,g as rn,O as ln,h as sn,i as he,T as fe,U as dn,j as un,k as cn}from"./data-BR93pRpv.js";import"./client-Spw3EFno.js";const pn=[40,80,120,200],K=a=>{var Y,Z,ee,ne,te,ae;const{enableRtl:u,enableRipple:Le,localDataCount:C,isTextWrapData:$,isDialogInsideGrid:J,isStrictMode:Ke,isMultipleChildren:Qe,parentContainerHeight:_e="93vh",isCustomBinding:W,serverPageSize:T,defaultOpenGroupExpandKeys:f,...t}=a;((ee=(Z=t.columns)==null?void 0:Z[((Y=t.columns)==null?void 0:Y.length)-1])==null?void 0:ee.headerText)==="Command Actions"&&(t.columns[((ne=t.columns)==null?void 0:ne.length)-1].getCommandItems=()=>[e.jsx(p,{type:m.Edit},"Edit"),e.jsx(p,{type:m.Delete},"Delete"),e.jsx(p,{type:m.Update},"Update"),e.jsx(p,{type:m.Cancel},"Cancel")]);const g=c.useRef(null),B=c.useRef(null),[N,$e]=c.useState(!0),[S,Je]=c.useState(!1),H=c.useMemo(()=>$?Ze(C):en(C,t.columns),[C,(te=t.columns)==null?void 0:te.length]),[Xe,Ye]=c.useState({result:[],count:0,hasMore:((ae=a.virtualizationSettings)==null?void 0:ae.scrollMode)===d.Infinite}),X=n=>{var v,w,b,x,D,E,oe,re,le,ie,se,A,de,G,ue,q,ce,pe;const s=new U(H),i=new Q;if((v=n.where)!=null&&v.length){let o;const r=n.where[0].predicates;for(let l=0;l<r.length;l++)o?o=o.and(new ge(r[l].field,r[l].operator,r[l].value,r[l].ignoreCase,r[l].ignoreAccent,r[l].matchCase)):o=new ge(r[l].field,r[l].operator,r[l].value,r[l].ignoreCase,r[l].ignoreAccent,r[l].matchCase);i.where(o)}if((w=n.search)!=null&&w.length){const{fields:o,value:r}=n.search[0];i.search(r,o)}if((b=n.sort)!=null&&b.length&&n.sort.forEach(o=>{i.sortBy(o.field,o.direction)}),(x=n.aggregates)!=null&&x.length||(E=(D=g.current)==null?void 0:D.aggregates)!=null&&E.length){const o=(oe=n.aggregates)!=null&&oe.length?n.aggregates:(re=g.current)==null?void 0:re.aggregates;for(let r=0;r<(o==null?void 0:o.length);r++)if((le=o[r])!=null&&le.columns)for(let l=0;l<((ie=o[r])==null?void 0:ie.columns.length);l++){const y=o[r].columns[l];if(Array.isArray(y.type))for(let L=0;L<y.type.length;L++)i.aggregate((de=(A=(se=y.type)==null?void 0:se[L])==null?void 0:A.toLowerCase)==null?void 0:de.call(A),y.field);else i.aggregate((ue=(G=y.type)==null?void 0:G.toLowerCase)==null?void 0:ue.call(G),y.field)}else{const l=o[r];i.aggregate((ce=(q=l.type)==null?void 0:q.toLowerCase)==null?void 0:ce.call(q),l.field)}}if(n.take&&n.skip){const o=n.skip/n.take+1,r=n.take;i.page(o,r)}else if(n.skip===0&&n.take)i.page(1,n.take);else if(n.skip&&((pe=a.virtualizationSettings)==null?void 0:pe.scrollMode)===d.Infinite){const o=n.skip/T+1;i.page(o,T)}n.requiresCounts&&i.requiresCount(),console.log("CustomBinding Callback Params: ",n),console.log("CustomBinding Query: ",i),s.executeQuery(i).then(o=>{Ye({...o,hasMore:H.length>(n.skip??0)+o.result.length})})};c.useEffect(()=>{var n,s,i,v,w,b,x,D,E;W&&S&&X({skip:((n=t==null?void 0:t.pageSettings)==null?void 0:n.currentPage)*((s=t==null?void 0:t.pageSettings)==null?void 0:s.pageSize)||0,...((i=t.virtualizationSettings)==null?void 0:i.scrollMode)!==d.Infinite||(v=t.pageSettings)!=null&&v.estimatedTotalRecordsCount||((w=t.pageSettings)==null?void 0:w.pageSizeControlledBy)==="client"?{take:T??((b=t==null?void 0:t.pageSettings)==null?void 0:b.pageSize)??(((x=t.virtualizationSettings)==null?void 0:x.scrollMode)===d.Auto||!((D=t.virtualizationSettings)!=null&&D.scrollMode)?12:50)}:{take:T},where:[],search:[],sort:[],aggregates:[],...((E=t.virtualizationSettings)==null?void 0:E.scrollMode)!==d.Infinite?{requiresCounts:!0}:{}})},[S]);const R=()=>e.jsxs(e.Fragment,{children:[e.jsxs("button",{onClick:()=>{var n,s;S&&window.localStorage.removeItem((s=(n=g==null?void 0:g.current)==null?void 0:n.getDataModule())==null?void 0:s.dataManager.guidId),Je(!S)},children:[S?"Destroy":"Render"," Data Grid"]}),C&&!$&&e.jsxs("button",{onClick:()=>$e(!N),children:[N?"Uniform":"Non Uniform"," Row Height Applied"]}),S&&e.jsx(nn,{dir:u?"rtl":"ltr",ripple:Le,locale:t.locale,children:e.jsx(tn,{ref:g,dataSource:W?Xe:C?H:[],onDataRequest:W?X:void 0,shouldExpandGroup:f!=null&&f.length?n=>{var s;return(s=f.includes)==null?void 0:s.call(f,n==null?void 0:n.groupKey)}:void 0,...t,columns:t.children?void 0:t.columns,aggregates:t.children?void 0:t.aggregates,getRowHeight:N?null:n=>pn[n.rowIndex%4],children:Qe?t.children.props.children:t.children})}),e.jsx("button",{onClick:()=>{console.log(g)},children:"dummy navigation checking button with get GridRef"})]});return e.jsx("div",{ref:B,style:{height:_e,isolation:"isolate"},children:Ke?e.jsx(c.StrictMode,{children:J?e.jsx(me,{open:!0,fullScreen:!0,target:B.current,children:R()}):R()}):J?e.jsx(me,{open:!0,fullScreen:!0,target:B.current,children:R()}):R()})};try{K.displayName="LargeDataGridTest",K.__docgenInfo={description:"",displayName:"LargeDataGridTest",props:{parentContainerHeight:{defaultValue:null,description:"",name:"parentContainerHeight",required:!1,type:{name:"Height<string | number>"}},enableRtl:{defaultValue:null,description:`Enables right-to-left (RTL) direction for the grid.
 
 When set to true, the grid's layout changes to support right-to-left languages like Arabic.
 This includes reversing the direction of UI elements, text alignment, and scrollbars.`,name:"enableRtl",required:!1,type:{name:"boolean"}},enableRipple:{defaultValue:null,description:"",name:"enableRipple",required:!1,type:{name:"boolean"}},localDataCount:{defaultValue:null,description:"",name:"localDataCount",required:!1,type:{name:"number"}},isTextWrapData:{defaultValue:null,description:"",name:"isTextWrapData",required:!1,type:{name:"boolean"}},isDialogInsideGrid:{defaultValue:null,description:"",name:"isDialogInsideGrid",required:!1,type:{name:"boolean"}},isStrictMode:{defaultValue:null,description:"",name:"isStrictMode",required:!1,type:{name:"boolean"}},isMultipleChildren:{defaultValue:null,description:"",name:"isMultipleChildren",required:!1,type:{name:"boolean"}},isCustomBinding:{defaultValue:null,description:"",name:"isCustomBinding",required:!1,type:{name:"boolean"}},serverPageSize:{defaultValue:null,description:"",name:"serverPageSize",required:!1,type:{name:"number"}},defaultOpenGroupExpandKeys:{defaultValue:null,description:"",name:"defaultOpenGroupExpandKeys",required:!1,type:{name:"string[]"}},id:{defaultValue:{value:"React.useId()"},description:`Specifies a unique identifier for the grid component.
@@ -1117,7 +1117,27 @@ const GridComponent = () => {
     />
   );
 };
-\`\`\``,name:"onRowEditStart",required:!1,type:{name:"(event: RowEditEvent<unknown>) => void"}},onRowAddStart:{defaultValue:null,description:`Fires when the process of adding a new row starts.
+\`\`\``,name:"onRowEditStart",required:!1,type:{name:"(event: RowEditEvent<unknown>) => void"}},onCellEditStart:{defaultValue:null,description:`Fires when cell editing begins in Cell edit mode.
+Allows validation or cancellation before editing the cell.
+@event onCellEditStart
+@example \`\`\`tsx
+const GridComponent = () => {
+  const handleCellEdit = (event: CellEditEvent) => {
+    // Prevent editing for specific cells
+    if (event.field === 'id') {
+      event.cancel = true;
+    }
+  };
+
+  return (
+    <Grid
+      dataSource={orderData}
+      onCellEditStart={handleCellEdit}
+      editSettings={{ mode: 'Cell', allowEdit: true }}
+    />
+  );
+};
+\`\`\``,name:"onCellEditStart",required:!1,type:{name:"(event: CellEditEvent<unknown>) => void"}},onRowAddStart:{defaultValue:null,description:`Fires when the process of adding a new row starts.
 @event onRowAddStart
 @example \`\`\`tsx
 const GridComponent = () => {
@@ -1230,19 +1250,37 @@ const GridComponent = () => {
     />
   );
 };
-\`\`\``,name:"onDeleteDialogOpen",required:!1,type:{name:"(eventArgs: DeleteDialogEventArgs) => void"}}}}}catch{}const yn={title:"Grid/VirtualGridBase",component:K,parameters:{layout:"fullscreen",docs:{description:{component:"A fully configurable Grid component with performance comparison capabilities."}}},argTypes:{localDataCount:{control:"select",options:["0","100","1000","10000","100000"],description:"Grid Local DataSource Count"}}},h=on(100,!1),pn=[{columns:an(h.length)}];h.unshift({type:un.Checkbox,width:50,allowFilter:!1});h.push({headerText:"Command Actions",width:200,getCommandItems:()=>[e.jsx(c,{type:p.Edit},"Edit"),e.jsx(c,{type:p.Delete},"Delete"),e.jsx(c,{type:p.Update},"Update"),e.jsx(c,{type:p.Cancel},"Cancel")]});const G={args:{localDataCount:1e5,columns:h,aggregates:pn,groupSettings:{enabled:!0,columns:["product","region"],showUngroupButton:!1},virtualizationSettings:{scrollMode:d.Virtual,enableCache:!1},editSettings:{allowEdit:!0,allowAdd:!0,allowDelete:!0,mode:"Normal"},toolbar:["Add","Edit","Delete","Update","Cancel","Search"],searchSettings:{enabled:!0},sortSettings:{enabled:!0},filterSettings:{enabled:!0,type:"Excel",enableFilterBarOperator:!0},pageSettings:{enabled:!0,pageSize:1e5},height:"100%",onRowSelect:l=>{console.log("Row Selected: ",l)}}},q={args:{localDataCount:2e6,columns:h.slice(1,11),editSettings:{allowEdit:!0,allowAdd:!0,allowDelete:!0,mode:"Normal"},toolbar:["Add","Edit","Delete","Update","Cancel","Search"],searchSettings:{enabled:!0},sortSettings:{enabled:!0},filterSettings:{enabled:!0,enableFilterBarOperator:!0},pageSettings:{enabled:!0,pageSize:2e6},height:"100%"}},M={args:{dataSource:new P({url:"https://ej2services.syncfusion.com/js/development/api/UrlDataSource",adaptor:new sn}),query:new Q().addParams("dataCount","100000").addParams("serverpagesize","50"),toolbar:["Search"],columns:[{field:"EmployeeID",visible:!0,headerText:"Employee ID",isPrimaryKey:!0,width:"150"},{field:"Employees",headerText:"Employee Name",width:"230",clipMode:"EllipsisWithTooltip"},{field:"Designation",headerText:"Designation",width:"170",clipMode:"EllipsisWithTooltip"},{field:"Mail",headerText:"Mail",width:"230"},{field:"Location",headerText:"Location",width:"140"},{field:"Status",headerText:"Status",width:"130"},{field:"Trustworthiness",headerText:"Trustworthiness",width:"160"},{field:"Rating",headerText:"Rating",width:"220"},{field:"Software",headerText:"Software Proficiency",width:"180",format:"C2"},{field:"CurrentSalary",headerText:"Current Salary",width:"200",format:"C2"},{field:"Address",headerText:"Address",width:"240",clipMode:"EllipsisWithTooltip"}],aggregates:[{columns:[{field:"EmployeeID",type:"Count",footerTemplate:l=>`Employee Count: ${l.Count}`},{field:"CurrentSalary",type:"Sum",format:"C2",footerTemplate:l=>`Total Salary: ${l.Sum}`}]}],selectionSettings:{mode:"Single"},searchSettings:{enabled:!0},sortSettings:{enabled:!0},filterSettings:{enabled:!0,type:"Excel"},virtualizationSettings:{enableCache:!1,scrollMode:d.Virtual},height:"100%"}},k={args:{dataSource:new P({url:"https://ej2services.syncfusion.com/react/development/api/GridWebAPIService",adaptor:new dn}),columns:[{field:"OrderID",headerText:"OrderID",isPrimaryKey:!0,width:"130",allowSearch:!1},{field:"CustomerID",headerText:"CustomerID",width:"230",clipMode:"EllipsisWithTooltip"},{field:"ShipCity",headerText:"ShipCity",width:"230"},{field:"EmployeeID",headerText:"EmployeeID",width:"130",clipMode:"EllipsisWithTooltip",allowSearch:!1},{field:"EmployeeName",headerText:"EmployeeName",width:"230",clipMode:"EllipsisWithTooltip",allowSearch:!1,allowFilter:!1,allowSort:!1},{field:"Designation",headerText:"Designation",width:"230",clipMode:"EllipsisWithTooltip",allowSearch:!1,allowFilter:!1,allowSort:!1},{field:"CurrentSalary",headerText:"CurrentSalary",width:"130",clipMode:"EllipsisWithTooltip",allowSearch:!1,allowFilter:!1,allowSort:!1}],selectionSettings:{mode:"Single"},sortSettings:{enabled:!0},filterSettings:{enabled:!0},virtualizationSettings:{scrollMode:d.Virtual},height:"100%",query:new Q().addParams("serverpagesize","50")}},F={args:{dataSource:nn,children:e.jsxs(ln,{children:[e.jsx(he,{headerText:"Employee Image",width:"180",textAlign:ge.Center,field:"EmployeeID"}),e.jsx(he,{headerText:"Employee Details",width:"300",textAlign:ge.Left,field:"FirstName"})]}),className:"row-template",toolbar:["Search"],selectionSettings:{mode:"Single"},searchSettings:{enabled:!0},sortSettings:{enabled:!0},filterSettings:{enabled:!0},height:"100%",rowTemplate:l=>{const j=`https://npmci-react.syncfusion.com/development-react-ui/images/grid/${l.EmployeeID}.png`;return e.jsxs("tr",{className:"templateRow",children:[e.jsx("td",{className:"photo",children:e.jsx("img",{src:j,alt:l.EmployeeID.toString()})}),e.jsx("td",{className:"details",children:e.jsxs("table",{className:"CardTable",cellPadding:3,cellSpacing:2,children:[e.jsxs("colgroup",{children:[e.jsx("col",{style:{width:"30%"}}),e.jsx("col",{style:{width:"10%"}})]}),e.jsxs("tbody",{children:[e.jsxs("tr",{children:[e.jsx("td",{className:"CardHeader",children:"First Name"}),e.jsx("td",{children:":"}),e.jsx("td",{children:l.FirstName})]}),e.jsxs("tr",{children:[e.jsx("td",{className:"CardHeader",children:"Last Name"}),e.jsx("td",{children:":"}),e.jsx("td",{children:l.LastName})]}),e.jsxs("tr",{children:[e.jsx("td",{className:"CardHeader",children:"Title"}),e.jsx("td",{children:":"}),e.jsx("td",{children:l.Title})]})]})]})})]})}}},mn=[{field:"id"},{field:"username",width:150},{field:"age",width:80,type:"number"},{field:"bio",width:400}],V={args:{localDataCount:1e5,isTextWrapData:!0,columns:mn,height:400,textWrapSettings:{enabled:!0,wrapMode:tn.Both}}},I={args:{localDataCount:100,columns:h.slice(1,11),groupSettings:{enabled:!0,columns:["product","region"],showUngroupButton:!1,showDropArea:!0},sortSettings:{enabled:!0},defaultOpenGroupExpandKeys:["Keyboard","Keyboard-East"],filterSettings:{enabled:!0},height:"100%"}},z={args:{dataSource:new P({url:"https://ej2services.syncfusion.com/react/development/odata/GridInfiniteODataV4",adaptor:new rn}),columns:[{field:"RecordId",headerText:"Record ID"},{field:"AssetGroup",headerText:"Asset Group"},{field:"HourlyCost",headerText:"Hourly Cost"},{field:"EstimatedHours",headerText:"Estimated Hours"},{field:"MaintenanceCost",headerText:"Maintenance Cost"},{field:"RequestedDate",headerText:"Requested Date"},{field:"PlannedDate",headerText:"Planned Date"},{field:"CompletionDate",headerText:"Completion Date"},{field:"Status",headerText:"Status"},{field:"RequestOrigin.Division",headerText:"Request Division"}],virtualizationSettings:{scrollMode:d.Infinite,enableCache:!0},sortSettings:{enabled:!0},filterSettings:{enabled:!0},searchSettings:{enabled:!0},toolbar:["Search"],pageSettings:{enabled:!1,pageSize:100,estimatedTotalRecordsCount:500,pageSizeControlledBy:"server"},height:"100%"}},O={args:{serverPageSize:50,localDataCount:5e3,columns:h.slice(1,11),isCustomBinding:!0,virtualizationSettings:{scrollMode:d.Infinite},sortSettings:{enabled:!0},filterSettings:{enabled:!0,enableFilterBarOperator:!0},searchSettings:{enabled:!0},toolbar:["Search"],pageSettings:{enabled:!1,pageSize:50},height:"100%"}};var fe,Se,ye;G.parameters={...G.parameters,docs:{...(fe=G.parameters)==null?void 0:fe.docs,source:{originalSource:`{
+\`\`\``,name:"onDeleteDialogOpen",required:!1,type:{name:"(eventArgs: DeleteDialogEventArgs) => void"}}}}}catch{}const Cn={title:"Grid/VirtualGridBase",component:K,parameters:{layout:"fullscreen",docs:{description:{component:"A fully configurable Grid component with performance comparison capabilities."}}},argTypes:{localDataCount:{control:"select",options:["0","100","1000","10000","100000"],description:"Grid Local DataSource Count"}}},h=cn(100,!1),mn=[{columns:rn(h.length)}];h.unshift({type:_.Checkbox,width:50,allowFilter:!1});h.push({headerText:"Command Actions",width:200,getCommandItems:()=>[e.jsx(p,{type:m.Edit},"Edit"),e.jsx(p,{type:m.Delete},"Delete"),e.jsx(p,{type:m.Update},"Update"),e.jsx(p,{type:m.Cancel},"Cancel")]});const k={args:{localDataCount:1e5,columns:(()=>{let a=[...h];return a.unshift({type:_.SingleGroup}),a=a.map(u=>({...u,...u.field==="sales"?{groupCaptionAggregateType:He.Sum}:{}})),a})(),aggregates:mn,groupSettings:{enabled:!0,columns:["product","region"],showDropArea:!0,defaultExpanded:!0},virtualizationSettings:{scrollMode:d.Virtual,enableCache:!1},editSettings:{allowEdit:!0,allowAdd:!0,allowDelete:!0,mode:"Normal"},toolbar:["Add","Edit","Delete","Update","Cancel","Search"],searchSettings:{enabled:!0},sortSettings:{enabled:!0},filterSettings:{enabled:!0,type:"Excel",enableFilterBarOperator:!0},pageSettings:{enabled:!1,pageSize:1e5},height:"100%",onRowSelect:a=>{console.log("Row Selected: ",a)}}},M={args:{localDataCount:2e6,columns:h.slice(1,11),editSettings:{allowEdit:!0,allowAdd:!0,allowDelete:!0,mode:"Normal"},toolbar:["Add","Edit","Delete","Update","Cancel","Search"],searchSettings:{enabled:!0},sortSettings:{enabled:!0},filterSettings:{enabled:!0,enableFilterBarOperator:!0},pageSettings:{enabled:!0,pageSize:2e6},height:"100%"}},F={args:{dataSource:new U({url:"https://ej2services.syncfusion.com/js/development/api/UrlDataSource",adaptor:new dn}),query:new Q().addParams("dataCount","100000").addParams("serverpagesize","50"),toolbar:["Search"],columns:[{field:"EmployeeID",visible:!0,headerText:"Employee ID",isPrimaryKey:!0,width:"150"},{field:"Employees",headerText:"Employee Name",width:"230",clipMode:"EllipsisWithTooltip"},{field:"Designation",headerText:"Designation",width:"170",clipMode:"EllipsisWithTooltip"},{field:"Mail",headerText:"Mail",width:"230"},{field:"Location",headerText:"Location",width:"140"},{field:"Status",headerText:"Status",width:"130"},{field:"Trustworthiness",headerText:"Trustworthiness",width:"160"},{field:"Rating",headerText:"Rating",width:"220"},{field:"Software",headerText:"Software Proficiency",width:"180",format:"C2"},{field:"CurrentSalary",headerText:"Current Salary",width:"200",format:"C2"},{field:"Address",headerText:"Address",width:"240",clipMode:"EllipsisWithTooltip"}],aggregates:[{columns:[{field:"EmployeeID",type:"Count",footerTemplate:a=>`Employee Count: ${a.Count}`},{field:"CurrentSalary",type:"Sum",format:"C2",footerTemplate:a=>`Total Salary: ${a.Sum}`}]}],selectionSettings:{mode:"Single"},searchSettings:{enabled:!0},sortSettings:{enabled:!0},filterSettings:{enabled:!0,type:"Excel"},virtualizationSettings:{enableCache:!1,scrollMode:d.Virtual},height:"100%"}},V={args:{dataSource:new U({url:"https://ej2services.syncfusion.com/react/development/api/GridWebAPIService",adaptor:new un}),columns:[{field:"OrderID",headerText:"OrderID",isPrimaryKey:!0,width:"130",allowSearch:!1},{field:"CustomerID",headerText:"CustomerID",width:"230",clipMode:"EllipsisWithTooltip"},{field:"ShipCity",headerText:"ShipCity",width:"230"},{field:"EmployeeID",headerText:"EmployeeID",width:"130",clipMode:"EllipsisWithTooltip",allowSearch:!1},{field:"EmployeeName",headerText:"EmployeeName",width:"230",clipMode:"EllipsisWithTooltip",allowSearch:!1,allowFilter:!1,allowSort:!1},{field:"Designation",headerText:"Designation",width:"230",clipMode:"EllipsisWithTooltip",allowSearch:!1,allowFilter:!1,allowSort:!1},{field:"CurrentSalary",headerText:"CurrentSalary",width:"130",clipMode:"EllipsisWithTooltip",allowSearch:!1,allowFilter:!1,allowSort:!1}],selectionSettings:{mode:"Single"},sortSettings:{enabled:!0},filterSettings:{enabled:!0},virtualizationSettings:{scrollMode:d.Virtual},height:"100%",query:new Q().addParams("serverpagesize","50")}},I={args:{dataSource:an,children:e.jsxs(sn,{children:[e.jsx(he,{headerText:"Employee Image",width:"180",textAlign:fe.Center,field:"EmployeeID"}),e.jsx(he,{headerText:"Employee Details",width:"300",textAlign:fe.Left,field:"FirstName"})]}),className:"row-template",toolbar:["Search"],selectionSettings:{mode:"Single"},searchSettings:{enabled:!0},sortSettings:{enabled:!0},filterSettings:{enabled:!0},height:"100%",rowTemplate:a=>{const u=`https://npmci-react.syncfusion.com/development-react-ui/images/grid/${a.EmployeeID}.png`;return e.jsxs("tr",{className:"templateRow",children:[e.jsx("td",{className:"photo",children:e.jsx("img",{src:u,alt:a.EmployeeID.toString()})}),e.jsx("td",{className:"details",children:e.jsxs("table",{className:"CardTable",cellPadding:3,cellSpacing:2,children:[e.jsxs("colgroup",{children:[e.jsx("col",{style:{width:"30%"}}),e.jsx("col",{style:{width:"10%"}})]}),e.jsxs("tbody",{children:[e.jsxs("tr",{children:[e.jsx("td",{className:"CardHeader",children:"First Name"}),e.jsx("td",{children:":"}),e.jsx("td",{children:a.FirstName})]}),e.jsxs("tr",{children:[e.jsx("td",{className:"CardHeader",children:"Last Name"}),e.jsx("td",{children:":"}),e.jsx("td",{children:a.LastName})]}),e.jsxs("tr",{children:[e.jsx("td",{className:"CardHeader",children:"Title"}),e.jsx("td",{children:":"}),e.jsx("td",{children:a.Title})]})]})]})})]})}}},gn=[{field:"id"},{field:"username",width:150},{field:"age",width:80,type:"number"},{field:"bio",width:400}],z={args:{localDataCount:1e5,isTextWrapData:!0,columns:gn,height:400,textWrapSettings:{enabled:!0,wrapMode:on.Both}}},O={args:{localDataCount:100,columns:(()=>{let a=[...h.slice(1,11)];return a.unshift({type:_.SingleGroup}),a=a.map(u=>({...u,...u.field==="sales"?{groupCaptionAggregateType:He.Sum}:{}})),a})(),groupSettings:{enabled:!0,columns:["product","region"],showDropArea:!0,type:"singleColumn",captionFormat:"verbose"},sortSettings:{enabled:!0},defaultOpenGroupExpandKeys:["Keyboard","Keyboard-East"],filterSettings:{enabled:!0},height:"100%"}},P={args:{dataSource:new U({url:"https://ej2services.syncfusion.com/react/development/odata/GridInfiniteODataV4",adaptor:new ln}),columns:[{field:"RecordId",headerText:"Record ID"},{field:"AssetGroup",headerText:"Asset Group"},{field:"HourlyCost",headerText:"Hourly Cost"},{field:"EstimatedHours",headerText:"Estimated Hours"},{field:"MaintenanceCost",headerText:"Maintenance Cost"},{field:"RequestedDate",headerText:"Requested Date"},{field:"PlannedDate",headerText:"Planned Date"},{field:"CompletionDate",headerText:"Completion Date"},{field:"Status",headerText:"Status"},{field:"RequestOrigin.Division",headerText:"Request Division"}],virtualizationSettings:{scrollMode:d.Infinite,enableCache:!0},sortSettings:{enabled:!0},filterSettings:{enabled:!0},searchSettings:{enabled:!0},toolbar:["Search"],pageSettings:{enabled:!1,pageSize:100,estimatedTotalRecordsCount:500,pageSizeControlledBy:"server"},height:"100%"}},j={args:{serverPageSize:50,localDataCount:5e3,columns:h.slice(1,11),isCustomBinding:!0,virtualizationSettings:{scrollMode:d.Infinite},sortSettings:{enabled:!0},filterSettings:{enabled:!0,enableFilterBarOperator:!0},searchSettings:{enabled:!0},toolbar:["Search"],pageSettings:{enabled:!1,pageSize:50},height:"100%"}};var Se,ye,Ce;k.parameters={...k.parameters,docs:{...(Se=k.parameters)==null?void 0:Se.docs,source:{originalSource:`{
   args: {
     localDataCount: 100000,
-    columns: columns,
+    columns: (() => {
+      let groupingColumns = [...columns];
+      groupingColumns.unshift({
+        type: ColumnType.SingleGroup
+      }); //, headerText: 'Product Group'
+      groupingColumns = groupingColumns.map(col => {
+        return {
+          ...col,
+          ...(col.field === 'sales' ? {
+            groupCaptionAggregateType: AggregateType.Sum
+          } : {})
+        };
+      });
+      return groupingColumns;
+    })(),
     // for makeData purpose mandatory
     aggregates: aggregates,
     groupSettings: {
       enabled: true,
       columns: ['product', 'region'],
-      showUngroupButton: false
-      // showDropArea: true,
-      // defaultExpanded: false
+      // showUngroupButton: false,
+      showDropArea: true,
+      // type: 'groupRows',
+      // type: 'singleColumn',
+      // type: 'multipleColumns',
+      defaultExpanded: true
     },
+    // defaultOpenGroupExpandKeys: ['Keyboard', 'Keyboard-East'],
     // isMultipleChildren: true,
     // children: (
     //     <>
@@ -1282,7 +1320,7 @@ const GridComponent = () => {
       enableFilterBarOperator: true
     },
     pageSettings: {
-      enabled: true,
+      enabled: false,
       pageSize: 100000
     },
     height: '100%',
@@ -1290,7 +1328,7 @@ const GridComponent = () => {
       console.log('Row Selected: ', args);
     }
   }
-}`,...(ye=(Se=G.parameters)==null?void 0:Se.docs)==null?void 0:ye.source}}};var ve,we,Ce;q.parameters={...q.parameters,docs:{...(ve=q.parameters)==null?void 0:ve.docs,source:{originalSource:`{
+}`,...(Ce=(ye=k.parameters)==null?void 0:ye.docs)==null?void 0:Ce.source}}};var ve,we,be;M.parameters={...M.parameters,docs:{...(ve=M.parameters)==null?void 0:ve.docs,source:{originalSource:`{
   args: {
     localDataCount: 2000000,
     columns: columns.slice(1, 11),
@@ -1318,7 +1356,7 @@ const GridComponent = () => {
     },
     height: '100%'
   }
-}`,...(Ce=(we=q.parameters)==null?void 0:we.docs)==null?void 0:Ce.source}}};var be,xe,De;M.parameters={...M.parameters,docs:{...(be=M.parameters)==null?void 0:be.docs,source:{originalSource:`{
+}`,...(be=(we=M.parameters)==null?void 0:we.docs)==null?void 0:be.source}}};var xe,De,Ee;F.parameters={...F.parameters,docs:{...(xe=F.parameters)==null?void 0:xe.docs,source:{originalSource:`{
   args: {
     dataSource: new DataManager({
       // url: 'http://localhost:62869/api/UrlDataSource',
@@ -1431,7 +1469,7 @@ const GridComponent = () => {
     },
     height: '100%'
   }
-}`,...(De=(xe=M.parameters)==null?void 0:xe.docs)==null?void 0:De.source}}};var Ee,Te,Re;k.parameters={...k.parameters,docs:{...(Ee=k.parameters)==null?void 0:Ee.docs,source:{originalSource:`{
+}`,...(Ee=(De=F.parameters)==null?void 0:De.docs)==null?void 0:Ee.source}}};var Te,Re,Ae;V.parameters={...V.parameters,docs:{...(Te=V.parameters)==null?void 0:Te.docs,source:{originalSource:`{
   args: {
     dataSource: new DataManager({
       url: 'https://ej2services.syncfusion.com/react/development/api/GridWebAPIService',
@@ -1500,7 +1538,7 @@ const GridComponent = () => {
     height: '100%',
     query: new Query().addParams('serverpagesize', '50')
   }
-}`,...(Re=(Te=k.parameters)==null?void 0:Te.docs)==null?void 0:Re.source}}};var Ae,Ge,qe;F.parameters={...F.parameters,docs:{...(Ae=F.parameters)==null?void 0:Ae.docs,source:{originalSource:`{
+}`,...(Ae=(Re=V.parameters)==null?void 0:Re.docs)==null?void 0:Ae.source}}};var Ge,qe,ke;I.parameters={...I.parameters,docs:{...(Ge=I.parameters)==null?void 0:Ge.docs,source:{originalSource:`{
   args: {
     dataSource: employeeData,
     children: <Columns>\r
@@ -1562,7 +1600,7 @@ const GridComponent = () => {
                 </tr>;
     }
   }
-}`,...(qe=(Ge=F.parameters)==null?void 0:Ge.docs)==null?void 0:qe.source}}};var Me,ke,Fe;V.parameters={...V.parameters,docs:{...(Me=V.parameters)==null?void 0:Me.docs,source:{originalSource:`{
+}`,...(ke=(qe=I.parameters)==null?void 0:qe.docs)==null?void 0:ke.source}}};var Me,Fe,Ve;z.parameters={...z.parameters,docs:{...(Me=z.parameters)==null?void 0:Me.docs,source:{originalSource:`{
   args: {
     localDataCount: 100000,
     isTextWrapData: true,
@@ -1573,19 +1611,36 @@ const GridComponent = () => {
       wrapMode: WrapMode.Both
     }
   }
-}`,...(Fe=(ke=V.parameters)==null?void 0:ke.docs)==null?void 0:Fe.source}}};var Ve,Ie,ze;I.parameters={...I.parameters,docs:{...(Ve=I.parameters)==null?void 0:Ve.docs,source:{originalSource:`{
+}`,...(Ve=(Fe=z.parameters)==null?void 0:Fe.docs)==null?void 0:Ve.source}}};var Ie,ze,Oe;O.parameters={...O.parameters,docs:{...(Ie=O.parameters)==null?void 0:Ie.docs,source:{originalSource:`{
   args: {
     localDataCount: 100,
-    columns: columns.slice(1, 11),
+    columns: (() => {
+      let groupingColumns = [...columns.slice(1, 11)];
+      groupingColumns.unshift({
+        type: ColumnType.SingleGroup
+      }); //, headerText: 'Product Group'
+      groupingColumns = groupingColumns.map(col => {
+        return {
+          ...col,
+          ...(col.field === 'sales' ? {
+            groupCaptionAggregateType: AggregateType.Sum
+          } : {})
+        };
+      });
+      return groupingColumns;
+    })(),
     groupSettings: {
       enabled: true,
       columns: ['product', 'region'],
-      showUngroupButton: false,
+      // showUngroupButton: false,
       // defaultExpanded: false,
       // defaultExpanded: 1,
-      showDropArea: true
+      showDropArea: true,
       // allowReorder: true,
+      type: 'singleColumn',
+      captionFormat: 'verbose'
       // type: 'multipleColumns',
+      // type: 'groupRows'
     },
     sortSettings: {
       enabled: true
@@ -1605,7 +1660,7 @@ const GridComponent = () => {
     // pageSettings: { enabled: true, pageSize: 100 },
     height: '100%'
   }
-}`,...(ze=(Ie=I.parameters)==null?void 0:Ie.docs)==null?void 0:ze.source}}};var Oe,Pe,je;z.parameters={...z.parameters,docs:{...(Oe=z.parameters)==null?void 0:Oe.docs,source:{originalSource:`{
+}`,...(Oe=(ze=O.parameters)==null?void 0:ze.docs)==null?void 0:Oe.source}}};var Pe,je,Ue;P.parameters={...P.parameters,docs:{...(Pe=P.parameters)==null?void 0:Pe.docs,source:{originalSource:`{
   args: {
     // localDataCount: 100,
     dataSource: new DataManager({
@@ -1679,7 +1734,7 @@ const GridComponent = () => {
     height: '100%'
     // query: new Query().requiresCount()
   }
-}`,...(je=(Pe=z.parameters)==null?void 0:Pe.docs)==null?void 0:je.source}}};var Ue,We,Be;O.parameters={...O.parameters,docs:{...(Ue=O.parameters)==null?void 0:Ue.docs,source:{originalSource:`{
+}`,...(Ue=(je=P.parameters)==null?void 0:je.docs)==null?void 0:Ue.source}}};var We,Be,Ne;j.parameters={...j.parameters,docs:{...(We=j.parameters)==null?void 0:We.docs,source:{originalSource:`{
   args: {
     serverPageSize: 50,
     localDataCount: 5000,
@@ -1708,4 +1763,4 @@ const GridComponent = () => {
     height: '100%'
     // aggregates: [{columns: aggregates?.[0].columns.slice(0, 10) ?? []}]
   }
-}`,...(Be=(We=O.parameters)==null?void 0:We.docs)==null?void 0:Be.source}}};const vn=["LocalData","OverComeBrowserLimit","UrlAdaptorData","WebApiAdaptorData","RowTemplate","TextWrapSample","GroupingSample","ODataV4Sample","CustomBindingSample"];export{O as CustomBindingSample,I as GroupingSample,G as LocalData,z as ODataV4Sample,q as OverComeBrowserLimit,F as RowTemplate,V as TextWrapSample,M as UrlAdaptorData,k as WebApiAdaptorData,vn as __namedExportsOrder,yn as default};
+}`,...(Ne=(Be=j.parameters)==null?void 0:Be.docs)==null?void 0:Ne.source}}};const vn=["LocalData","OverComeBrowserLimit","UrlAdaptorData","WebApiAdaptorData","RowTemplate","TextWrapSample","GroupingSample","ODataV4Sample","CustomBindingSample"];export{j as CustomBindingSample,O as GroupingSample,k as LocalData,P as ODataV4Sample,M as OverComeBrowserLimit,I as RowTemplate,z as TextWrapSample,F as UrlAdaptorData,V as WebApiAdaptorData,vn as __namedExportsOrder,Cn as default};
