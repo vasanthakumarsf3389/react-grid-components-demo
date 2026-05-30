@@ -2400,7 +2400,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Group<wbr>Drop<wbr>Area<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">NamedExoticComponent</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_views_groupdroparea_d_.groupdropareaprops.html" class="tsd-signature-type">GroupDropAreaProps</a><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/views/GroupDropArea.d.ts:56</li>
+						<li>Defined in src/grid/views/GroupDropArea.d.ts:64</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2424,6 +2424,7 @@ img {
 						<dd><pre><code class="language-tsx">&lt;GroupDropArea
   groupColumns={[&#39;ShipCountry&#39;, &#39;CustomerID&#39;]}
   onUngroupColumn={(field) =&gt; gridRef.current.ungroupColumn(field)}
+  onSort={(field, dir) =&gt; gridRef.current.sortColumn(field, dir)}
   sortDirections={{ ShipCountry: &#39;Ascending&#39;, CustomerID: &#39;Descending&#39; }}
 /&gt;</code></pre>
 						</dd>
