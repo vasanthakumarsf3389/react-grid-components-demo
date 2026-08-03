@@ -2710,7 +2710,7 @@ img {
 					<div class="lead">
 						<p>If false, disables grouping for this specific column.
 							Defaults to true, allowing the column to be used in group operations.
-						When false, the column cannot be dragged to the GroupDropArea and is excluded from group-by operations.</p>
+						When false, the column cannot be dragged to the <code>GroupDropArea</code> and is excluded from group-by operations.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2725,7 +2725,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">allow<wbr>Search<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:372</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:373</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2766,14 +2766,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">auto<wbr>Height<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:414</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:415</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
 						<p>Enables automatic row height adjustment based on the rendered content of this column.</p>
 					</div>
-					<p>When set to <code>true</code>, the grid measures the actual height of the column’s rendered
+					<p>When set to true, the grid measures the actual height of the column’s rendered
 						content (including template output) and expands the corresponding row so that no
 					content is clipped.</p>
 					<p>This property is intended for columns that use custom templates where text may wrap
@@ -2794,7 +2794,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">cell<wbr>Class<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">?: </span><a href="_grid_types_column_interfaces_d_.cellclassprops.html" class="tsd-signature-type">CellClassProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:498</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:499</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2848,7 +2848,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">children<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReactNode</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:454</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:455</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2868,7 +2868,7 @@ img {
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Defines the cell content&#39;s overflow mode. The available modes are</p>
+						<p>Defines the cell content&#39;s overflow mode. The available modes are:</p>
 						<ul>
 							<li><code>Clip</code> -  Truncates the cell content when it overflows its area.</li>
 							<li><code>Ellipsis</code> -  Displays ellipsis when the cell content overflows its area.</li>
@@ -2888,15 +2888,15 @@ img {
 				<div class="tsd-signature tsd-kind-icon">col<wbr>Span<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>args<span class="tsd-signature-symbol">?: </span><a href="_grid_types_column_interfaces_d_.cellspanargs.html" class="tsd-signature-type">CellSpanArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:381</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:382</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
 						<p>Specifies the number of columns the cell should span.
 							When set to a number greater than 1, the cell merges horizontally.
-							When set to <code>true</code>, the grid may automatically span adjacent matching cells if <code>enableAutoSpan</code> allows it.
-						When set to <code>false</code>, the cell is never auto-spanned.</p>
+							When set to true, the grid may automatically span adjacent matching cells if <code>enableAutoSpan</code> allows it.
+						When set to false, the cell is never auto-spanned.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2911,7 +2911,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <a href="_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:261</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:262</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2932,7 +2932,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">context<wbr>Menu<wbr>Items<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">"Edit"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Delete"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Save"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Cancel"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"SortAscending"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"SortDescending"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"ClearSort"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"FirstPage"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"PrevPage"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"LastPage"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"NextPage"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"SelectRow"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"ClearRowSelection"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"ClearSelection"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Sum"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Average"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Min"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Max"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Count"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"TrueCount"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"FalseCount"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Custom"</span><span class="tsd-signature-symbol"> | </span><a href="_grid_types_context_interfaces_d_.contextmenuitemprops.html" class="tsd-signature-type">ContextMenuItemProps</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:515</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:516</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2954,7 +2954,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">custom<wbr>Attributes<span class="tsd-signature-symbol">:</span> <a href="../modules/_grid_types_column_interfaces_d_.html#customattributes" class="tsd-signature-type">CustomAttributes</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:201</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:202</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2975,7 +2975,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">default<wbr>Value<span class="tsd-signature-symbol">:</span> <a href="../modules/_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:288</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:289</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3017,7 +3017,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">display<wbr>AsCheck<wbr>Box<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:207</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:208</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3037,7 +3037,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">edit<span class="tsd-signature-symbol">:</span> <a href="_grid_types_edit_interfaces_d_.columneditparams.html" class="tsd-signature-type">ColumnEditParams</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:295</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:296</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3058,7 +3058,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">edit<wbr>Template<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_edit_interfaces_d_.edittemplateprops.html" class="tsd-signature-type">EditTemplateProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:359</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:360</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3101,7 +3101,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">filter<span class="tsd-signature-symbol">:</span> <a href="_grid_types_column_interfaces_d_.columnfilterparams.html" class="tsd-signature-type">ColumnFilterParams</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:274</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:275</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3121,7 +3121,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">filter<wbr>Template<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_filter_interfaces_d_.filtertemplateprops.html" class="tsd-signature-type">FilterTemplateProps</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:366</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:367</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3163,7 +3163,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">format<wbr>Fn<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:434</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:435</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3178,7 +3178,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">format<wbr>Value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:448</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:449</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3271,7 +3271,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Formatter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:421</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:422</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3291,7 +3291,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Parser<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:428</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:429</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3311,7 +3311,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">group<wbr>Caption<wbr>Aggregate<wbr>Type<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.aggregatetype.html" class="tsd-signature-type">AggregateType</a><span class="tsd-signature-symbol"> | </span><a href="../enums/_grid_types_enum_d_.aggregatetype.html" class="tsd-signature-type">AggregateType</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:193</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:194</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3319,9 +3319,9 @@ img {
 						<p>Defines the aggregate function (e.g., <code>sum</code>, <code>average</code>) to apply for group captions when this column is used in grouping.
 							When grouping by this column, the specified aggregate function calculates summary values for each group and displays them in the group caption.
 							For example, setting <code>groupCaptionAggregateType</code> to <code>sum</code> will display the total sum of the grouped values in the group caption when this column is used for grouping.
-							This property enhances the grouping feature by providing summary information directly in the group headers, improving data analysis and readability when working with grouped data.
-						Note: This property is only applicable when the column is used in grouping operations and an aggregate function is specified. It does not affect columns that are not grouped or do not have an aggregate function defined. Not applicable for <code>groupSettings.type</code> set to <code>groupRows</code>.</p>
+						This property enhances the grouping feature by providing summary information directly in the group headers, improving data analysis and readability when working with grouped data.</p>
 					</div>
+					<p>Note: This property is only applicable when the column is used in grouping operations and an aggregate function is specified. It does not affect columns that are not grouped or do not have an aggregate function defined. Not applicable for <code>groupSettings.type</code> set to <code>groupRows</code>.</p>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>null</p>
@@ -3335,7 +3335,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">header<wbr>Checkbox<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:507</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:508</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3343,7 +3343,7 @@ img {
 						<p>Specifies whether the header checkbox is displayed in the checkbox column.
 							By default, it is enabled when the column type is set to <code>Checkbox</code> in the column definition.
 							The header checkbox allows users to select or deselect all rows at once.
-						To disable the select‑all or deselect‑all functionality, set <code>headerCheckbox</code> to false in the checkbox column definition.</p>
+						To disable the select‑all or deselect‑all functionality, set <code>headerCheckbox</code> to <code>false</code> in the checkbox column definition.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -3421,7 +3421,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">header<wbr>Value<wbr>Accessor<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">?: </span><a href="_grid_types_column_interfaces_d_.headervalueaccessorprops.html" class="tsd-signature-type">HeaderValueAccessorProps</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../modules/_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">T</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:253</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:254</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3476,7 +3476,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">hide<wbr>AtMedia<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:311</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:312</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3517,7 +3517,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">is<wbr>Identity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:303</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:304</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3538,7 +3538,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">is<wbr>Primary<wbr>Key<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:268</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:269</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3559,7 +3559,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">parse<wbr>Fn<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:440</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:441</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3574,15 +3574,15 @@ img {
 				<div class="tsd-signature tsd-kind-icon">row<wbr>Span<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>args<span class="tsd-signature-symbol">?: </span><a href="_grid_types_column_interfaces_d_.cellspanargs.html" class="tsd-signature-type">CellSpanArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:390</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:391</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
 						<p>Specifies the number of rows the cell should span.
 							When set to a number greater than 1, the cell merges vertically.
-							When set to <code>true</code>, the grid may automatically span matching cells in subsequent rows if <code>enableAutoSpan</code> allows it.
-						When set to <code>false</code>, the cell is never auto-spanned.</p>
+							When set to true, the grid may automatically span matching cells in subsequent rows if <code>enableAutoSpan</code> allows it.
+						When set to false, the cell is never auto-spanned.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -3619,7 +3619,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">sort<wbr>Comparer<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>referenceValue<span class="tsd-signature-symbol">: </span><a href="../modules/_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a>, comparerValue<span class="tsd-signature-symbol">: </span><a href="../modules/_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a>, referenceRowData<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">T</span>, comparerRowData<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">T</span>, sortDirection<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:352</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:353</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3706,7 +3706,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">sort<wbr>Direction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:461</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:462</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3747,7 +3747,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">template<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_column_interfaces_d_.templateparams.html" class="tsd-signature-type">TemplateParams</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:397</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:398</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3835,7 +3835,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">validation<wbr>Rules<span class="tsd-signature-symbol">:</span> <a href="_grid_types_column_interfaces_d_.columnvalidationparams.html" class="tsd-signature-type">ColumnValidationParams</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:281</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:282</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3856,7 +3856,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">value<wbr>Accessor<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">?: </span><a href="_grid_types_column_interfaces_d_.valueaccessorprops.html" class="tsd-signature-type">ValueAccessorProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../modules/_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">T</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/column.interfaces.d.ts:230</li>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:231</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">

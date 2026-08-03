@@ -2388,6 +2388,9 @@ img {
 					<a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#scrollmode" class="tsd-kind-icon">scroll<wbr>Mode</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#throttletime" class="tsd-kind-icon">throttle<wbr>Time</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#type" class="tsd-kind-icon">type</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2451,6 +2454,7 @@ const virtualization: VirtualizationSettings = {
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#enabled" class="tsd-kind-icon">enabled</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#preventmaxrenderedrows" class="tsd-kind-icon">prevent<wbr>Max<wbr>Rendered<wbr>Rows</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#scrollmode" class="tsd-kind-icon">scroll<wbr>Mode</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#throttletime" class="tsd-kind-icon">throttle<wbr>Time</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#type" class="tsd-kind-icon">type</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html#viewportbuffer" class="tsd-kind-icon">view<wbr>Port<wbr>Buffer</a></li>
 						</ul>
@@ -2546,6 +2550,29 @@ const virtualization: VirtualizationSettings = {
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>ScrollMode.Auto</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="throttletime" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> throttle<wbr>Time</h3>
+				<div class="tsd-signature tsd-kind-icon">throttle<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/virtualization.interface.d.ts:157</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Specifies the throttle time in milliseconds for scroll events when using virtual or infinite scroll modes.
+							Throttling scroll events can improve performance by limiting the frequency of data loading and rendering during rapid scrolling.
+							A lower value results in more responsive updates but may increase the number of server requests and DOM updates.
+						A higher value reduces the number of updates but may cause a less responsive scrolling experience.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>150</p>
 						</dd>
 					</dl>
 				</div>

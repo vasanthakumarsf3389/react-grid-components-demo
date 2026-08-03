@@ -2369,6 +2369,9 @@ img {
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
 			<a href="_grid_types_edit_interfaces_d_.celleditformprops.html" class="tsd-kind-icon">Cell<wbr>Edit<wbr>Form<wbr>Props</a>
 		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-private">
+			<a href="_grid_types_edit_interfaces_d_.celleditformref.html" class="tsd-kind-icon">Cell<wbr>Edit<wbr>Form<wbr>Ref</a>
+		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
 			<a href="_grid_types_edit_interfaces_d_.columneditparams.html" class="tsd-kind-icon">Column<wbr>Edit<wbr>Params</a>
 		</li>
@@ -2457,6 +2460,9 @@ img {
 					<a href="_grid_types_edit_interfaces_d_.useeditresult.html#checkunsavedchanges" class="tsd-kind-icon">check<wbr>Unsaved<wbr>Changes</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_edit_interfaces_d_.useeditresult.html#deletecell" class="tsd-kind-icon">delete<wbr>Cell</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_edit_interfaces_d_.useeditresult.html#deleterecord" class="tsd-kind-icon">delete<wbr>Record</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2470,6 +2476,9 @@ img {
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_edit_interfaces_d_.useeditresult.html#editdata" class="tsd-kind-icon">edit<wbr>Data</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_edit_interfaces_d_.useeditresult.html#editfocusedcell" class="tsd-kind-icon">edit<wbr>Focused<wbr>Cell</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_edit_interfaces_d_.useeditresult.html#editrecord" class="tsd-kind-icon">edit<wbr>Record</a>
@@ -2640,11 +2649,13 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#cancelcellchanges" class="tsd-kind-icon">cancel<wbr>Cell<wbr>Changes</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#canceldatachanges" class="tsd-kind-icon">cancel<wbr>Data<wbr>Changes</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#checkunsavedchanges" class="tsd-kind-icon">check<wbr>Unsaved<wbr>Changes</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#deletecell" class="tsd-kind-icon">delete<wbr>Cell</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#deleterecord" class="tsd-kind-icon">delete<wbr>Record</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#dialogconfig" class="tsd-kind-icon">dialog<wbr>Config</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#editcell" class="tsd-kind-icon">edit<wbr>Cell</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#editcellindex" class="tsd-kind-icon">edit<wbr>Cell<wbr>Index</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#editdata" class="tsd-kind-icon">edit<wbr>Data</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#editfocusedcell" class="tsd-kind-icon">edit<wbr>Focused<wbr>Cell</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#editrecord" class="tsd-kind-icon">edit<wbr>Record</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#editrowindex" class="tsd-kind-icon">edit<wbr>Row<wbr>Index</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_edit_interfaces_d_.useeditresult.html#editsettings" class="tsd-kind-icon">edit<wbr>Settings</a></li>
@@ -2794,6 +2805,31 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="deletecell" class="tsd-anchor"></a>
+				<h3>delete<wbr>Cell</h3>
+				<div class="tsd-signature tsd-kind-icon">delete<wbr>Cell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:256</li>
+					</ul>
+				</aside>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="deleterecord" class="tsd-anchor"></a>
 				<h3>delete<wbr>Record</h3>
 				<div class="tsd-signature tsd-kind-icon">delete<wbr>Record<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>fieldName<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span>, data<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></div>
@@ -2833,7 +2869,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">dialog<wbr>Config<span class="tsd-signature-symbol">:</span> <a href="_grid_types_edit_interfaces_d_.confirmdialogconfig.html" class="tsd-signature-type">ConfirmDialogConfig</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:258</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:260</li>
 					</ul>
 				</aside>
 			</section>
@@ -2903,6 +2939,31 @@ img {
 				</aside>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="editfocusedcell" class="tsd-anchor"></a>
+				<h3>edit<wbr>Focused<wbr>Cell</h3>
+				<div class="tsd-signature tsd-kind-icon">edit<wbr>Focused<wbr>Cell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:255</li>
+					</ul>
+				</aside>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="editrecord" class="tsd-anchor"></a>
 				<h3>edit<wbr>Record</h3>
 				<div class="tsd-signature tsd-kind-icon">edit<wbr>Record<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>rowElement<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">HTMLTableRowElement</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></div>
@@ -2959,7 +3020,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">esc<wbr>Enter<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:266</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:268</li>
 					</ul>
 				</aside>
 			</section>
@@ -2969,7 +3030,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">focus<wbr>Last<wbr>Field<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:265</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:267</li>
 					</ul>
 				</aside>
 			</section>
@@ -3026,10 +3087,10 @@ img {
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="handlecelleditkeydown" class="tsd-anchor"></a>
 				<h3>handle<wbr>Cell<wbr>Edit<wbr>Key<wbr>Down</h3>
-				<div class="tsd-signature tsd-kind-icon">handle<wbr>Cell<wbr>Edit<wbr>Key<wbr>Down<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span>, navigateToNextCell<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>direction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"nextCell"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"prevCell"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, getFocusInfo<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></div>
+				<div class="tsd-signature tsd-kind-icon">handle<wbr>Cell<wbr>Edit<wbr>Key<wbr>Down<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span>, navigateToNextCell<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>direction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"nextCell"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"prevCell"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:256</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:258</li>
 					</ul>
 				</aside>
 				<div class="tsd-type-declaration">
@@ -3037,7 +3098,7 @@ img {
 					<ul class="tsd-parameters">
 						<li class="tsd-parameter-siganture">
 							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
-								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span>, navigateToNextCell<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>direction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"nextCell"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"prevCell"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, getFocusInfo<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span>, navigateToNextCell<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>direction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"nextCell"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"prevCell"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 							</ul>
 							<ul class="tsd-descriptions">
 								<li class="tsd-description">
@@ -3062,21 +3123,6 @@ img {
 																</li>
 															</ul>
 															<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-														</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li>
-											<h5><span class="tsd-flag ts-flagOptional">Optional</span> getFocusInfo: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a></h5>
-											<ul class="tsd-parameters">
-												<li class="tsd-parameter-siganture">
-													<ul class="tsd-signatures tsd-kind-type-literal">
-														<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a></li>
-													</ul>
-													<ul class="tsd-descriptions">
-														<li class="tsd-description">
-															<h4 class="tsd-returns-title">Returns <a href="_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a></h4>
 														</li>
 													</ul>
 												</li>
@@ -3161,7 +3207,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">is<wbr>Delete<wbr>Dialog<wbr>Open<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:261</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:263</li>
 					</ul>
 				</aside>
 			</section>
@@ -3171,7 +3217,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">is<wbr>Dialog<wbr>Open<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:257</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:259</li>
 					</ul>
 				</aside>
 			</section>
@@ -3211,7 +3257,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">next<wbr>Prev<wbr>Edit<wbr>Row<wbr>Info<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">KeyboardEvent</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:264</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:266</li>
 					</ul>
 				</aside>
 			</section>
@@ -3221,7 +3267,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Dialog<wbr>Cancel<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:260</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:262</li>
 					</ul>
 				</aside>
 			</section>
@@ -3231,7 +3277,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Dialog<wbr>Confirm<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:259</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:261</li>
 					</ul>
 				</aside>
 			</section>
@@ -3241,7 +3287,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Selection<wbr>Delete<wbr>Cancel<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:263</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:265</li>
 					</ul>
 				</aside>
 				<div class="tsd-type-declaration">
@@ -3266,7 +3312,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Selection<wbr>Delete<wbr>Confirm<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>deleteOption<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"page"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"all"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:262</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:264</li>
 					</ul>
 				</aside>
 				<div class="tsd-type-declaration">
@@ -3307,7 +3353,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">popup<wbr>Edit<wbr>Form<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_edit_interfaces_d_.inlineeditformref.html" class="tsd-signature-type">InlineEditFormRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:268</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:270</li>
 					</ul>
 				</aside>
 			</section>
@@ -3317,7 +3363,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">row<wbr>Object<span class="tsd-signature-symbol">:</span> <a href="_grid_types_interfaces_d_.irow.html" class="tsd-signature-type">IRow</a><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:267</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:269</li>
 					</ul>
 				</aside>
 			</section>
@@ -3458,7 +3504,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">update<wbr>Validation<wbr>Errors<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>errors<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:255</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:257</li>
 					</ul>
 				</aside>
 				<div class="tsd-type-declaration">

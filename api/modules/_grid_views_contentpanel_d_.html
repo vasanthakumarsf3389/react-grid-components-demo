@@ -2391,30 +2391,51 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Content<wbr>Panel<wbr>Base<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_interfaces_d_.icontentpanelbase.html" class="tsd-signature-type">IContentPanelBase</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">RefAttributes</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_interfaces_d_.contentpanelref.html" class="tsd-signature-type">ContentPanelRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">ReactElement</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/views/ContentPanel.d.ts:14</li>
+						<li>Defined in src/grid/views/ContentPanel.d.ts:30</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>ContentPanelBase component renders the scrollable grid content area</p>
+						<p>ContentPanelBase component renders the scrollable grid content area with virtual scrolling support.
+							Manages virtual row and column scrollbars, content visibility, and layout measurements.
+						Supports both fixed and auto height modes with configurable virtual scrolling.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>component</dt>
 						<dd></dd>
+						<dt>template</dt>
+						<dd><p>T - Data type for grid rows</p>
+						</dd>
 						<dt>param</dt>
 						<dd><p>Component properties</p>
 						</dd>
 						<dt>param</dt>
-						<dd><p>Attributes to apply to the content panel container</p>
+						<dd><p>DOM attributes for the content panel container (className, role, etc.)</p>
 						</dd>
 						<dt>param</dt>
-						<dd><p>Attributes to apply to the scrollable content container</p>
+						<dd><p>DOM attributes for the scrollable content area (style, aria-busy, etc.)</p>
 						</dd>
 						<dt>param</dt>
-						<dd><p>Forwarded ref to expose internal elements and methods</p>
+						<dd><p>DOM attributes for virtual row scrollbar container</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>DOM attributes for virtual column scrollbar container</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Forwarded ref exposing panel elements and measured dimensions</p>
 						</dd>
 						<dt>returns</dt>
-						<dd><p>The rendered grid content wrapper</p>
+						<dd><p>The rendered grid content wrapper with virtual scroll support</p>
+						</dd>
+						<dt>example</dt>
+						<dd><pre><code class="language-tsx">const panelRef = useRef&lt;ContentPanelRef&gt;(null);
+return (
+  &lt;ContentPanelBase
+    ref={panelRef}
+    panelAttributes={{ className: &#39;content-panel&#39; }}
+    scrollContentAttributes={{ style: { overflow: &#39;auto&#39; } }}
+  /&gt;
+);</code></pre>
 						</dd>
 					</dl>
 				</div>

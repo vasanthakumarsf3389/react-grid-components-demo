@@ -2388,10 +2388,10 @@ img {
 			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 				<a name="usesort" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagConst">Const</span> use<wbr>Sort</h3>
-				<div class="tsd-signature tsd-kind-icon">use<wbr>Sort<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&gt;</span>, sortSetting<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortsettings.html" class="tsd-signature-type">SortSettings</a>, setGridAction<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortapi.html" class="tsd-signature-type">SortAPI</a></div>
+				<div class="tsd-signature tsd-kind-icon">use<wbr>Sort<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&gt;</span>, sortSetting<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortsettings.html" class="tsd-signature-type">SortSettings</a>, setGridAction<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortevent.html" class="tsd-signature-type">SortEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, groupModule<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_hooks_usegroup_d_.usegroupresult.html" class="tsd-signature-type">UseGroupResult</a>, isInitialLoad<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortapi.html" class="tsd-signature-type">SortAPI</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/useSort.d.ts:13</li>
+						<li>Defined in src/grid/hooks/useSort.d.ts:16</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2408,6 +2408,12 @@ img {
 						<dt>param</dt>
 						<dd><p>Function to update grid actions</p>
 						</dd>
+						<dt>param</dt>
+						<dd><p>The group module for group operations</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Indicates the initial loading of grid.</p>
+						</dd>
 						<dt>returns</dt>
 						<dd><p>An object containing various sort-related state and API</p>
 						</dd>
@@ -2418,7 +2424,7 @@ img {
 					<ul class="tsd-parameters">
 						<li class="tsd-parameter-siganture">
 							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable">
-								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&gt;</span>, sortSetting<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortsettings.html" class="tsd-signature-type">SortSettings</a>, setGridAction<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortapi.html" class="tsd-signature-type">SortAPI</a></li>
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&gt;</span>, sortSetting<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortsettings.html" class="tsd-signature-type">SortSettings</a>, setGridAction<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortevent.html" class="tsd-signature-type">SortEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, groupModule<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_hooks_usegroup_d_.usegroupresult.html" class="tsd-signature-type">UseGroupResult</a>, isInitialLoad<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortapi.html" class="tsd-signature-type">SortAPI</a></li>
 							</ul>
 							<ul class="tsd-descriptions">
 								<li class="tsd-description">
@@ -2431,18 +2437,18 @@ img {
 											<h5><span class="tsd-flag ts-flagOptional">Optional</span> sortSetting: <a href="../interfaces/_grid_types_sort_interfaces_d_.sortsettings.html" class="tsd-signature-type">SortSettings</a></h5>
 										</li>
 										<li>
-											<h5><span class="tsd-flag ts-flagOptional">Optional</span> setGridAction: <span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> setGridAction: <span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortevent.html" class="tsd-signature-type">SortEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
 											<ul class="tsd-parameters">
 												<li class="tsd-parameter-siganture">
 													<ul class="tsd-signatures tsd-kind-type-literal">
-														<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+														<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>action<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_sort_interfaces_d_.sortevent.html" class="tsd-signature-type">SortEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 													</ul>
 													<ul class="tsd-descriptions">
 														<li class="tsd-description">
 															<h4 class="tsd-parameters-title">Parameters</h4>
 															<ul class="tsd-parameters">
 																<li>
-																	<h5>action: <span class="tsd-signature-type">Object</span></h5>
+																	<h5>action: <a href="../interfaces/_grid_types_sort_interfaces_d_.sortevent.html" class="tsd-signature-type">SortEvent</a></h5>
 																</li>
 															</ul>
 															<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -2450,6 +2456,12 @@ img {
 													</ul>
 												</li>
 											</ul>
+										</li>
+										<li>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> groupModule: <a href="../interfaces/_grid_hooks_usegroup_d_.usegroupresult.html" class="tsd-signature-type">UseGroupResult</a></h5>
+										</li>
+										<li>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> isInitialLoad: <span class="tsd-signature-type">boolean</span></h5>
 										</li>
 									</ul>
 									<h4 class="tsd-returns-title">Returns <a href="../interfaces/_grid_types_sort_interfaces_d_.sortapi.html" class="tsd-signature-type">SortAPI</a></h4>

@@ -2369,6 +2369,9 @@ img {
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
 			<a href="../interfaces/_grid_types_edit_interfaces_d_.celleditformprops.html" class="tsd-kind-icon">Cell<wbr>Edit<wbr>Form<wbr>Props</a>
 		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-private">
+			<a href="../interfaces/_grid_types_edit_interfaces_d_.celleditformref.html" class="tsd-kind-icon">Cell<wbr>Edit<wbr>Form<wbr>Ref</a>
+		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
 			<a href="../interfaces/_grid_types_edit_interfaces_d_.columneditparams.html" class="tsd-kind-icon">Column<wbr>Edit<wbr>Params</a>
 		</li>
@@ -2490,6 +2493,7 @@ img {
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter"><a href="../interfaces/_grid_types_edit_interfaces_d_.celleditevent.html" class="tsd-kind-icon">Cell<wbr>Edit<wbr>Event</a></li>
 							<li class="tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private"><a href="../interfaces/_grid_types_edit_interfaces_d_.celleditformprops.html" class="tsd-kind-icon">Cell<wbr>Edit<wbr>Form<wbr>Props</a></li>
+							<li class="tsd-kind-interface tsd-parent-kind-external-module tsd-is-private"><a href="../interfaces/_grid_types_edit_interfaces_d_.celleditformref.html" class="tsd-kind-icon">Cell<wbr>Edit<wbr>Form<wbr>Ref</a></li>
 							<li class="tsd-kind-interface tsd-parent-kind-external-module"><a href="../interfaces/_grid_types_edit_interfaces_d_.columneditparams.html" class="tsd-kind-icon">Column<wbr>Edit<wbr>Params</a></li>
 							<li class="tsd-kind-interface tsd-parent-kind-external-module tsd-is-private"><a href="../interfaces/_grid_types_edit_interfaces_d_.confirmdialogconfig.html" class="tsd-kind-icon">Confirm<wbr>Dialog<wbr>Config</a></li>
 							<li class="tsd-kind-interface tsd-parent-kind-external-module tsd-is-private"><a href="../interfaces/_grid_types_edit_interfaces_d_.confirmdialogprops.html" class="tsd-kind-icon">Confirm<wbr>Dialog<wbr>Props</a></li>
@@ -2544,7 +2548,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Cell<wbr>Context&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>column<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>focusInfo<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a><span class="tsd-signature-symbol">; </span>primaryKeyValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>row<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.irow.html" class="tsd-signature-type">IRow</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> }</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:275</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:277</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2579,10 +2583,10 @@ img {
 			<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-private">
 				<a name="celleditmodule" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagPrivate">Private</span> Cell<wbr>Edit<wbr>Module</h3>
-				<div class="tsd-signature tsd-kind-icon">Cell<wbr>Edit<wbr>Module<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>cancelCellChanges<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>editCell<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>primaryKeyValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, field<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>handleCellEditKeyDown<span class="tsd-signature-symbol">: </span><a href="_grid_types_edit_interfaces_d_.html#handlecelleditkeydown-1" class="tsd-signature-type">HandleCellEditKeyDown</a><span class="tsd-signature-symbol">; </span>saveCellChanges<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>updateValidationErrors<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>errors<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> }</span></div>
+				<div class="tsd-signature tsd-kind-icon">Cell<wbr>Edit<wbr>Module<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>cancelCellChanges<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>editCell<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>primaryKeyValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, field<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>editFocusedCell<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>handleCellEditKeyDown<span class="tsd-signature-symbol">: </span><a href="_grid_types_edit_interfaces_d_.html#handlecelleditkeydown-1" class="tsd-signature-type">HandleCellEditKeyDown</a><span class="tsd-signature-symbol">; </span>handleDeleteCell<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>saveCellChanges<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>updateValidationErrors<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>errors<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> }</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:293</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:295</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2652,12 +2656,47 @@ img {
 							</ul>
 						</li>
 						<li class="tsd-parameter">
+							<h5>edit<wbr>Focused<wbr>Cell<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-siganture">
+									<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable">
+										<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+									</ul>
+									<ul class="tsd-descriptions">
+										<li class="tsd-description">
+											<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="tsd-parameter">
 							<h5>handle<wbr>Cell<wbr>Edit<wbr>Key<wbr>Down<span class="tsd-signature-symbol">: </span><a href="_grid_types_edit_interfaces_d_.html#handlecelleditkeydown-1" class="tsd-signature-type">HandleCellEditKeyDown</a></h5>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Consolidated keyboard handler for cell edit mode.</p>
 								</div>
 							</div>
+						</li>
+						<li class="tsd-parameter">
+							<h5>handle<wbr>Delete<wbr>Cell<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Handles Delete key action - clears cell value and triggers save.</p>
+								</div>
+							</div>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-siganture">
+									<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable">
+										<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+									</ul>
+									<ul class="tsd-descriptions">
+										<li class="tsd-description">
+											<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+										</li>
+									</ul>
+								</li>
+							</ul>
 						</li>
 						<li class="tsd-parameter">
 							<h5>save<wbr>Cell<wbr>Changes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h5>
@@ -2724,7 +2763,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Edit<wbr>Cell<wbr>Input<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLInputElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">HTMLSelectElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ITextBox</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">INumericTextBox</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ICheckbox</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">IDatePicker</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">IDropDownList</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:718</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:725</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2758,7 +2797,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Edit<wbr>Params<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TextBoxProps</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">NumericTextBoxProps</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">CheckboxProps</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">DatePickerProps</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">DropDownListProps</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:724</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:731</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2773,7 +2812,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Handle<wbr>Cell<wbr>Edit<wbr>Key<wbr>Down<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span>, navigateToNextCell<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>direction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"nextCell"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"prevCell"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, getFocusInfo<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:286</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:288</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2861,7 +2900,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Use<wbr>Cell<wbr>Edit<wbr>Hook<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, currentViewData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, dataOperations<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.usedataresult.html" class="tsd-signature-type">UseDataResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, editSettings<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_edit_interfaces_d_.editsettings.html" class="tsd-signature-type">EditSettings</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, editState<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_edit_interfaces_d_.editstate.html" class="tsd-signature-type">EditState</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, setEditState<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Dispatch</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_edit_interfaces_d_.editstate.html" class="tsd-signature-type">EditState</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, setGridAction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Dispatch</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, editDataRef<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, getPrimaryKeyField<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">string</span>, updateEditData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>field<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.html#valuetype" class="tsd-signature-type">ValueType</a>, rowObject<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_interfaces_d_.irow.html" class="tsd-signature-type">IRow</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_edit_interfaces_d_.html#celleditmodule" class="tsd-signature-type">CellEditModule</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:325</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:332</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2967,7 +3006,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">edit<wbr>Module&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReturnType</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">typeof </span><a href="_grid_hooks_useedit_d_.html#useedit.__type" class="tsd-signature-type">__type</a><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/edit.interfaces.d.ts:331</li>
+						<li>Defined in src/grid/types/edit.interfaces.d.ts:338</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">

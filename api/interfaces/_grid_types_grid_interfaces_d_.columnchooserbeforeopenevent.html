@@ -2447,10 +2447,11 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Represents the event triggered before the Column Chooser dialog is opened in the Data Grid.
-						Provides details about the Column Chooser settings and allows customization or cancellation before the dialog displays.
-					Used to modify column visibility settings, control visible columns, or prevent dialog opening based on custom logic.</p>
+					<p>Event raised before the <code>ColumnChooser</code> dialog opens.</p>
 				</div>
+				<p>Provides the effective <code>ColumnChooser</code> settings for the pending dialog.
+					Allows modification of settings or cancellation of the dialog open action.
+				Use this event to adjust search, ordering, or selected columns before display.</p>
 			</div>
 		</section>
 		<section class="tsd-panel tsd-hierarchy">
@@ -2496,13 +2497,12 @@ img {
 				<aside class="tsd-sources">
 					<p>Overrides <a href="_grid_types_grid_interfaces_d_.columnchooserapplyevent.html">ColumnChooserApplyEvent</a>.<a href="_grid_types_grid_interfaces_d_.columnchooserapplyevent.html#cancel">cancel</a></p>
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:379</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:374</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Allows cancellation of the Column Chooser dialog opening.
-						When set to true, prevents the dialog from being displayed, useful for implementing</p>
+						<p>When true, prevents the <code>ColumnChooser</code> dialog from opening.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2517,12 +2517,12 @@ img {
 				<div class="tsd-signature tsd-kind-icon">enable<wbr>Search<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:343</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:339</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Enables or disables the search functionality in the Column Chooser dialog.</p>
+						<p>Enables or disables the search functionality in the <code>ColumnChooser</code> dialog.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2537,12 +2537,12 @@ img {
 				<div class="tsd-signature tsd-kind-icon">ignore<wbr>Accent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:357</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:353</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Enables diacritics-insensitive searching in the Column Chooser.</p>
+						<p>Enables diacritics-insensitive searching in the <code>ColumnChooser</code>.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2558,7 +2558,7 @@ img {
 				<aside class="tsd-sources">
 					<p>Inherited from <a href="_grid_types_filter_interfaces_d_.filterevent.html">FilterEvent</a>.<a href="_grid_types_filter_interfaces_d_.filterevent.html#name">name</a></p>
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:3377</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:3627</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2570,7 +2570,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">operator<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"startsWith"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"endsWith"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"contains"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"equal"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"notEqual"</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:350</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:346</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2591,7 +2591,7 @@ img {
 				<aside class="tsd-sources">
 					<p>Inherited from <a href="_grid_types_filter_interfaces_d_.filterevent.html">FilterEvent</a>.<a href="_grid_types_filter_interfaces_d_.filterevent.html#requesttype">requestType</a></p>
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:3363</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:3613</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2606,12 +2606,12 @@ img {
 				<div class="tsd-signature tsd-kind-icon">selected<wbr>Columns<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:371</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:367</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Specifies an ordered list of column fields to display in the Column Chooser.</p>
+						<p>Specifies an ordered list of column fields to display in the <code>ColumnChooser</code>.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2626,12 +2626,12 @@ img {
 				<div class="tsd-signature tsd-kind-icon">sort<wbr>Direction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"None"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Ascending"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Descending"</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:364</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:360</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Specifies the sort direction for columns in the Column Chooser dialog.</p>
+						<p>Specifies the sort direction for columns in the <code>ColumnChooser</code> dialog.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2647,7 +2647,7 @@ img {
 				<aside class="tsd-sources">
 					<p>Inherited from <a href="_grid_types_filter_interfaces_d_.filterevent.html">FilterEvent</a>.<a href="_grid_types_filter_interfaces_d_.filterevent.html#type">type</a></p>
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:3369</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:3619</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">

@@ -2444,8 +2444,8 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Configures the behavior and appearance of the Column Chooser dialog.
-					Provides options to customize search functionality, column ordering, and templates.</p>
+					<p>Configures the behavior and appearance of the <code>ColumnChooser</code> dialog.
+					Provides options for search, column ordering, and template customization.</p>
 				</div>
 			</div>
 		</section>
@@ -2485,13 +2485,12 @@ img {
 				<div class="tsd-signature tsd-kind-icon">enable<wbr>Search<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:100</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:101</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Enables or disables the search functionality in the Column Chooser dialog.
-						When enabled, displays a search box that allows filtering columns by name.</p>
+						<p>Enables or disables the search box in the <code>ColumnChooser</code> dialog.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2512,15 +2511,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">footer<wbr>Template<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_grid_interfaces_d_.columnchooserfooterprops.html" class="tsd-signature-type">ColumnChooserFooterProps</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:226</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:220</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Custom template for the Column Chooser dialog footer.
-						Allows complete customization of the footer section below the column list.</p>
+						<p>Custom template for the <code>ColumnChooser</code> dialog footer.
+						Renders below the column list and receives <code>ColumnChooserFooterProps</code>.</p>
 					</div>
-					<p>Template receives column information as props.</p>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>null</p>
@@ -2546,13 +2544,13 @@ img {
 				<div class="tsd-signature tsd-kind-icon">header<wbr>Template<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:203</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:199</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Custom template for the Column Chooser dialog header.
-						Allows complete customization of the header section above the search box.</p>
+						<p>Custom template for the <code>ColumnChooser</code> dialog header.
+						Replaces the default header area above the search box.</p>
 					</div>
 					<p>Template receives no props by default.</p>
 					<dl class="tsd-comment-tags">
@@ -2581,19 +2579,15 @@ img {
 				<div class="tsd-signature tsd-kind-icon">ignore<wbr>Accent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:140</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:139</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Enables diacritics-insensitive searching in the Column Chooser.
-						When true, ignores accent marks and special characters during search.</p>
+						<p>Enables diacritics-insensitive searching in the <code>ColumnChooser</code>.
+						When true, accent marks and special characters are ignored during search.</p>
 					</div>
-					<p>For example, with ignoreAccent enabled:</p>
-					<ul>
-						<li>Searching for &quot;Resume&quot; will match &quot;Résumé&quot;</li>
-						<li>Searching for &quot;Cafe&quot; will match &quot;Café&quot;</li>
-					</ul>
+					<p>Example: Searching for <code>Resume</code> matches <code>Résumé</code>.</p>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>false</p>
@@ -2613,20 +2607,20 @@ img {
 				<div class="tsd-signature tsd-kind-icon">operator<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"startsWith"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"endsWith"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"contains"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"equal"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"notEqual"</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:121</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:122</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Specifies the search operator for filtering columns in the Column Chooser.</p>
+						<p>Specifies the search operator used to filter columns by name in the Column Chooser.</p>
 					</div>
 					<p>Available operators:</p>
 					<ul>
-						<li>&#39;startsWith&#39;: Matches columns that start with the search term (default)</li>
-						<li>&#39;endswith&#39;: Matches columns that end with the search term</li>
-						<li>&#39;contains&#39;: Matches columns that contain the search term anywhere</li>
-						<li>&#39;equal&#39;: Exact match with the search term</li>
-						<li>&#39;notequal&#39;: Columns that don&#39;t match the search term</li>
+						<li><code>startsWith</code> — Matches columns that start with the search term.</li>
+						<li><code>endsWith</code> — Matches columns that end with the search term.</li>
+						<li><code>contains</code> — Matches columns that contain the search term.</li>
+						<li><code>equal</code> — Exact match with the search term.</li>
+						<li><code>notEqual</code> — Columns that do not match the search term.</li>
 					</ul>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2647,16 +2641,15 @@ img {
 				<div class="tsd-signature tsd-kind-icon">selected<wbr>Columns<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:179</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:175</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Specifies an ordered list of column fields to display in the Column Chooser.
-							When provided, columns appear in the specified order, overriding the default order.
-						Only columns included in this array will be reordered; others retain their original position.</p>
+						<p>Ordered list of column field to display in the <code>ColumnChooser</code>.
+							When provided, columns included in this array appear in the specified order.
+						Columns not included retain their original position.</p>
 					</div>
-					<p>Note: This only affects display order, not the sorting behavior.</p>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>[]</p>
@@ -2678,18 +2671,18 @@ img {
 				<div class="tsd-signature tsd-kind-icon">sort<wbr>Direction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"None"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Ascending"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Descending"</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:159</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:157</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Specifies the sort direction for columns in the Column Chooser dialog.</p>
+						<p>Specifies the sort direction for columns displayed in the <code>ColumnChooser</code>.</p>
 					</div>
 					<p>Available options:</p>
 					<ul>
-						<li>&#39;None&#39;: Display columns in their original order (default)</li>
-						<li>&#39;Ascending&#39;: Sort columns alphabetically A-Z by field name</li>
-						<li>&#39;Descending&#39;: Sort columns alphabetically Z-A by field name</li>
+						<li><code>None</code> — Display columns in their original order.</li>
+						<li><code>Ascending</code> — Sort columns alphabetically A-Z by <code>field</code>.</li>
+						<li><code>Descending</code> — Sort columns alphabetically Z-A by <code>field</code>.</li>
 					</ul>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2710,15 +2703,15 @@ img {
 				<div class="tsd-signature tsd-kind-icon">template<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_grid_interfaces_d_.columnchoosertemplateprops.html" class="tsd-signature-type">ColumnChooserTemplateProps</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:255</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:248</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Custom template for rendering the entire Column Chooser dialog content.
-						When provided, replaces the default column list with completely custom content.</p>
+						<p>Custom template that replaces the default column list and dialog content.
+							Receives <code>ColumnChooserTemplateProps</code> including columns data and utility functions
+						such as <code>showColumns</code>, <code>hideColumns</code>, and <code>searchValue</code>.</p>
 					</div>
-					<p>Template receives columns data and utility functions as props.</p>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>null</p>

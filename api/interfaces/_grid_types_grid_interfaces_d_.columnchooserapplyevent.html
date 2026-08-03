@@ -2450,10 +2450,10 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Represents the event triggered when column changes are applied in the Column Chooser dialog.
-						Fired when the user clicks OK/Apply button with the final column visibility configuration.
-					Used to track which columns were shown/hidden and perform post-apply actions.</p>
+					<p>Event raised when column changes are applied in the <code>ColumnChooser</code> dialog.</p>
 				</div>
+				<p>Fired when the user confirms changes (Apply/OK). Provides the final
+				chooser settings and a visibility map for all columns.</p>
 			</div>
 		</section>
 		<section class="tsd-panel tsd-hierarchy">
@@ -2500,7 +2500,7 @@ img {
 				<aside class="tsd-sources">
 					<p>Inherited from <a href="_grid_types_grid_interfaces_d_.columnchooserapplyevent.html">ColumnChooserApplyEvent</a>.<a href="_grid_types_grid_interfaces_d_.columnchooserapplyevent.html#cancel">cancel</a></p>
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:3375</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:3625</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2515,7 +2515,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">column<wbr>Visibility<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:427</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:423</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2530,12 +2530,12 @@ img {
 				<div class="tsd-signature tsd-kind-icon">enable<wbr>Search<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:393</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:389</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Enables or disables the search functionality in the Column Chooser dialog.</p>
+						<p>Enables or disables the search functionality in the <code>ColumnChooser</code> dialog.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2550,12 +2550,12 @@ img {
 				<div class="tsd-signature tsd-kind-icon">ignore<wbr>Accent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:407</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:403</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Enables diacritics-insensitive searching in the Column Chooser.</p>
+						<p>Enables diacritics-insensitive searching in the <code>ColumnChooser</code>.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2571,7 +2571,7 @@ img {
 				<aside class="tsd-sources">
 					<p>Inherited from <a href="_grid_types_filter_interfaces_d_.filterevent.html">FilterEvent</a>.<a href="_grid_types_filter_interfaces_d_.filterevent.html#name">name</a></p>
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:3377</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:3627</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2583,7 +2583,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">operator<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"startsWith"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"endsWith"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"contains"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"equal"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"notEqual"</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:400</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:396</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2604,7 +2604,7 @@ img {
 				<aside class="tsd-sources">
 					<p>Inherited from <a href="_grid_types_filter_interfaces_d_.filterevent.html">FilterEvent</a>.<a href="_grid_types_filter_interfaces_d_.filterevent.html#requesttype">requestType</a></p>
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:3363</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:3613</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2619,7 +2619,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">selected<wbr>Columns<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:421</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:417</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2639,12 +2639,12 @@ img {
 				<div class="tsd-signature tsd-kind-icon">sort<wbr>Direction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"None"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Ascending"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Descending"</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:414</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:410</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Specifies the sort direction for columns in the Column Chooser dialog.</p>
+						<p>Specifies the sort direction for columns in the <code>ColumnChooser</code> dialog.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2660,7 +2660,7 @@ img {
 				<aside class="tsd-sources">
 					<p>Inherited from <a href="_grid_types_filter_interfaces_d_.filterevent.html">FilterEvent</a>.<a href="_grid_types_filter_interfaces_d_.filterevent.html#type">type</a></p>
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:3369</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:3619</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">

@@ -2363,8 +2363,14 @@ img {
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-private">
+			<a href="_grid_types_selection_interfaces_d_.headercheckboxstate.html" class="tsd-kind-icon">Header<wbr>Checkbox<wbr>State</a>
+		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter">
 			<a href="_grid_types_selection_interfaces_d_.rowselectevent.html" class="tsd-kind-icon">Row<wbr>Select<wbr>Event</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+			<a href="_grid_types_selection_interfaces_d_.rowselectableparams.html" class="tsd-kind-icon">Row<wbr>Selectable<wbr>Params</a>
 		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
 			<a href="_grid_types_selection_interfaces_d_.rowselectingevent.html" class="tsd-kind-icon">Row<wbr>Selecting<wbr>Event</a>
@@ -2400,6 +2406,9 @@ img {
 					<a href="_grid_types_selection_interfaces_d_.selectionsettings.html#type" class="tsd-kind-icon">type</a>
 				</li>
 			</ul>
+		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-has-type-parameter">
+			<a href="../modules/_grid_types_selection_interfaces_d_.html#isrowselectable" class="tsd-kind-icon">Is<wbr>Row<wbr>Selectable</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
 			<a href="../modules/_grid_types_selection_interfaces_d_.html#selectionmodule" class="tsd-kind-icon">selection<wbr>Module</a>
@@ -2490,9 +2499,9 @@ img {
 					</div>
 					<p>Options:</p>
 					<ul>
-						<li><code>Flow</code> - Selects all cells between start/end including all rows (Excel-like)</li>
-						<li><code>Box</code> - Selects only cells within column range boundaries</li>
-						<li><code>BoxWithBorder</code> - Box mode with visible selection border</li>
+						<li><code>Flow</code> - Selects all cells between start/end including all rows (Excel-like).</li>
+						<li><code>Box</code> - Selects only cells within column range boundaries.</li>
+						<li><code>BoxWithBorder</code> - Box mode with visible selection border.</li>
 					</ul>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2512,7 +2521,7 @@ img {
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>When <code>checkboxOnly</code> is set to true, row selection is possible only through the checkbox.
+						<p>When <code>checkboxOnly</code> is set to <code>true</code>, row selection is possible only through the checkbox.
 						Clicking other row or cell elements does not trigger selection.</p>
 					</div>
 					<dl class="tsd-comment-tags">
@@ -2600,7 +2609,7 @@ img {
 					<div class="lead">
 						<p>Specifies whether row selection is persisted across grid operations such as sorting, filtering, searching, paging, or refreshing.
 							Selection persistence requires a primary key, so define at least one unique value column with the <code>isPrimaryKey</code> property in the column definition.
-						When the checkbox selection feature is enabled, selection persistence is automatically set to true. Set <code>enablePersistence</code> to false to disable selection persistence.</p>
+						When the checkbox selection feature is enabled, selection persistence is automatically set to true. Set <code>enablePersistence</code> to <code>false</code> to disable selection persistence.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
@@ -2625,8 +2634,8 @@ img {
 					</div>
 					<p>Options:</p>
 					<ul>
-						<li><code>Row</code> - Only row selection is enabled (default, backward compatible)</li>
-						<li><code>Cell</code> - Only cell selection is enabled (individual cells can be selected)</li>
+						<li><code>Row</code> - Only row selection is enabled (default, backward compatible).</li>
+						<li><code>Cell</code> - Only cell selection is enabled (individual cells can be selected).</li>
 					</ul>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>

@@ -2496,7 +2496,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">column<wbr>Visibility<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:329</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:323</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2511,12 +2511,13 @@ img {
 				<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:297</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:291</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Array of all columns available in the Column Chooser.</p>
+						<p>Array of all columns available in the Column Chooser.
+						Each item is a partial <code>ColumnProps&lt;T&gt;</code> object.</p>
 					</div>
 				</div>
 			</section>
@@ -2526,7 +2527,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">hide<wbr>Columns<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:305</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:299</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2541,7 +2542,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Apply<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:321</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:315</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2571,7 +2572,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Close<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:325</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:319</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2601,7 +2602,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Select<wbr>All<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>checked<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:317</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:311</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2637,7 +2638,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Toggle<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>fieldOrUid<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, checked<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:313</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:307</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2676,12 +2677,12 @@ img {
 				<div class="tsd-signature tsd-kind-icon">search<wbr>Value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:309</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:303</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Current search value in the search box.</p>
+						<p>Current search value in the chooser search box.</p>
 					</div>
 				</div>
 			</section>
@@ -2691,7 +2692,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">show<wbr>Columns<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:301</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:295</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">

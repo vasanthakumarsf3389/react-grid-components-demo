@@ -3121,7 +3121,7 @@ gridRef.current.cellSelectionModule.selectCells([
 						<div class="tsd-comment tsd-typography">
 							<div class="lead">
 								<p>Selects a rectangular range of cells from start position to end position.
-									Selection behavior depends on the configured type (Flow/Box/BoxWithBorder).
+									Selection behavior depends on the configured type (<code>Flow</code>/<code>Box</code>/<code>BoxWithBorder</code>).
 									Uses data-based position format to ensure selections persist across paging, sorting, and filtering.
 								This is the primary method for programmatic range selection.</p>
 							</div>
@@ -3158,7 +3158,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 				<a name="selectrange" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagPrivate">Private</span> select<wbr>Range</h3>
 				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-private">
-					<li class="tsd-signature tsd-kind-icon">select<wbr>Range<span class="tsd-signature-symbol">(</span>start<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.cellposition.html" class="tsd-signature-type">CellPosition</a>, end<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.cellposition.html" class="tsd-signature-type">CellPosition</a>, isAdditive<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					<li class="tsd-signature tsd-kind-icon">select<wbr>Range<span class="tsd-signature-symbol">(</span>start<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.cellposition.html" class="tsd-signature-type">CellPosition</a>, end<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.cellposition.html" class="tsd-signature-type">CellPosition</a>, isSelectionExtend<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 				</ul>
 				<ul class="tsd-descriptions">
 					<li class="tsd-description">
@@ -3170,8 +3170,8 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 						<div class="tsd-comment tsd-typography">
 							<div class="lead">
 								<p>Selects a rectangular range of cells with optional additive selection.
-									Extends current selection when isAdditive is true, replaces selection when false.
-								Supports all type values (Flow, Box, BoxWithBorder).</p>
+									Extends current selection when <code>isSelectionExtend</code> is <code>true</code>, replaces selection when <code>false</code>.
+								Supports all type values (<code>Flow</code>, <code>Box</code>, <code>BoxWithBorder</code>).</p>
 							</div>
 							<dl class="tsd-comment-tags">
 								<dt>example</dt>
@@ -3205,7 +3205,7 @@ gridRef.current.cellSelectionModule.selectRange(
 								</div>
 							</li>
 							<li>
-								<h5><span class="tsd-flag ts-flagOptional">Optional</span> isAdditive: <span class="tsd-signature-type">boolean</span></h5>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> isSelectionExtend: <span class="tsd-signature-type">boolean</span></h5>
 							</li>
 						</ul>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>

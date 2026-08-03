@@ -2391,12 +2391,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Header<wbr>Rows<wbr>Base<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_interfaces_d_.html#iheaderrowsbase" class="tsd-signature-type">IHeaderRowsBase</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">RefAttributes</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_interfaces_d_.headerrowsref.html" class="tsd-signature-type">HeaderRowsRef</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">ReactElement</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/views/HeaderRows.d.ts:12</li>
+						<li>Defined in src/grid/views/HeaderRows.d.ts:14</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>HeaderRowsBase component renders the header rows within the table header section</p>
+						<p>HeaderRowsBase component renders the header rows within the table header section.
+							Manages header row generation with support for multi-level headers and filter bar row.
+						Exposes internal header rows collection and row objects via forwarded ref for external manipulation.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>component</dt>
@@ -2405,10 +2407,10 @@ img {
 						<dd><p>Component properties</p>
 						</dd>
 						<dt>param</dt>
-						<dd><p>Forwarded ref to expose internal elements and methods</p>
+						<dd><p>Forwarded ref exposing getHeaderRows() and getHeaderRowsObject() methods</p>
 						</dd>
 						<dt>returns</dt>
-						<dd><p>The rendered thead element with header rows</p>
+						<dd><p>The rendered thead element containing header rows</p>
 						</dd>
 					</dl>
 				</div>

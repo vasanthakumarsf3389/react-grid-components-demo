@@ -2363,16 +2363,16 @@ img {
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
-		<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 			<a href="_grid_hooks_usespanning_d_.html#arevaluesequal" class="tsd-kind-icon">are<wbr>Values<wbr>Equal</a>
 		</li>
-		<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 			<a href="_grid_hooks_usespanning_d_.html#computespanmatrix" class="tsd-kind-icon">compute<wbr>Span<wbr>Matrix</a>
 		</li>
-		<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 			<a href="_grid_hooks_usespanning_d_.html#getnextvisiblecolumnindexafter" class="tsd-kind-icon">get<wbr>Next<wbr>Visible<wbr>Column<wbr>Index<wbr>After</a>
 		</li>
-		<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 			<a href="_grid_hooks_usespanning_d_.html#resolvespanvalue" class="tsd-kind-icon">resolve<wbr>Span<wbr>Value</a>
 		</li>
 	</ul>
@@ -2383,29 +2383,46 @@ img {
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
-					<section class="tsd-index-section ">
+					<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
 						<h3>Variables</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_grid_hooks_usespanning_d_.html#arevaluesequal" class="tsd-kind-icon">are<wbr>Values<wbr>Equal</a></li>
-							<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_grid_hooks_usespanning_d_.html#computespanmatrix" class="tsd-kind-icon">compute<wbr>Span<wbr>Matrix</a></li>
-							<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_grid_hooks_usespanning_d_.html#getnextvisiblecolumnindexafter" class="tsd-kind-icon">get<wbr>Next<wbr>Visible<wbr>Column<wbr>Index<wbr>After</a></li>
-							<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_grid_hooks_usespanning_d_.html#resolvespanvalue" class="tsd-kind-icon">resolve<wbr>Span<wbr>Value</a></li>
+							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_hooks_usespanning_d_.html#arevaluesequal" class="tsd-kind-icon">are<wbr>Values<wbr>Equal</a></li>
+							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_hooks_usespanning_d_.html#computespanmatrix" class="tsd-kind-icon">compute<wbr>Span<wbr>Matrix</a></li>
+							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_hooks_usespanning_d_.html#getnextvisiblecolumnindexafter" class="tsd-kind-icon">get<wbr>Next<wbr>Visible<wbr>Column<wbr>Index<wbr>After</a></li>
+							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_hooks_usespanning_d_.html#resolvespanvalue" class="tsd-kind-icon">resolve<wbr>Span<wbr>Value</a></li>
 						</ul>
 					</section>
 				</div>
 			</section>
 		</section>
-		<section class="tsd-panel-group tsd-member-group ">
+		<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
 			<h2>Variables</h2>
-			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 				<a name="arevaluesequal" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> are<wbr>Values<wbr>Equal</h3>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagConst">Const</span> are<wbr>Values<wbr>Equal</h3>
 				<div class="tsd-signature tsd-kind-icon">are<wbr>Values<wbr>Equal<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>first<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">unknown</span>, second<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/useSpanning.d.ts:4</li>
+						<li>Defined in src/grid/hooks/useSpanning.d.ts:23</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Compares two values for equality with special handling for Date objects.
+						Uses strict equality for most types, but compares time values for Date instances.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>param</dt>
+						<dd><p>First value to compare</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Second value to compare</p>
+						</dd>
+						<dt>returns</dt>
+						<dd><p>True if values are equal</p>
+						</dd>
+					</dl>
+				</div>
 				<div class="tsd-type-declaration">
 					<h4>Type declaration</h4>
 					<ul class="tsd-parameters">
@@ -2431,21 +2448,45 @@ img {
 					</ul>
 				</div>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 				<a name="computespanmatrix" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> compute<wbr>Span<wbr>Matrix</h3>
-				<div class="tsd-signature tsd-kind-icon">compute<wbr>Span<wbr>Matrix<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>columnsArray<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span>, renderedData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, enableAutoSpan<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span>, groupColumn<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_grid_types_interfaces_d_.icell.html" class="tsd-signature-type">ICell</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></div>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagConst">Const</span> compute<wbr>Span<wbr>Matrix</h3>
+				<div class="tsd-signature tsd-kind-icon">compute<wbr>Span<wbr>Matrix<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>columnsArray<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span>, renderedData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, enableAutoSpan<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, groupColumn<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_grid_types_interfaces_d_.icell.html" class="tsd-signature-type">ICell</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/useSpanning.d.ts:6</li>
+						<li>Defined in src/grid/hooks/useSpanning.d.ts:53</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Computes cell spanning matrix for grid rendering.
+							Calculates row and column spans for each cell based on column configuration.
+						Supports automatic span detection when values match across cells.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>param</dt>
+						<dd><p>Array of column definitions with span configuration</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Array of row data to process (respect DOM virtualization limits)</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Enable automatic span when adjacent cell values match</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Optional group column to skip first visible column for grouped data</p>
+						</dd>
+						<dt>returns</dt>
+						<dd><p>2D matrix where each cell contains visibility and span information</p>
+						</dd>
+					</dl>
+				</div>
 				<div class="tsd-type-declaration">
 					<h4>Type declaration</h4>
 					<ul class="tsd-parameters">
 						<li class="tsd-parameter-siganture">
 							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable tsd-has-type-parameter">
-								<li class="tsd-signature tsd-kind-icon">&lt;T&gt;<span class="tsd-signature-symbol">(</span>columnsArray<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span>, renderedData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, enableAutoSpan<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span>, groupColumn<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.icell.html" class="tsd-signature-type">ICell</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></li>
+								<li class="tsd-signature tsd-kind-icon">&lt;T&gt;<span class="tsd-signature-symbol">(</span>columnsArray<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span>, renderedData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, enableAutoSpan<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, groupColumn<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.icell.html" class="tsd-signature-type">ICell</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></li>
 							</ul>
 							<ul class="tsd-descriptions">
 								<li class="tsd-description">
@@ -2464,7 +2505,7 @@ img {
 											<h5>renderedData: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h5>
 										</li>
 										<li>
-											<h5><span class="tsd-flag ts-flagOptional">Optional</span> enableAutoSpan: <span class="tsd-signature-type">string</span></h5>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> enableAutoSpan: <span class="tsd-signature-type">boolean</span></h5>
 										</li>
 										<li>
 											<h5><span class="tsd-flag ts-flagOptional">Optional</span> groupColumn: <a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a></h5>
@@ -2477,15 +2518,39 @@ img {
 					</ul>
 				</div>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 				<a name="getnextvisiblecolumnindexafter" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> get<wbr>Next<wbr>Visible<wbr>Column<wbr>Index<wbr>After</h3>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagConst">Const</span> get<wbr>Next<wbr>Visible<wbr>Column<wbr>Index<wbr>After</h3>
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Next<wbr>Visible<wbr>Column<wbr>Index<wbr>After<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>currentIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, columnsArray<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/useSpanning.d.ts:5</li>
+						<li>Defined in src/grid/hooks/useSpanning.d.ts:40</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Finds the index of the next visible column after the specified index.
+						Skips hidden columns (where <code>visible === false</code>).</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>template</dt>
+						<dd><p>T - Generic type for column data</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Starting column index</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Array of column definitions</p>
+						</dd>
+						<dt>returns</dt>
+						<dd><p>Index of next visible column, or -1 if none found</p>
+						</dd>
+						<dt>example</dt>
+						<dd><pre><code class="language-tsx">const nextIdx = getNextVisibleColumnIndexAfter(2, columns);
+// Returns 3 if column 3 is visible, or higher index if 3 is hidden</code></pre>
+						</dd>
+					</dl>
+				</div>
 				<div class="tsd-type-declaration">
 					<h4>Type declaration</h4>
 					<ul class="tsd-parameters">
@@ -2517,15 +2582,35 @@ img {
 					</ul>
 				</div>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 				<a name="resolvespanvalue" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> resolve<wbr>Span<wbr>Value</h3>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagConst">Const</span> resolve<wbr>Span<wbr>Value</h3>
 				<div class="tsd-signature tsd-kind-icon">resolve<wbr>Span<wbr>Value<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>span<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>args<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_grid_types_column_interfaces_d_.cellspanargs.html" class="tsd-signature-type">CellSpanArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span>, args<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.cellspanargs.html" class="tsd-signature-type">CellSpanArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/useSpanning.d.ts:3</li>
+						<li>Defined in src/grid/hooks/useSpanning.d.ts:13</li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Resolves the span value from configuration property or function.
+						Executes span function callback if provided to enable dynamic span calculation.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>template</dt>
+						<dd><p>T - Generic type for row data</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Static span value, boolean flag, or function</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>Cell context arguments for dynamic calculation</p>
+						</dd>
+						<dt>returns</dt>
+						<dd><p>Resolved span value</p>
+						</dd>
+					</dl>
+				</div>
 				<div class="tsd-type-declaration">
 					<h4>Type declaration</h4>
 					<ul class="tsd-parameters">
