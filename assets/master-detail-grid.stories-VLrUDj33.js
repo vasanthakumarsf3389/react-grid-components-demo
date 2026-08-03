@@ -1,4 +1,4 @@
-import{j as e}from"./index-CTAXdLKx.js";import{r}from"./index-D5jfS-9e.js";import{G as h}from"./useGroup-FyuovhNi.js";import"./client-Spw3EFno.js";const u=Array.from({length:100},(o,i)=>{const d=i+1;return{orderId:d,customerName:`Customer ${d}`,orderDate:`2026-05-${d%30+1}`.padStart(10,"0"),totalAmount:0,details:Array.from({length:3},(x,t)=>{const l=d*100+t+1,n=(t+1)*2,s=100+t*50,a=n*s;return{lineItemId:l,productName:`Product ${t+1}`,quantity:n,unitPrice:s,lineTotal:a}})}}).map(o=>(o.totalAmount=o.details.reduce((i,d)=>i+d.lineTotal,0),o)),c=()=>{const[o,i]=r.useState([]),d=r.useRef(null),x=r.useCallback(a=>{console.log(`Row expanded: Order ${a.rowIndex}`,{customerName:a.data.customerName}),i(p=>[...new Set([...p,a.rowIndex])])},[]),t=r.useCallback(a=>{console.log(`Row collapsed: Order ${a.rowIndex}`),i(p=>p.filter(A=>A!==a.rowIndex))},[]),l=r.useMemo(()=>[{type:"checkbox",width:50},{field:"orderId",headerText:"Order ID",isPrimaryKey:!0,width:100},{field:"customerName",headerText:"Customer Name",width:200},{field:"orderDate",headerText:"Order Date",width:150,type:"date"},{field:"totalAmount",headerText:"Total Amount",width:150,type:"number",format:"C2"}],[]),n=r.useCallback(()=>e.jsx("div",{style:{marginLeft:"10px",width:"100%"},children:e.jsx(h,{dataSource:u,filterSettings:{enabled:!0,type:"Excel"},columns:l,height:250,width:"90%"})}),[]),s=r.useCallback(a=>{const p=[{field:"lineItemId",headerText:"Item ID",width:80},{field:"productName",headerText:"Product",width:150},{field:"quantity",headerText:"Quantity",width:100,type:"number"},{field:"unitPrice",headerText:"Unit Price",width:100,type:"number",format:"C2"},{field:"lineTotal",headerText:"Line Total",width:100,type:"number",format:"C2"}];return e.jsx("div",{style:{marginLeft:"5px",width:"100%"},children:e.jsx(h,{dataSource:a.row.details||[],columns:p,width:"95%",height:250,filterSettings:{enabled:!0,type:"Excel"},isMasterDetail:!0,detailRowHeight:300,detailRowTemplate:n})})},[]);return e.jsxs("div",{className:"e-grid",children:[e.jsx("h3",{children:"Master-Detail Grid: Detail Grid Template"}),e.jsx(h,{ref:d,dataSource:u,columns:l,height:500,isMasterDetail:!0,detailRowHeight:300,detailRowTemplate:s,onRowExpand:x,onRowCollapse:t,toolbar:["Add","Edit","Delete","Update","Cancel"],editSettings:{allowEdit:!0,allowAdd:!0,allowDelete:!0,mode:"Normal"}}),e.jsx("div",{style:{marginTop:"20px",padding:"10px",backgroundColor:"#f0f0f0",borderRadius:"4px"},children:e.jsxs("p",{children:["Expanded Rows: ",o.length>0?o.join(", "):"None"]})})]})},m=()=>{const o=r.useRef(null);r.useCallback(t=>{console.log(`Row expanded: Order ${t.rowIndex}`)},[]),r.useCallback(t=>{console.log(`Row collapsed: Order ${t.rowIndex}`)},[]);const i=r.useMemo(()=>[{field:"orderId",headerText:"Order ID",isPrimaryKey:!0,width:200},{field:"customerName",headerText:"Customer Name",width:200},{field:"orderDate",headerText:"Order Date",width:200,type:"date"},{field:"totalAmount",headerText:"Total Amount",width:200,type:"number",format:"C2"}],[]),d=r.useCallback(t=>(console.log("rowClass => ",t),""),[]),x=r.useCallback(t=>{const l=t.row.details||[];return e.jsxs("div",{style:{width:"100%",backgroundColor:"#f9f9f9"},children:[e.jsxs("h4",{children:["Order ",t.rowIndex," - ",t.row.customerName]}),e.jsxs("table",{style:{width:"100%",borderCollapse:"collapse",marginTop:"10px"},children:[e.jsx("thead",{children:e.jsxs("tr",{style:{backgroundColor:"#f5f5f5",borderBottom:"2px solid #ddd"},children:[e.jsx("th",{style:{padding:"8px",textAlign:"left",borderRight:"1px solid #ddd"},children:"Product"}),e.jsx("th",{style:{padding:"8px",textAlign:"center",borderRight:"1px solid #ddd"},children:"Qty"}),e.jsx("th",{style:{padding:"8px",textAlign:"right",borderRight:"1px solid #ddd"},children:"Unit Price"}),e.jsx("th",{style:{padding:"8px",textAlign:"right"},children:"Line Total"})]})}),e.jsxs("tbody",{children:[l.length>0?l.map(n=>e.jsxs("tr",{style:{borderBottom:"1px solid #ddd",backgroundColor:"white"},children:[e.jsx("td",{style:{padding:"8px",borderRight:"1px solid #ddd"},children:n.productName}),e.jsx("td",{style:{padding:"8px",textAlign:"center",borderRight:"1px solid #ddd"},children:n.quantity}),e.jsxs("td",{style:{padding:"8px",textAlign:"right",borderRight:"1px solid #ddd"},children:["$",n.unitPrice.toFixed(2)]}),e.jsxs("td",{style:{padding:"8px",textAlign:"right",fontWeight:"bold"},children:["$",n.lineTotal.toFixed(2)]})]},n.lineItemId)):e.jsx("tr",{children:e.jsx("td",{colSpan:4,style:{padding:"8px",textAlign:"center",color:"#999"},children:"No items in this order"})}),l.length>0&&e.jsxs("tr",{style:{backgroundColor:"#f5f5f5",fontWeight:"bold",borderTop:"2px solid #ddd"},children:[e.jsx("td",{colSpan:3,style:{padding:"8px",textAlign:"right",borderRight:"1px solid #ddd"},children:"Total:"}),e.jsxs("td",{style:{padding:"8px",textAlign:"right"},children:["$",l.reduce((n,s)=>n+s.lineTotal,0).toFixed(2)]})]})]})]})]})},[]);return e.jsxs("div",{className:"e-grid",children:[e.jsx("h3",{children:"Master-Detail Grid: Custom HTML Detail Template"}),e.jsx(h,{ref:o,dataSource:u,columns:i,height:500,rowClass:d,isMasterDetail:!0,detailRowHeight:300,detailRowTemplate:x})]})},E={title:"Grid/Master-Detail",component:h};var g,w,f,R,y;c.parameters={...c.parameters,docs:{...(g=c.parameters)==null?void 0:g.docs,source:{originalSource:`() => {
+import{j as e}from"./index-CTAXdLKx.js";import{r}from"./index-D5jfS-9e.js";import{G as h}from"./useGroup-FyuovhNi.js";import"./client-Spw3EFno.js";const u=Array.from({length:100},(o,s)=>{const d=s+1;return{orderId:d,customerName:`Customer ${d}`,orderDate:`2026-05-${d%30+1}`.padStart(10,"0"),totalAmount:0,details:Array.from({length:3},(x,t)=>{const l=d*100+t+1,n=(t+1)*2,i=100+t*50,a=n*i;return{lineItemId:l,productName:`Product ${t+1}`,quantity:n,unitPrice:i,lineTotal:a}})}}).map(o=>(o.totalAmount=o.details.reduce((s,d)=>s+d.lineTotal,0),o)),m=()=>{const[o,s]=r.useState([]),d=r.useRef(null),x=r.useCallback(a=>{console.log(`Row expanded: Order ${a.rowIndex}`,{customerName:a.data.customerName}),s(p=>[...new Set([...p,a.rowIndex])])},[]),t=r.useCallback(a=>{console.log(`Row collapsed: Order ${a.rowIndex}`),s(p=>p.filter(A=>A!==a.rowIndex))},[]),l=r.useMemo(()=>[{type:"checkbox",width:50},{field:"orderId",headerText:"Order ID",isPrimaryKey:!0,width:100},{field:"customerName",headerText:"Customer Name",width:200},{field:"orderDate",headerText:"Order Date",width:150,type:"date"},{field:"totalAmount",headerText:"Total Amount",width:150,type:"number",format:"C2"}],[]),n=r.useCallback(()=>e.jsxs("div",{style:{marginLeft:"10px",width:"100%"},children:[e.jsxs("style",{children:['@import "../node_modules/@syncfusion/react-material-theme/styles/grid/index.css";','@import "../styles/material.css"']}),e.jsx(h,{dataSource:u,filterSettings:{enabled:!0,type:"Excel"},columns:l,height:250,width:"90%"})]}),[]),i=r.useCallback(a=>{const p=[{field:"lineItemId",headerText:"Item ID",width:80},{field:"productName",headerText:"Product",width:150},{field:"quantity",headerText:"Quantity",width:100,type:"number"},{field:"unitPrice",headerText:"Unit Price",width:100,type:"number",format:"C2"},{field:"lineTotal",headerText:"Line Total",width:100,type:"number",format:"C2"}];return e.jsxs("div",{style:{marginLeft:"5px",width:"100%"},children:[e.jsxs("style",{children:['@import "../node_modules/@syncfusion/react-material-theme/styles/grid/index.css";','@import "../styles/material.css"']}),e.jsx(h,{dataSource:a.row.details||[],columns:p,width:"95%",height:250,filterSettings:{enabled:!0,type:"Excel"},isMasterDetail:!0,detailRowHeight:300,detailRowTemplate:n})]})},[]);return e.jsxs("div",{className:"e-grid",children:[e.jsxs("style",{children:['@import "../node_modules/@syncfusion/react-material-theme/styles/grid/index.css";','@import "../styles/material.css"']}),e.jsx("h3",{children:"Master-Detail Grid: Detail Grid Template"}),e.jsx(h,{ref:d,dataSource:u,columns:l,height:500,isMasterDetail:!0,detailRowHeight:300,detailRowTemplate:i,onRowExpand:x,onRowCollapse:t,toolbar:["Add","Edit","Delete","Update","Cancel"],editSettings:{allowEdit:!0,allowAdd:!0,allowDelete:!0,mode:"Normal"}}),e.jsx("div",{style:{marginTop:"20px",padding:"10px",backgroundColor:"#f0f0f0",borderRadius:"4px"},children:e.jsxs("p",{children:["Expanded Rows: ",o.length>0?o.join(", "):"None"]})})]})},c=()=>{const o=r.useRef(null);r.useCallback(t=>{console.log(`Row expanded: Order ${t.rowIndex}`)},[]),r.useCallback(t=>{console.log(`Row collapsed: Order ${t.rowIndex}`)},[]);const s=r.useMemo(()=>[{field:"orderId",headerText:"Order ID",isPrimaryKey:!0,width:200},{field:"customerName",headerText:"Customer Name",width:200},{field:"orderDate",headerText:"Order Date",width:200,type:"date"},{field:"totalAmount",headerText:"Total Amount",width:200,type:"number",format:"C2"}],[]),d=r.useCallback(t=>(console.log("rowClass => ",t),""),[]),x=r.useCallback(t=>{const l=t.row.details||[];return e.jsxs("div",{style:{width:"100%",backgroundColor:"#f9f9f9"},children:[e.jsxs("h4",{children:["Order ",t.rowIndex," - ",t.row.customerName]}),e.jsxs("table",{style:{width:"100%",borderCollapse:"collapse",marginTop:"10px"},children:[e.jsx("thead",{children:e.jsxs("tr",{style:{backgroundColor:"#f5f5f5",borderBottom:"2px solid #ddd"},children:[e.jsx("th",{style:{padding:"8px",textAlign:"left",borderRight:"1px solid #ddd"},children:"Product"}),e.jsx("th",{style:{padding:"8px",textAlign:"center",borderRight:"1px solid #ddd"},children:"Qty"}),e.jsx("th",{style:{padding:"8px",textAlign:"right",borderRight:"1px solid #ddd"},children:"Unit Price"}),e.jsx("th",{style:{padding:"8px",textAlign:"right"},children:"Line Total"})]})}),e.jsxs("tbody",{children:[l.length>0?l.map(n=>e.jsxs("tr",{style:{borderBottom:"1px solid #ddd",backgroundColor:"white"},children:[e.jsx("td",{style:{padding:"8px",borderRight:"1px solid #ddd"},children:n.productName}),e.jsx("td",{style:{padding:"8px",textAlign:"center",borderRight:"1px solid #ddd"},children:n.quantity}),e.jsxs("td",{style:{padding:"8px",textAlign:"right",borderRight:"1px solid #ddd"},children:["$",n.unitPrice.toFixed(2)]}),e.jsxs("td",{style:{padding:"8px",textAlign:"right",fontWeight:"bold"},children:["$",n.lineTotal.toFixed(2)]})]},n.lineItemId)):e.jsx("tr",{children:e.jsx("td",{colSpan:4,style:{padding:"8px",textAlign:"center",color:"#999"},children:"No items in this order"})}),l.length>0&&e.jsxs("tr",{style:{backgroundColor:"#f5f5f5",fontWeight:"bold",borderTop:"2px solid #ddd"},children:[e.jsx("td",{colSpan:3,style:{padding:"8px",textAlign:"right",borderRight:"1px solid #ddd"},children:"Total:"}),e.jsxs("td",{style:{padding:"8px",textAlign:"right"},children:["$",l.reduce((n,i)=>n+i.lineTotal,0).toFixed(2)]})]})]})]})]})},[]);return e.jsxs("div",{className:"e-grid",children:[e.jsxs("style",{children:['@import "../node_modules/@syncfusion/react-material-theme/styles/grid/index.css";','@import "../styles/material.css"']}),e.jsx("h3",{children:"Master-Detail Grid: Custom HTML Detail Template"}),e.jsx(h,{ref:o,dataSource:u,columns:s,height:500,rowClass:d,isMasterDetail:!0,detailRowHeight:300,detailRowTemplate:x})]})},N={title:"Grid/Master-Detail",component:h};var g,w,y,f,R;m.parameters={...m.parameters,docs:{...(g=m.parameters)==null?void 0:g.docs,source:{originalSource:`() => {
   const [expandedRows, setExpandedRows] = useState<number[]>([]);
   const gridRef = useRef<GridRef<OrderRecord>>(null);
 
@@ -56,6 +56,10 @@ import{j as e}from"./index-CTAXdLKx.js";import{r}from"./index-D5jfS-9e.js";impor
     }}
     //   style={{ padding: '20px', backgroundColor: '#f9f9f9' }}
     >\r
+        <style>\r
+          {\`@import "../node_modules/@syncfusion/react-\${'material'}-theme/styles/grid/index.css";\`}\r
+          {\`@import "../styles/\${'material'}.css"\`}\r
+        </style>\r
         {/* <h4>Order {params.rowIndex} Details - Customer: {params.row.customerName}</h4> */}\r
         <Grid dataSource={ordersWithDetails} filterSettings={{
         enabled: true,
@@ -100,6 +104,10 @@ import{j as e}from"./index-CTAXdLKx.js";import{r}from"./index-D5jfS-9e.js";impor
     }}
     // style={{ padding: '20px', backgroundColor: '#f9f9f9' }}
     >\r
+        <style>\r
+          {\`@import "../node_modules/@syncfusion/react-\${'material'}-theme/styles/grid/index.css";\`}\r
+          {\`@import "../styles/\${'material'}.css"\`}\r
+        </style>\r
         {/* <h4>Order {params.rowIndex} Details - Customer: {params.row.customerName}</h4> */}\r
        \r
         <Grid dataSource={params.row.details || []} columns={detailColumns} width={'95%'} height={250} filterSettings={{
@@ -109,6 +117,10 @@ import{j as e}from"./index-CTAXdLKx.js";import{r}from"./index-D5jfS-9e.js";impor
       </div>;
   }, []);
   return <div className="e-grid">\r
+      <style>\r
+          {\`@import "../node_modules/@syncfusion/react-\${'material'}-theme/styles/grid/index.css";\`}\r
+          {\`@import "../styles/\${'material'}.css"\`}\r
+      </style>\r
       <h3>Master-Detail Grid: Detail Grid Template</h3>\r
       <Grid ref={gridRef} dataSource={ordersWithDetails} columns={columns} height={500} isMasterDetail={true} detailRowHeight={300} detailRowTemplate={renderDetailTemplate} onRowExpand={handleRowExpanded} onRowCollapse={handleRowCollapsed} toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel']} editSettings={{
       allowEdit: true,
@@ -125,7 +137,7 @@ import{j as e}from"./index-CTAXdLKx.js";import{r}from"./index-D5jfS-9e.js";impor
         <p>Expanded Rows: {expandedRows.length > 0 ? expandedRows.join(', ') : 'None'}</p>\r
       </div>\r
     </div>;
-}`,...(f=(w=c.parameters)==null?void 0:w.docs)==null?void 0:f.source},description:{story:`Master-Detail Grid Story: Simple Detail Template\r
+}`,...(y=(w=m.parameters)==null?void 0:w.docs)==null?void 0:y.source},description:{story:`Master-Detail Grid Story: Simple Detail Template\r
 \r
 Demonstrates expandable master rows with detail content\r
 rendered via a detail Grid component.\r
@@ -139,7 +151,7 @@ Features:\r
 @example\r
 \`\`\`tsx\r
 <MasterDetailGridNestedMode />\r
-\`\`\``,...(y=(R=c.parameters)==null?void 0:R.docs)==null?void 0:y.description}}};var b,T,C,D,I;m.parameters={...m.parameters,docs:{...(b=m.parameters)==null?void 0:b.docs,source:{originalSource:`() => {
+\`\`\``,...(R=(f=m.parameters)==null?void 0:f.docs)==null?void 0:R.description}}};var b,T,C,D,I;c.parameters={...c.parameters,docs:{...(b=c.parameters)==null?void 0:b.docs,source:{originalSource:`() => {
   const gridRef = useRef<GridRef<OrderRecord>>(null);
 
   /**\r
@@ -283,6 +295,10 @@ Features:\r
       </div>;
   }, []);
   return <div className="e-grid">\r
+      <style>\r
+          {\`@import "../node_modules/@syncfusion/react-\${'material'}-theme/styles/grid/index.css";\`}\r
+          {\`@import "../styles/\${'material'}.css"\`}\r
+      </style>\r
       <h3>Master-Detail Grid: Custom HTML Detail Template</h3>\r
       <Grid ref={gridRef} dataSource={ordersWithDetails} columns={columns} height={500} rowClass={rowClass1} isMasterDetail={true} detailRowHeight={300}
     // width={800}
@@ -295,7 +311,7 @@ Features:\r
     // { 1000: true }
     />\r
     </div>;
-}`,...(C=(T=m.parameters)==null?void 0:T.docs)==null?void 0:C.source},description:{story:`Master-Detail Grid Story: Custom HTML Detail Template\r
+}`,...(C=(T=c.parameters)==null?void 0:T.docs)==null?void 0:C.source},description:{story:`Master-Detail Grid Story: Custom HTML Detail Template\r
 \r
 Demonstrates expandable master rows with custom HTML\r
 detail content using a formatted table display.\r
@@ -310,4 +326,4 @@ Features:\r
 @example\r
 \`\`\`tsx\r
 <MasterDetailGridMappingMode />\r
-\`\`\``,...(I=(D=m.parameters)==null?void 0:D.docs)==null?void 0:I.description}}};const j=["MasterDetailGridNestedMode","MasterDetailGridMappingMode"];export{m as MasterDetailGridMappingMode,c as MasterDetailGridNestedMode,j as __namedExportsOrder,E as default};
+\`\`\``,...(I=(D=c.parameters)==null?void 0:D.docs)==null?void 0:I.description}}};const E=["MasterDetailGridNestedMode","MasterDetailGridMappingMode"];export{c as MasterDetailGridMappingMode,m as MasterDetailGridNestedMode,E as __namedExportsOrder,N as default};
