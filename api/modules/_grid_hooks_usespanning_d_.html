@@ -2369,6 +2369,9 @@ img {
 		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 			<a href="_grid_hooks_usespanning_d_.html#computespanmatrix" class="tsd-kind-icon">compute<wbr>Span<wbr>Matrix</a>
 		</li>
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+			<a href="_grid_hooks_usespanning_d_.html#computestackedheadermatrix" class="tsd-kind-icon">compute<wbr>Stacked<wbr>Header<wbr>Matrix</a>
+		</li>
 		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 			<a href="_grid_hooks_usespanning_d_.html#getnextvisiblecolumnindexafter" class="tsd-kind-icon">get<wbr>Next<wbr>Visible<wbr>Column<wbr>Index<wbr>After</a>
 		</li>
@@ -2383,11 +2386,12 @@ img {
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
-					<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+					<section class="tsd-index-section ">
 						<h3>Variables</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_hooks_usespanning_d_.html#arevaluesequal" class="tsd-kind-icon">are<wbr>Values<wbr>Equal</a></li>
 							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_hooks_usespanning_d_.html#computespanmatrix" class="tsd-kind-icon">compute<wbr>Span<wbr>Matrix</a></li>
+							<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_grid_hooks_usespanning_d_.html#computestackedheadermatrix" class="tsd-kind-icon">compute<wbr>Stacked<wbr>Header<wbr>Matrix</a></li>
 							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_hooks_usespanning_d_.html#getnextvisiblecolumnindexafter" class="tsd-kind-icon">get<wbr>Next<wbr>Visible<wbr>Column<wbr>Index<wbr>After</a></li>
 							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-private"><a href="_grid_hooks_usespanning_d_.html#resolvespanvalue" class="tsd-kind-icon">resolve<wbr>Span<wbr>Value</a></li>
 						</ul>
@@ -2395,7 +2399,7 @@ img {
 				</div>
 			</section>
 		</section>
-		<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Variables</h2>
 			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 				<a name="arevaluesequal" class="tsd-anchor"></a>
@@ -2509,6 +2513,49 @@ img {
 										</li>
 										<li>
 											<h5><span class="tsd-flag ts-flagOptional">Optional</span> groupColumn: <a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <a href="../interfaces/_grid_types_interfaces_d_.icell.html" class="tsd-signature-type">ICell</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
+				<a name="computestackedheadermatrix" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagConst">Const</span> compute<wbr>Stacked<wbr>Header<wbr>Matrix</h3>
+				<div class="tsd-signature tsd-kind-icon">compute<wbr>Stacked<wbr>Header<wbr>Matrix<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>headerRowDepth<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, leafColumns<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.flattenedcolumn.html" class="tsd-signature-type">FlattenedColumn</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span>, stackedHeaderColumns<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.flattenedcolumn.html" class="tsd-signature-type">FlattenedColumn</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_grid_types_interfaces_d_.icell.html" class="tsd-signature-type">ICell</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/hooks/useSpanning.d.ts:54</li>
+					</ul>
+				</aside>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable tsd-has-type-parameter">
+								<li class="tsd-signature tsd-kind-icon">&lt;T&gt;<span class="tsd-signature-symbol">(</span>headerRowDepth<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, leafColumns<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.flattenedcolumn.html" class="tsd-signature-type">FlattenedColumn</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span>, stackedHeaderColumns<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.flattenedcolumn.html" class="tsd-signature-type">FlattenedColumn</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.icell.html" class="tsd-signature-type">ICell</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-type-parameters-title">Type parameters</h4>
+									<ul class="tsd-type-parameters">
+										<li>
+											<h4>T</h4>
+										</li>
+									</ul>
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>headerRowDepth: <span class="tsd-signature-type">number</span></h5>
+										</li>
+										<li>
+											<h5>leafColumns: <a href="../interfaces/_grid_types_column_interfaces_d_.flattenedcolumn.html" class="tsd-signature-type">FlattenedColumn</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
+										</li>
+										<li>
+											<h5>stackedHeaderColumns: <a href="../interfaces/_grid_types_column_interfaces_d_.flattenedcolumn.html" class="tsd-signature-type">FlattenedColumn</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
 										</li>
 									</ul>
 									<h4 class="tsd-returns-title">Returns <a href="../interfaces/_grid_types_interfaces_d_.icell.html" class="tsd-signature-type">ICell</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></h4>

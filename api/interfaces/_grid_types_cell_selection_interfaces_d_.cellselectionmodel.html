@@ -2405,6 +2405,12 @@ img {
 				<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-private">
 					<a href="_grid_types_cell_selection_interfaces_d_.cellselectionmodel.html#buildrowcellmap" class="tsd-kind-icon">build<wbr>Row<wbr>Cell<wbr>Map</a>
 				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-private">
+					<a href="_grid_types_cell_selection_interfaces_d_.cellselectionmodel.html#buildrowkeytoindexmap" class="tsd-kind-icon">build<wbr>Row<wbr>Key<wbr>ToIndex<wbr>Map</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-private">
+					<a href="_grid_types_cell_selection_interfaces_d_.cellselectionmodel.html#buildselectedcellpositionmap" class="tsd-kind-icon">build<wbr>Selected<wbr>Cell<wbr>Position<wbr>Map</a>
+				</li>
 				<li class=" tsd-kind-method tsd-parent-kind-interface">
 					<a href="_grid_types_cell_selection_interfaces_d_.cellselectionmodel.html#clearcellselection" class="tsd-kind-icon">clear<wbr>Cell<wbr>Selection</a>
 				</li>
@@ -2493,6 +2499,8 @@ img {
 						<h3>Methods</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_cell_selection_interfaces_d_.cellselectionmodel.html#buildrowcellmap" class="tsd-kind-icon">build<wbr>Row<wbr>Cell<wbr>Map</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_cell_selection_interfaces_d_.cellselectionmodel.html#buildrowkeytoindexmap" class="tsd-kind-icon">build<wbr>Row<wbr>Key<wbr>ToIndex<wbr>Map</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_cell_selection_interfaces_d_.cellselectionmodel.html#buildselectedcellpositionmap" class="tsd-kind-icon">build<wbr>Selected<wbr>Cell<wbr>Position<wbr>Map</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_cell_selection_interfaces_d_.cellselectionmodel.html#clearcellselection" class="tsd-kind-icon">clear<wbr>Cell<wbr>Selection</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_cell_selection_interfaces_d_.cellselectionmodel.html#findrowindexbykey" class="tsd-kind-icon">find<wbr>Row<wbr>Index<wbr>ByKey</a></li>
 							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_grid_types_cell_selection_interfaces_d_.cellselectionmodel.html#getcellkey" class="tsd-kind-icon">get<wbr>Cell<wbr>Key</a></li>
@@ -2639,6 +2647,55 @@ const isSelected = gridRef.current.cellSelectionModule.selectedCells?.has(cellKe
 							</li>
 						</ul>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-private">
+				<a name="buildrowkeytoindexmap" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> build<wbr>Row<wbr>Key<wbr>ToIndex<wbr>Map</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">build<wbr>Row<wbr>Key<wbr>ToIndex<wbr>Map<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in src/grid/types/cell-selection.interfaces.d.ts:541</li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Helper method to build a rowKey -&gt; rowIndex lookup map using currently available
+									virtualized rows. Intended for scenarios that require multiple
+								row key lookups to avoid repeated searches.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						<p>Map containing row key and row index pairs.</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-private">
+				<a name="buildselectedcellpositionmap" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> build<wbr>Selected<wbr>Cell<wbr>Position<wbr>Map</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">build<wbr>Selected<wbr>Cell<wbr>Position<wbr>Map<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in src/grid/types/cell-selection.interfaces.d.ts:550</li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Builds a rowIndex -&gt; columnIndex lookup map of currently selected cells.
+									Useful for determining whether the current selection forms a contiguous
+								rectangular block without reconstructing positions from row keys and fields.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 					</li>
 				</ul>
 			</section>
