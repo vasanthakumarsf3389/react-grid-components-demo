@@ -3633,7 +3633,7 @@ img {
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="navigatetocell" class="tsd-anchor"></a>
 				<h3>navigate<wbr>ToCell</h3>
-				<div class="tsd-signature tsd-kind-icon">navigate<wbr>ToCell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>rowIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, colIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, matrixType<span class="tsd-signature-symbol">?: </span><a href="../modules/_grid_types_focus_interfaces_d_.html#matrix" class="tsd-signature-type">Matrix</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<div class="tsd-signature tsd-kind-icon">navigate<wbr>ToCell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>rowIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, colIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, matrixType<span class="tsd-signature-symbol">?: </span><a href="../modules/_grid_types_focus_interfaces_d_.html#matrix" class="tsd-signature-type">Matrix</a>, virtualFocusDebounceTimer<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Timeout</span>, preventColIndexUpdate<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
 						<li>Defined in src/grid/types/focus.interfaces.d.ts:529</li>
@@ -3664,7 +3664,7 @@ img {
 					<ul class="tsd-parameters">
 						<li class="tsd-parameter-siganture">
 							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
-								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>rowIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, colIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, matrixType<span class="tsd-signature-symbol">?: </span><a href="../modules/_grid_types_focus_interfaces_d_.html#matrix" class="tsd-signature-type">Matrix</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>rowIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, colIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, matrixType<span class="tsd-signature-symbol">?: </span><a href="../modules/_grid_types_focus_interfaces_d_.html#matrix" class="tsd-signature-type">Matrix</a>, virtualFocusDebounceTimer<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Timeout</span>, preventColIndexUpdate<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 							</ul>
 							<ul class="tsd-descriptions">
 								<li class="tsd-description">
@@ -3678,6 +3678,12 @@ img {
 										</li>
 										<li>
 											<h5><span class="tsd-flag ts-flagOptional">Optional</span> matrixType: <a href="../modules/_grid_types_focus_interfaces_d_.html#matrix" class="tsd-signature-type">Matrix</a></h5>
+										</li>
+										<li>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> virtualFocusDebounceTimer: <span class="tsd-signature-type">Timeout</span></h5>
+										</li>
+										<li>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> preventColIndexUpdate: <span class="tsd-signature-type">boolean</span></h5>
 										</li>
 									</ul>
 									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>

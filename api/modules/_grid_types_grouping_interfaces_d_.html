@@ -2381,6 +2381,9 @@ img {
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
 			<a href="_grid_types_grouping_interfaces_d_.html#childinforesult" class="tsd-kind-icon">Child<wbr>Info<wbr>Result</a>
 		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+			<a href="_grid_types_grouping_interfaces_d_.html#groupsummary" class="tsd-kind-icon">Group<wbr>Summary</a>
+		</li>
 	</ul>
 </nav>
 <div class="container container-main">
@@ -2399,16 +2402,17 @@ img {
 							<li class="tsd-kind-interface tsd-parent-kind-external-module"><a href="../interfaces/_grid_types_grouping_interfaces_d_.shouldexpandgroupevent.html" class="tsd-kind-icon">Should<wbr>Expand<wbr>Group<wbr>Event</a></li>
 						</ul>
 					</section>
-					<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+					<section class="tsd-index-section ">
 						<h3>Type aliases</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-type-alias tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private"><a href="_grid_types_grouping_interfaces_d_.html#childinforesult" class="tsd-kind-icon">Child<wbr>Info<wbr>Result</a></li>
+							<li class="tsd-kind-type-alias tsd-parent-kind-external-module"><a href="_grid_types_grouping_interfaces_d_.html#groupsummary" class="tsd-kind-icon">Group<wbr>Summary</a></li>
 						</ul>
 					</section>
 				</div>
 			</section>
 		</section>
-		<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Type aliases</h2>
 			<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
 				<a name="childinforesult" class="tsd-anchor"></a>
@@ -2416,7 +2420,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Child<wbr>Info<wbr>Result&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>collapsedGroups<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span>count<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>currentViewData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/_grid_types_grouping_interfaces_d_.groupeddata.html" class="tsd-signature-type">GroupedData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span>expandedGroups<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span>fieldBasedCollapsedGroupKeys<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>fieldBasedExpandedGroupKeys<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> }</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grouping.interfaces.d.ts:230</li>
+						<li>Defined in src/grid/types/grouping.interfaces.d.ts:246</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2455,6 +2459,59 @@ img {
 						</li>
 						<li class="tsd-parameter">
 							<h5>field<wbr>Based<wbr>Expanded<wbr>Group<wbr>Keys<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-external-module">
+				<a name="groupsummary" class="tsd-anchor"></a>
+				<h3>Group<wbr>Summary</h3>
+				<div class="tsd-signature tsd-kind-icon">Group<wbr>Summary<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>groupKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, groupLevel<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../enums/_grid_types_enum_d_.groupsummaryposition.html" class="tsd-signature-type">GroupSummaryPosition</a></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/grouping.interfaces.d.ts:239</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Callback type for determining row selectability and checkbox visibility per row.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>template</dt>
+						<dd><p>T - Row data type</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>The unique key of the group being evaluated</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>The nesting level of the group (0=top-level, 1=nested, etc.)</p>
+						</dd>
+						<dt>returns</dt>
+						<dd><p>GroupSummaryPosition</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-type-alias">
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>groupKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, groupLevel<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../enums/_grid_types_enum_d_.groupsummaryposition.html" class="tsd-signature-type">GroupSummaryPosition</a></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>groupKey: <span class="tsd-signature-type">string</span></h5>
+										</li>
+										<li>
+											<h5>groupLevel: <span class="tsd-signature-type">number</span></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <a href="../enums/_grid_types_enum_d_.groupsummaryposition.html" class="tsd-signature-type">GroupSummaryPosition</a></h4>
+								</li>
+							</ul>
 						</li>
 					</ul>
 				</div>
